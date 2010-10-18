@@ -1,18 +1,27 @@
-/* The naming convention for all the colours are taken directly from the 
+/* The naming convention for all the theme elements are taken directly from the 
 	jQuery Mobile themes 
 */
 
 // Colors
-$a-foreground-color: #fff; 
+$a-bar-foreground-color: #fff;
+$a-body-foreground-color: #fff; 
 
+$a-bar-border-color: #2A2A2A;
 $a-bar-link-color: #7cc4e7;
+$a-body-border-color: #2A2A2A;
 $a-body-link-color: #2489CE;
 
 $a-btn-up-background-color: #333;
 $a-btn-up-border-color: #222;
+$a-btn-up-foreground-color: #fff;
+$a-btn-up-link-color: #fff;
+
 $a-btn-hover-background-color: #444;
 $a-btn-hover-border-color: #000;
+$a-btn-hover-foreground-color: #fff;
+$a-btn-hover-link-color: #fff;
+
 $a-btn-down-background-color: #444;
 $a-btn-down-border-color: #000;
-
-$a-border-color: #2A2A2A;
+$a-btn-down-foreground-color: #fff;
+$a-btn-down-link-color: #fff;
