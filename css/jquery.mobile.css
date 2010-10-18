@@ -1,0 +1,44 @@
+/*
+Syntax error: Invalid CSS after "...ow: text-shadow": expected ";", was ": 0 1px 1px #fff;"
+        on line 296 of /Users/johnpolling/Sites/jQuery-Mobile-SASS/src/jquery.mobile.scss
+
+Backtrace:
+/Users/johnpolling/Sites/jQuery-Mobile-SASS/src/jquery.mobile.scss:296
+/Library/Ruby/Gems/1.8/gems/haml-3.0.15/lib/sass/scss/parser.rb:806:in `expected'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.15/lib/sass/scss/parser.rb:781:in `expected'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.15/lib/sass/scss/parser.rb:777:in `tok!'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.15/lib/sass/scss/parser.rb:359:in `declaration_or_ruleset'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.15/lib/sass/scss/parser.rb:331:in `block_child'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.15/lib/sass/scss/parser.rb:324:in `block_contents'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.15/lib/sass/scss/parser.rb:313:in `block'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.15/lib/sass/scss/parser.rb:307:in `ruleset'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.15/lib/sass/scss/parser.rb:330:in `block_child'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.15/lib/sass/scss/parser.rb:324:in `block_contents'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.15/lib/sass/scss/parser.rb:57:in `stylesheet'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.15/lib/sass/scss/parser.rb:26:in `parse'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.15/lib/sass/engine.rb:205:in `_to_tree'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.15/lib/sass/engine.rb:196:in `_render'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.15/lib/sass/engine.rb:168:in `render'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.15/lib/haml/util.rb:251:in `silence_haml_warnings'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.15/lib/sass/engine.rb:168:in `render'
+/Library/Ruby/Gems/1.8/gems/compass-0.10.4/lib/compass/compiler.rb:103:in `compile'
+/Library/Ruby/Gems/1.8/gems/compass-0.10.4/lib/compass/logger.rb:43:in `red'
+/Library/Ruby/Gems/1.8/gems/compass-0.10.4/lib/compass/compiler.rb:102:in `compile'
+/Library/Ruby/Gems/1.8/gems/compass-0.10.4/lib/compass/compiler.rb:93:in `compile_if_required'
+/Library/Ruby/Gems/1.8/gems/compass-0.10.4/lib/compass/compiler.rb:84:in `run'
+/Library/Ruby/Gems/1.8/gems/compass-0.10.4/lib/compass/compiler.rb:82:in `each'
+/Library/Ruby/Gems/1.8/gems/compass-0.10.4/lib/compass/compiler.rb:82:in `run'
+/Library/Ruby/Gems/1.8/gems/compass-0.10.4/lib/compass/commands/watch_project.rb:92:in `recompile'
+/Library/Ruby/Gems/1.8/gems/compass-0.10.4/lib/compass/commands/watch_project.rb:40:in `perform'
+/Library/Ruby/Gems/1.8/gems/compass-0.10.4/lib/compass/commands/base.rb:18:in `execute'
+/Library/Ruby/Gems/1.8/gems/compass-0.10.4/lib/compass/commands/project_base.rb:19:in `execute'
+/Library/Ruby/Gems/1.8/gems/compass-0.10.4/lib/compass/exec/sub_command_ui.rb:38:in `perform!'
+/Library/Ruby/Gems/1.8/gems/compass-0.10.4/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Library/Ruby/Gems/1.8/gems/compass-0.10.4/bin/compass:26
+/usr/bin/compass:19:in `load'
+/usr/bin/compass:19
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"...ow: text-shadow\": expected \";\", was \": 0 1px 1px #fff;\"\A         on line 296 of /Users/johnpolling/Sites/jQuery-Mobile-SASS/src/jquery.mobile.scss"; }
