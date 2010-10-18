@@ -3,6 +3,7 @@
 @import "themes/c";
 @import "themes/d";
 @import "themes/e";
+@import "themes/mixins";
 
 /*!
  * jQuery Mobile
@@ -21,15 +22,9 @@
 /* theme bar,body,btn containers
 ----------------------------------*/
 // theme a
+
 .ui-bar-a{
-	border: 1px solid $a-bar-border-color;
-	background: $a-bar-background-color;
-	color: $a-bar-foreground-color;
-	font-weight: 700;
-	text-shadow: 0 -1px 1px $a-bar-text-shadow-color;
-	background-image: 0;
-	background-image: 0;
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#3c3c3c', EndColorStr='#111111')";
+	@include ui-bar($a-bar-border-color, $a-bar-background-color, $a-bar-foreground-color, 0 -1px 1px $a-bar-text-shadow-color, #3c3c3c, #111111);
 }
 
 .ui-bar-a,.ui-bar-a input,.ui-bar-a select,.ui-bar-a textarea,.ui-bar-a button{
@@ -126,14 +121,7 @@
 
 // theme b
 .ui-bar-b{
-	border: 1px solid $b-bar-border-color;
-	background: $b-bar-background-color;
-	color: $b-bar-foreground-color;
-	font-weight: 700;
-	text-shadow: 0 -1px 1px $b-bar-text-shadow-color;
-	background-image: 0;
-	background-image: 0;
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#81a8ce', EndColorStr='#5e87b0')";
+	@include ui-bar($b-bar-border-color, $b-bar-background-color, $b-bar-foreground-color, 0 -1px 1px $b-bar-text-shadow-color, #81a8ce, #5e87b0);
 }
 
 .ui-bar-b,.ui-bar-b input,.ui-bar-b select,.ui-bar-b textarea,.ui-bar-b button{
@@ -227,6 +215,11 @@
 
 
 //theme c
+.ui-bar-c{
+	@include ui-bar($c-bar-border-color, $c-bar-background-color, $c-bar-foreground-color, 0 1px 1px $c-bar-text-shadow-color, #f0f0f0, #e9eaeb);
+}
+
+
 .ui-bar-c{
 	border: 1px solid $c-bar-border-color;
 	background: $c-bar-background-color;
