@@ -7,7 +7,9 @@
 /* The naming convention for all the theme elements are taken directly from the 
 	jQuery Mobile themes 
 */
-@import url(themes/d.css);
+/* The naming convention for all the theme elements are taken directly from the 
+	jQuery Mobile themes 
+*/
 @import url(themes/e.css);
 /*!
  * jQuery Mobile
@@ -261,7 +263,7 @@
 
 /* line 230, ../src/jquery.mobile.scss */
 .ui-bar-c {
-  border: 1px solid #b3b3b3;
+  border: 1px solid #cccccc;
   background: #e9eaeb;
   color: #3e3e3e;
   font-weight: 700;
