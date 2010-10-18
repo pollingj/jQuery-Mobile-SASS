@@ -1,3 +1,5 @@
+@import "themes/a";
+
 /*!
  * jQuery Mobile
  * http://jquerymobile.com/
@@ -15,9 +17,9 @@
 /* theme bar,body,btn containers
 ----------------------------------*/
 .ui-bar-a{
-	border: 1px solid #2A2A2A;
+	border: 1px solid $a-border-color;
 	background: #111;
-	color: #fff;
+	color: $a-foreground-color;
 	font-weight: 700;
 	text-shadow: 0 -1px 1px #000;
 	background-image: 0;
@@ -30,16 +32,16 @@
 }
 
 .ui-bar-a .ui-link-inherit{
-	color: #fff;
+	color: $a-foreground-color;
 }
 
 .ui-bar-a .ui-link{
-	color: #7cc4e7;
+	color: $a-bar-link-color;
 	font-weight: 700;
 }
 
 .ui-body-a{
-	border: 1px solid #2A2A2A;
+	border: 1px solid $a-border-color;
 	background: #222;
 	color: #fff;
 	text-shadow: 0 1px 0 #000;
@@ -53,11 +55,11 @@
 }
 
 .ui-body-a .ui-link-inherit{
-	color: #fff;
+	color: $a-foreground-color;
 }
 
 .ui-body-a .ui-link{
-	color: #2489CE;
+	color: $a-body-link-color;
 	font-weight: 700;
 }
 
@@ -66,10 +68,10 @@
 }
 
 .ui-btn-up-a{
-	border: 1px solid #222;
-	background: #333;
+	border: 1px solid $a-btn-up-border-color;
+	background: $a-btn-up-background-color;
 	font-weight: 700;
-	color: #fff;
+	color: $a-foreground-color;
 	cursor: pointer;
 	text-shadow: 0 -1px 1px #000;
 	text-decoration: none;
@@ -79,14 +81,14 @@
 }
 
 .ui-btn-up-a a.ui-link-inherit{
-	color: #fff;
+	color: $a-foreground-color;
 }
 
 .ui-btn-hover-a{
-	border: 1px solid #000;
-	background: #444;
+	border: 1px solid $a-btn-hover-border-color;
+	background: $a-btn-hover-background-color;
 	font-weight: 700;
-	color: #fff;
+	color: $a-foreground-color;
 	text-shadow: 0 -1px 1px #000;
 	text-decoration: none;
 	background-image: 0;
@@ -95,14 +97,14 @@
 }
 
 .ui-btn-hover-a a.ui-link-inherit{
-	color: #fff;
+	color: $a-foreground-color;
 }
 
 .ui-btn-down-a{
 	border: 1px solid #000;
 	background: #3d3d3d;
 	font-weight: 700;
-	color: #fff;
+	color: $a-foreground-color;
 	text-shadow: 0 -1px 1px #000;
 	background-image: 0;
 	background-image: 0;
@@ -110,7 +112,7 @@
 }
 
 .ui-btn-down-a a.ui-link-inherit{
-	color: #fff;
+	color: $a-foreground-color;
 }
 
 .ui-btn-up-a,.ui-btn-hover-a,.ui-btn-down-a{
