@@ -23,7 +23,7 @@
 // theme a
 .ui-bar-a{
 	border: 1px solid $a-bar-border-color;
-	background: #111;
+	background: $a-bar-background-color;
 	color: $a-bar-foreground-color;
 	font-weight: 700;
 	text-shadow: 0 -1px 1px #000;
@@ -47,7 +47,7 @@
 
 .ui-body-a{
 	border: 1px solid $a-body-border-color;
-	background: #222;
+	background: $a-body-background-color;
 	color: $a-body-foreground-color;
 	text-shadow: 0 1px 0 #000;
 	font-weight: 400;
@@ -127,7 +127,7 @@
 // theme b
 .ui-bar-b{
 	border: 1px solid $b-bar-border-color;
-	background: #5e87b0;
+	background: $b-bar-background-color;
 	color: $b-bar-foreground-color;
 	font-weight: 700;
 	text-shadow: 0 -1px 1px #254f7a;
@@ -151,7 +151,7 @@
 
 .ui-body-b{
 	border: 1px solid $b-body-border-color;
-	background: #ccc;
+	background: $b-body-background-color;
 	color: $b-body-foreground-color;
 	text-shadow: 0 1px 0 #fff;
 	font-weight: 400;
@@ -229,7 +229,7 @@
 //theme c
 .ui-bar-c{
 	border: 1px solid $c-bar-border-color;
-	background: #e9eaeb;
+	background: $c-bar-background-color;
 	color: $c-bar-foreground-color;
 	font-weight: 700;
 	text-shadow: 0 1px 1px #fff;
@@ -246,7 +246,7 @@
 	border: 1px solid $c-body-border-color;
 	color: $c-body-foreground-color;
 	text-shadow: 0 1px 0 #fff;
-	background: #f0f0f0;
+	background: $c-body-background-color;
 	background-image: 0;
 	background-image: 0;
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fff', EndColorStr='#f0f0f0')";
@@ -320,7 +320,7 @@
 // theme d
 .ui-bar-d{
 	border: 1px solid $d-bar-border-color;
-	background: #bbb;
+	background: $d-bar-background-color;
 	color: $d-bar-foreground-color;
 	text-shadow: 0 1px 0 #eee;
 	background-image: 0;
@@ -345,7 +345,7 @@
 	border: 1px solid $d-body-border-color;
 	color: $d-body-foreground-color;
 	text-shadow: 0 1px 0 #fff;
-	background: #fff;
+	background: $d-body-background-color;
 }
 
 .ui-body-d,.ui-body-d input,.ui-body-d select,.ui-body-d textarea,.ui-body-d button{
@@ -421,7 +421,7 @@
 //theme e
 .ui-bar-e{
 	border: 1px solid $e-bar-border-color;
-	background: #fadb4e;
+	background: $e-bar-border-color;
 	color: $e-bar-foreground-color;
 	text-shadow: 0 1px 0 #fff;
 	background-image: 0;
@@ -446,7 +446,7 @@
 	border: 1px solid $e-body-border-color;
 	color: $e-body-foreground-color;
 	text-shadow: 0 1px 0 #fff;
-	background: #faeb9e;
+	background: $e-body-border-color;
 	background-image: 0;
 	background-image: 0;
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fff', EndColorStr='#faeb9e')";
