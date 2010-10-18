@@ -293,7 +293,7 @@
 	background: #fdfdfd;
 	font-weight: 700;
 	color: #111;
-	text-shadow: text-shadow: 0 1px 1px #fff;
+	text-shadow: 0 1px 1px #fff;
 	background-image: 0;
 	background-image: 0;
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#fdfdfd')";
@@ -385,7 +385,7 @@
 	background: #fff;
 	font-weight: 700;
 	color: #111;
-	text-shadow: text-shadow: 0 1px 1px #fff;
+	text-shadow: 0 1px 1px #fff;
 	background-image: 0;
 	background-image: 0;
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#ffffff')";
@@ -491,7 +491,7 @@
 	background: #fceda7;
 	font-weight: 700;
 	color: #111;
-	text-shadow: text-shadow: 0 1px 1px #fff;
+	text-shadow: 0 1px 1px #fff;
 	background-image: 0;
 	background-image: 0;
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fadb4e', EndColorStr='#fceda7')";
@@ -643,7 +643,7 @@ a.ui-link-inherit{
 }
 
 /* retina */
-@media screen and -webkit-min-device-pixel-ratio 2,screen and max--moz-device-pixel-ratio 2{
+@media screen and (-webkit-min-device-pixel-ratio:0), screen and (max--moz-device-pixel-ratio:2) {
 	.ui-icon{
 		background-image: url(images/icons-36-white.png);
 		background-size: 558px 18px;
@@ -1074,13 +1074,8 @@ a.ui-link-inherit{
 }
 
 @-webkit-keyframes spin{
-	from-webkit-transform: rotate(0deg);
-}
-
-to{
-	-webkit-transform: rotate(360deg);
-}	
-
+	from {-webkit-transform: rotate(0deg); }
+	to{-webkit-transform: rotate(360deg); }
 }
 
 /* Transitions from jQtouch (with small modifications): http://www.jqtouch.com/
@@ -1148,103 +1143,53 @@ Built by David Kaneda and maintained by Jonathan Stark.
 }
 
 @-webkit-keyframes slideinfromright{
-	from-webkit-transform: translateX(100%);
-}
-
-to{
-	-webkit-transform: translateX(0);
-}	
-
+	from{-webkit-transform: translateX(100%);}
+	to{-webkit-transform: translateX(0);}	
 }
 
 @-webkit-keyframes slideinfromleft{
-	from-webkit-transform: translateX(-100%);
-}
-
-to{
-	-webkit-transform: translateX(0);
-}	
-
+	from {-webkit-transform: translateX(-100%);}
+	to{-webkit-transform: translateX(0);}	
 }
 
 @-webkit-keyframes slideouttoleft{
-	from-webkit-transform: translateX(0);
-}
-
-to{
-	-webkit-transform: translateX(-100%);
-}	
-
+	from{-webkit-transform: translateX(0);}
+	to{-webkit-transform: translateX(-100%);}
 }
 
 @-webkit-keyframes slideouttoright{
-	from-webkit-transform: translateX(0);
-}
-
-to{
-	-webkit-transform: translateX(100%);
-}	
-
+	from{-webkit-transform: translateX(0);}
+	to{-webkit-transform: translateX(100%);}	
 }
 
 @-webkit-keyframes slideinfromtop{
-	from-webkit-transform: translateY(-100%);
-}
-
-to{
-	-webkit-transform: translateY(0);
-}	
-
+	from{-webkit-transform: translateY(-100%);}
+	to{-webkit-transform: translateY(0);}
 }
 
 @-webkit-keyframes slideinfrombottom{
-	from-webkit-transform: translateY(100%);
-}
-
-to{
-	-webkit-transform: translateY(0);
-}	
-
+	from{-webkit-transform: translateY(100%);}
+	to{-webkit-transform: translateY(0);}	
 }
 
 @-webkit-keyframes slideouttobottom{
-	from-webkit-transform: translateY(0);
-}
-
-to{
-	-webkit-transform: translateY(100%);
-}	
-
+	from{-webkit-transform: translateY(0);}
+	to{-webkit-transform: translateY(100%);}	
 }
 
 @-webkit-keyframes slideouttotop{
-	from-webkit-transform: translateY(0);
-}
-
-to{
-	-webkit-transform: translateY(-100%);
-}	
-
+	from{-webkit-transform: translateY(0);}
+	to{-webkit-transform: translateY(-100%);}	
 }
 
 @-webkit-keyframes fadein{
-	fromopacity: 0;
-}
-
-to{
-	opacity: 1;
-}	
-
+	from{opacity: 0;}
+	to{opacity: 1;}	
 }
 
 @-webkit-keyframes fadeout{
-	fromopacity: 1;
-}
-
-to{
-	opacity: 0;
-}	
-
+	from{opacity: 1;}
+	to{opacity: 0;}	
 }
 
 .fade.in{
@@ -1278,54 +1223,29 @@ to{
 }
 
 @-webkit-keyframes flipinfromright{
-	from-webkit-transform: rotateY(-180deg) scale(.8);
-}
-
-to{
-	-webkit-transform: rotateY(0) scale(1);
-}	
-
+	from{-webkit-transform: rotateY(-180deg) scale(.8);}
+	to{-webkit-transform: rotateY(0) scale(1);}	
 }
 
 @-webkit-keyframes flipinfromleft{
-	from-webkit-transform: rotateY(180deg) scale(.8);
-}
-
-to{
-	-webkit-transform: rotateY(0) scale(1);
-}	
-
+	from{-webkit-transform: rotateY(180deg) scale(.8);}
+	to{-webkit-transform: rotateY(0) scale(1);}	
 }
 
 @-webkit-keyframes flipouttoleft{
-	from-webkit-transform: rotateY(0) scale(1);
-}
-
-to{
-	-webkit-transform: rotateY(-180deg) scale(.8);
-}	
-
+	from{-webkit-transform: rotateY(0) scale(1);}
+	to{-webkit-transform: rotateY(-180deg) scale(.8);}	
 }
 
 @-webkit-keyframes flipouttoright{
-	from-webkit-transform: rotateY(0) scale(1);
-}
-
-to{
-	-webkit-transform: rotateY(180deg) scale(.8);
-}	
-
+	from{-webkit-transform: rotateY(0) scale(1);}
+	to{-webkit-transform: rotateY(180deg) scale(.8);}	
 }
 
 /* Hackish, but reliable. */
 @-webkit-keyframes dontmove{
-	fromopacity: 1;
-}
-
-to{
-	opacity: 1;
-}	
-
+	from{opacity: 1;}
+	to{opacity: 1;}	
 }
 
 .pop{
@@ -1348,27 +1268,13 @@ to{
 }
 
 @-webkit-keyframes popin{
-	from-webkit-transform: scale(.2);
-	opacity: 0;
-}
-
-to{
-	-webkit-transform: scale(1);
-	opacity: 1;
-}	
-
+	from{-webkit-transform: scale(.2); opacity: 0;}
+	to{-webkit-transform: scale(1);opacity: 1;}	
 }
 
 @-webkit-keyframes popout{
-	from-webkit-transform: scale(1);
-	opacity: 1;
-}
-
-to{
-	-webkit-transform: scale(.2);
-	opacity: 0;
-}	
-
+	from{-webkit-transform: scale(1);opacity: 1;}
+	to{-webkit-transform: scale(.2);opacity: 0;}	
 }
 
 /*
@@ -1812,7 +1718,7 @@ to{
 .ui-controlgroup .ui-btn-icon-notext { width: 30px; height: 30px; text-indent: -9999px; }
 .ui-controlgroup .ui-btn-icon-notext .ui-btn-inner {  padding: 5px 6px 5px 5px; }
 */
-@media screen and min-width 480px{
+@media screen and (min-width:480px){
 	.ui-controlgroup-label{
 		vertical-align: top;
 		display: inline-block;
@@ -1905,7 +1811,7 @@ div.ui-checkbox,div.ui-radio{
 	border-top-width: 0;
 }
 
-@media screen and max-width 480px{
+@media screen and (max-width:480px){
 	.ui-field-contain{
 		border-width: 0;
 		padding: 0;
@@ -1986,7 +1892,7 @@ label.ui-select{
 	display: none;
 }
 
-@media screen and min-width 480px{
+@media screen and (min-width:480px){
 	label.ui-select{
 		display: inline-block;
 		width: 20%;
@@ -2060,7 +1966,7 @@ textarea.ui-input-text{
 }
 
 /* orientation adjustments - incomplete!*/
-@media screen and min-width 480px{
+@media screen and (min-width:480px){
 	label.ui-input-text{
 		vertical-align: top;
 	}
@@ -2321,7 +2227,7 @@ a.ui-slider-handle .ui-btn-inner{
 	padding-right: 0;
 }
 
-@media screen and min-width 480px{
+@media screen and (min-width:480px){
 	label.ui-slider{
 		display: inline-block;
 		width: 20%;
