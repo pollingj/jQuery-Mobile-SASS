@@ -10,7 +10,9 @@
 /* The naming convention for all the theme elements are taken directly from the 
 	jQuery Mobile themes 
 */
-@import url(themes/e.css);
+/* The naming convention for all the theme elements are taken directly from the 
+	jQuery Mobile themes 
+*/
 /*!
  * jQuery Mobile
  * http://jquerymobile.com/
@@ -480,9 +482,9 @@
 
 /* line 422, ../src/jquery.mobile.scss */
 .ui-bar-e {
-  border: 1px solid #F7C942;
+  border: 1px solid #f7c942;
   background: #fadb4e;
-  color: #333;
+  color: #333333;
   text-shadow: 0 1px 0 #fff;
   background-image: 0;
   background-image: 0;
@@ -496,19 +498,19 @@
 
 /* line 436, ../src/jquery.mobile.scss */
 .ui-bar-e .ui-link-inherit {
-  color: #333;
+  color: #333333;
 }
 
 /* line 440, ../src/jquery.mobile.scss */
 .ui-bar-e .ui-link {
-  color: #2489CE;
+  color: #2489ce;
   font-weight: 700;
 }
 
 /* line 445, ../src/jquery.mobile.scss */
 .ui-body-e {
-  border: 1px solid #F7C942;
-  color: #333;
+  border: 1px solid #f7c942;
+  color: #333333;
   text-shadow: 0 1px 0 #fff;
   background: #faeb9e;
   background-image: 0;
@@ -523,21 +525,21 @@
 
 /* line 459, ../src/jquery.mobile.scss */
 .ui-body-e .ui-link-inherit {
-  color: #333;
+  color: #333333;
 }
 
 /* line 463, ../src/jquery.mobile.scss */
 .ui-body-e .ui-link {
-  color: #2489CE;
+  color: #2489ce;
   font-weight: 700;
 }
 
 /* line 468, ../src/jquery.mobile.scss */
 .ui-btn-up-e {
-  border: 1px solid #F7C942;
+  border: 1px solid #f7c942;
   background: #fadb4e;
   font-weight: 700;
-  color: #333;
+  color: #333333;
   cursor: pointer;
   text-shadow: 0 1px 1px #fe3;
   text-decoration: none;
@@ -549,7 +551,7 @@
 
 /* line 482, ../src/jquery.mobile.scss */
 .ui-btn-up-e a.ui-link-inherit {
-  color: #333;
+  color: #333333;
 }
 
 /* line 486, ../src/jquery.mobile.scss */
@@ -557,7 +559,7 @@
   border: 1px solid #e79952;
   background: #fbe26f;
   font-weight: 700;
-  color: #111;
+  color: #111111;
   text-decoration: none;
   text-shadow: 0 1px 1px #fff;
   background-image: 0;
@@ -567,15 +569,15 @@
 
 /* line 498, ../src/jquery.mobile.scss */
 .ui-btn-hover-e a.ui-link-inherit {
-  color: #333;
+  color: #333333;
 }
 
 /* line 502, ../src/jquery.mobile.scss */
 .ui-btn-down-e {
-  border: 1px solid #F7C942;
+  border: 1px solid #f7c942;
   background: #fceda7;
   font-weight: 700;
-  color: #111;
+  color: #111111;
   text-shadow: 0 1px 1px #fff;
   background-image: 0;
   background-image: 0;
@@ -584,7 +586,7 @@
 
 /* line 513, ../src/jquery.mobile.scss */
 .ui-btn-down-e a.ui-link-inherit {
-  color: #333;
+  color: #333333;
 }
 
 /* line 517, ../src/jquery.mobile.scss */
