@@ -421,7 +421,7 @@
 //theme e
 .ui-bar-e{
 	border: 1px solid $e-bar-border-color;
-	background: $e-bar-border-color;
+	background: $e-bar-background-color;
 	color: $e-bar-foreground-color;
 	text-shadow: 0 1px 0 #fff;
 	background-image: 0;
@@ -446,7 +446,7 @@
 	border: 1px solid $e-body-border-color;
 	color: $e-body-foreground-color;
 	text-shadow: 0 1px 0 #fff;
-	background: $e-body-border-color;
+	background: $e-body-background-color;
 	background-image: 0;
 	background-image: 0;
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fff', EndColorStr='#faeb9e')";
