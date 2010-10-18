@@ -715,7 +715,7 @@ a.ui-link-inherit {
 /* .ui-icon { background-position: 50% 50%; background-repeat: no-repeat; background-color: #fff; background-color: rgba(0,0,0,.4);  -moz-border-radius: 9px; -webkit-border-radius: 9px; border-radius: 9px; } */
 /* line 626, ../src/jquery.mobile.scss */
 .ui-icon {
-  background-image: url('/http://code.jquery.com/mobile/1.0a1/images/icons-18-white.png');
+  background-image: url('http://code.jquery.com/mobile/1.0a1/images/icons-18-white.png');
   background-repeat: no-repeat;
   background-color: #666;
   background-color: rgba(0, 0, 0, 0.4);
@@ -736,7 +736,7 @@ a.ui-link-inherit {
 /* alt color */
 /* line 645, ../src/jquery.mobile.scss */
 .ui-icon-black {
-  background-image: url(images/icons-18-black.png);
+  background-image: url('http://code.jquery.com/mobile/1.0a1/images/icons-18-black.png');
 }
 
 /* line 649, ../src/jquery.mobile.scss */
@@ -752,13 +752,13 @@ a.ui-link-inherit {
 @media screen and (-webkit-min-device-pixel-ratio:0), screen and (max--moz-device-pixel-ratio:2) {
   /* line 659, ../src/jquery.mobile.scss */
   .ui-icon {
-    background-image: url(images/icons-36-white.png);
+    background-image: url('http://code.jquery.com/mobile/1.0a1/images/icons-36-white.png');
     background-size: 558px 18px;
   }
 
   /* line 664, ../src/jquery.mobile.scss */
   .ui-icon-black {
-    background-image: url(images/icons-36-black.png);
+    background-image: url('http://code.jquery.com/mobile/1.0a1/images/icons-36-black.png');
   }
 }
 
@@ -856,33 +856,33 @@ a.ui-link-inherit {
 
 /* line 745, ../src/jquery.mobile.scss */
 .ui-icon-checkbox-off {
-  background-image: url(images/form-check-off.png);
+  background-image: url('http://code.jquery.com/mobile/1.0a1/images/form-check-off.png');
 }
 
 /* line 749, ../src/jquery.mobile.scss */
 .ui-icon-checkbox-on {
-  background-image: url(images/form-check-on.png);
+  background-image: url('http://code.jquery.com/mobile/1.0a1/images/form-check-on.png');
 }
 
 /* line 753, ../src/jquery.mobile.scss */
 .ui-icon-radio-off {
-  background-image: url(images/form-radio-off.png);
+  background-image: url('http://code.jquery.com/mobile/1.0a1/images/form-radio-off.png');
 }
 
 /* line 757, ../src/jquery.mobile.scss */
 .ui-icon-radio-on {
-  background-image: url(images/form-radio-on.png);
+  background-image: url('http://code.jquery.com/mobile/1.0a1/images/form-radio-on.png');
 }
 
 /* line 761, ../src/jquery.mobile.scss */
 .ui-icon-search {
-  background-image: url(images/icon-search-black.png);
+  background-image: url('http://code.jquery.com/mobile/1.0a1/images/icon-search-black.png');
 }
 
 /* loading icon */
 /* line 766, ../src/jquery.mobile.scss */
 .ui-icon-loading {
-  background-image: url(images/ajax-loader.png);
+  background-image: url('http://code.jquery.com/mobile/1.0a1/images/ajax-loader.png');
   width: 40px;
   height: 40px;
   -moz-border-radius: 20px;
