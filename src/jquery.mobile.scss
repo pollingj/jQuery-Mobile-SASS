@@ -319,9 +319,9 @@
 
 // theme d
 .ui-bar-d{
-	border: 1px solid #ccc;
+	border: 1px solid $d-bar-border-color;
 	background: #bbb;
-	color: #333;
+	color: $d-bar-foreground-color;
 	text-shadow: 0 1px 0 #eee;
 	background-image: 0;
 	background-image: 0;
@@ -333,17 +333,17 @@
 }
 
 .ui-bar-d .ui-link-inherit{
-	color: #333;
+	color: $d-bar-foreground-color;
 }
 
 .ui-bar-d .ui-link{
-	color: #2489CE;
+	color: $d-bar-link-color;
 	font-weight: 700;
 }
 
 .ui-body-d{
-	border: 1px solid #ccc;
-	color: #333;
+	border: 1px solid $d-body-border-color;
+	color: $d-body-foreground-color;
 	text-shadow: 0 1px 0 #fff;
 	background: #fff;
 }
@@ -353,32 +353,32 @@
 }
 
 .ui-body-d .ui-link-inherit{
-	color: #333;
+	color: $d-body-foreground-color;
 }
 
 .ui-body-d .ui-link{
-	color: #2489CE;
+	color: $d-body-link-color;
 	font-weight: 700;
 }
 
 .ui-btn-up-d{
-	border: 1px solid #ccc;
-	background: #fff;
+	border: 1px solid $d-btn-up-border-color;
+	background: $d-btn-up-background-color;
 	font-weight: 700;
-	color: #444;
+	color: $d-btn-up-foreground-color;
 	text-decoration: none;
 	text-shadow: 0 1px 1px #fff;
 }
 
 .ui-btn-up-d a.ui-link-inherit{
-	color: #333;
+	color: $d-btn-up-link-color;
 }
 
 .ui-btn-hover-d{
-	border: 1px solid #aaa;
-	background: #eee;
+	border: 1px solid $d-btn-hover-border-color;
+	background: $d-btn-hover-background-color;
 	font-weight: 700;
-	color: #222;
+	color: $d-btn-hover-foreground-color;
 	cursor: pointer;
 	text-shadow: 0 1px 1px #fff;
 	text-decoration: none;
@@ -388,14 +388,14 @@
 }
 
 .ui-btn-hover-d a.ui-link-inherit{
-	color: #222;
+	color: $d-btn-hover-link-color;
 }
 
 .ui-btn-down-d{
-	border: 1px solid #aaa;
-	background: #fff;
+	border: 1px solid $d-btn-down-border-color;
+	background: $d-btn-down-background-color;
 	font-weight: 700;
-	color: #111;
+	color: $d-btn-down-foreground-color;
 	text-shadow: 0 1px 1px #fff;
 	background-image: 0;
 	background-image: 0;
@@ -406,7 +406,7 @@
 	border: 1px solid gray;
 	background: #ced0d2;
 	font-weight: 700;
-	color: #111;
+	color: $d-btn-down-link-color;
 	text-shadow: none;
 	background-image: 0;
 	background-image: 0;

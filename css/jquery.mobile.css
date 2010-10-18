@@ -263,7 +263,7 @@
 
 /* line 230, ../src/jquery.mobile.scss */
 .ui-bar-c {
-  border: 1px solid #cccccc;
+  border: 1px solid #b3b3b3;
   background: #e9eaeb;
   color: #3e3e3e;
   font-weight: 700;
@@ -366,9 +366,9 @@
 
 /* line 321, ../src/jquery.mobile.scss */
 .ui-bar-d {
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   background: #bbb;
-  color: #333;
+  color: #333333;
   text-shadow: 0 1px 0 #eee;
   background-image: 0;
   background-image: 0;
@@ -382,19 +382,19 @@
 
 /* line 335, ../src/jquery.mobile.scss */
 .ui-bar-d .ui-link-inherit {
-  color: #333;
+  color: #333333;
 }
 
 /* line 339, ../src/jquery.mobile.scss */
 .ui-bar-d .ui-link {
-  color: #2489CE;
+  color: #2489ce;
   font-weight: 700;
 }
 
 /* line 344, ../src/jquery.mobile.scss */
 .ui-body-d {
-  border: 1px solid #ccc;
-  color: #333;
+  border: 1px solid #cccccc;
+  color: #333333;
   text-shadow: 0 1px 0 #fff;
   background: #fff;
 }
@@ -406,36 +406,36 @@
 
 /* line 355, ../src/jquery.mobile.scss */
 .ui-body-d .ui-link-inherit {
-  color: #333;
+  color: #333333;
 }
 
 /* line 359, ../src/jquery.mobile.scss */
 .ui-body-d .ui-link {
-  color: #2489CE;
+  color: #2489ce;
   font-weight: 700;
 }
 
 /* line 364, ../src/jquery.mobile.scss */
 .ui-btn-up-d {
-  border: 1px solid #ccc;
-  background: #fff;
+  border: 1px solid #cccccc;
+  background: white;
   font-weight: 700;
-  color: #444;
+  color: #444444;
   text-decoration: none;
   text-shadow: 0 1px 1px #fff;
 }
 
 /* line 373, ../src/jquery.mobile.scss */
 .ui-btn-up-d a.ui-link-inherit {
-  color: #333;
+  color: #333333;
 }
 
 /* line 377, ../src/jquery.mobile.scss */
 .ui-btn-hover-d {
-  border: 1px solid #aaa;
-  background: #eee;
+  border: 1px solid #aaaaaa;
+  background: #eeeeee;
   font-weight: 700;
-  color: #222;
+  color: #222222;
   cursor: pointer;
   text-shadow: 0 1px 1px #fff;
   text-decoration: none;
@@ -446,15 +446,15 @@
 
 /* line 390, ../src/jquery.mobile.scss */
 .ui-btn-hover-d a.ui-link-inherit {
-  color: #222;
+  color: #222222;
 }
 
 /* line 394, ../src/jquery.mobile.scss */
 .ui-btn-down-d {
-  border: 1px solid #aaa;
-  background: #fff;
+  border: 1px solid #aaaaaa;
+  background: white;
   font-weight: 700;
-  color: #111;
+  color: #111111;
   text-shadow: 0 1px 1px #fff;
   background-image: 0;
   background-image: 0;
@@ -466,7 +466,7 @@
   border: 1px solid gray;
   background: #ced0d2;
   font-weight: 700;
-  color: #111;
+  color: #111111;
   text-shadow: none;
   background-image: 0;
   background-image: 0;
