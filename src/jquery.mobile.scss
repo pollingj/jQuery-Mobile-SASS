@@ -24,7 +24,7 @@
 // theme a
 
 .ui-bar-a{
-	@include ui-bar($a-bar-border-color, $a-bar-background-color, $a-bar-foreground-color, 0 -1px 1px $a-bar-text-shadow-color, #3c3c3c, #111111);
+	@include ui-bar($a-bar-border-color, $a-bar-background-color, $a-bar-foreground-color, 0 -1px 1px $a-bar-text-shadow-color, #3c3c3c, #111111, bold);
 }
 
 .ui-bar-a,.ui-bar-a input,.ui-bar-a select,.ui-bar-a textarea,.ui-bar-a button{
@@ -121,7 +121,7 @@
 
 // theme b
 .ui-bar-b{
-	@include ui-bar($b-bar-border-color, $b-bar-background-color, $b-bar-foreground-color, 0 -1px 1px $b-bar-text-shadow-color, #81a8ce, #5e87b0);
+	@include ui-bar($b-bar-border-color, $b-bar-background-color, $b-bar-foreground-color, 0 -1px 1px $b-bar-text-shadow-color, #81a8ce, #5e87b0, bold);
 }
 
 .ui-bar-b,.ui-bar-b input,.ui-bar-b select,.ui-bar-b textarea,.ui-bar-b button{
@@ -216,7 +216,7 @@
 
 //theme c
 .ui-bar-c{
-	@include ui-bar($c-bar-border-color, $c-bar-background-color, $c-bar-foreground-color, 0 1px 1px $c-bar-text-shadow-color, #f0f0f0, #e9eaeb);
+	@include ui-bar($c-bar-border-color, $c-bar-background-color, $c-bar-foreground-color, 0 1px 1px $c-bar-text-shadow-color, #f0f0f0, #e9eaeb, bold);
 }
 
 
@@ -311,6 +311,10 @@
 }
 
 // theme d
+.ui-bar-d{
+	@include ui-bar($d-bar-border-color, $d-bar-background-color, $d-bar-foreground-color, 0 1px 0 $d-bar-text-shadow-color, #ddd, #bbb);
+}
+
 .ui-bar-d{
 	border: 1px solid $d-bar-border-color;
 	background: $d-bar-background-color;
@@ -413,13 +417,7 @@
 
 //theme e
 .ui-bar-e{
-	border: 1px solid $e-bar-border-color;
-	background: $e-bar-background-color;
-	color: $e-bar-foreground-color;
-	text-shadow: 0 1px 0 $e-bar-text-shadow-color;
-	background-image: 0;
-	background-image: 0;
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fceda7', EndColorStr='#fadb4e')";
+	@include ui-bar($e-bar-border-color, $e-bar-background-color, $e-bar-foreground-color, 0 1px 0 $e-bar-text-shadow-color, #fceda7, #fadb4e);
 }
 
 .ui-bar-e,.ui-bar-e input,.ui-bar-e select,.ui-bar-e textarea,.ui-bar-d button{

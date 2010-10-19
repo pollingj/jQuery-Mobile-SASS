@@ -1,9 +1,11 @@
-@mixin ui-bar($border-color, $background-color, $foreground-color, $text-shadow, $ms-filter-start-color, $ms-filter-end-color)
+@mixin ui-bar($border-color, $background-color, $foreground-color, $text-shadow, $ms-filter-start-color, $ms-filter-end-color, $font-weight = nil)
 {
 	border: 1px solid $border-color;
 	background: $background-color;
 	color: $foreground-color;
-	font-weight: 700;
+	@if $font-weight != nil {
+		font-weight: $font-weight;
+	}
 	text-shadow: $text-shadow;
 	background-image: 0;
 	background-image: 0;
