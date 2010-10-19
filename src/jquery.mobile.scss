@@ -14,16 +14,15 @@
 */
 /* theme bar,body,btn containers
 ----------------------------------*/
-@import "themes/base_styles";
-@import "themes/mixins";
-@import "themes/a";
-@import "themes/b";
-@import "themes/c";
-@import "themes/d";
-@import "themes/e";
-
 @import "compass/css3";
 
+@import "themes/base_styles";
+@import "themes/mixins";
+@import "themes/default/a";
+@import "themes/default/b";
+@import "themes/default/c";
+@import "themes/default/d";
+@import "themes/default/e";
 
 .ui-br{
 	border-bottom: 1px solid rgba(130,130,130,.3);
@@ -36,16 +35,7 @@ a.ui-link-inherit{
 
 /* Active class used as the "on" state across all themes */
 .ui-btn-active{
-	border: 1px solid #155678;
-	background: #4596ce;
-	font-weight: 700;
-	color: #fff;
-	cursor: pointer;
-	text-shadow: 0 -1px 1px #145072;
-	text-decoration: none;
-	background-image: 0;
-	background-image: 0;
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#85bae4', EndColorStr='#5393c5')";
+	@include ui-button(#155678, #4596ce, #fff, 0 -1px 1px #145072, #85bae4, #5393c5, 700);
 }
 
 .ui-btn-active a.ui-link-inherit{
