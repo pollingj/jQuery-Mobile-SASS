@@ -22,6 +22,8 @@
 @import "themes/d";
 @import "themes/e";
 
+@import "compass/css3";
+
 
 // TODO: Clean all these styles up
 .ui-br{
@@ -59,69 +61,39 @@ a.ui-link-inherit{
 
 /* Container Corner radius */
 .ui-corner-tl{
-	-moz-border-radius-topleft: .6em;
-	-webkit-border-top-left-radius: .6em;
-	border-top-left-radius: .6em;
+	@include border-corner-radius(top, left, .6em);
 }
 
 .ui-corner-tr{
-	-moz-border-radius-topright: .6em;
-	-webkit-border-top-right-radius: .6em;
-	border-top-right-radius: .6em;
+	@include border-corner-radius(top, right, .6em);
 }
 
 .ui-corner-bl{
-	-moz-border-radius-bottomleft: .6em;
-	-webkit-border-bottom-left-radius: .6em;
-	border-bottom-left-radius: .6em;
+	@include border-corner-radius(bottom, left, .6em);
 }
 
 .ui-corner-br{
-	-moz-border-radius-bottomright: .6em;
-	-webkit-border-bottom-right-radius: .6em;
-	border-bottom-right-radius: .6em;
+	@include border-corner-radius(bottom, right, .6em);
 }
 
 .ui-corner-top{
-	-moz-border-radius-topleft: .6em;
-	-webkit-border-top-left-radius: .6em;
-	border-top-left-radius: .6em;
-	-moz-border-radius-topright: .6em;
-	-webkit-border-top-right-radius: .6em;
-	border-top-right-radius: .6em;
+	@include border-top-radius(.6em);
 }
 
 .ui-corner-bottom{
-	-moz-border-radius-bottomleft: .6em;
-	-webkit-border-bottom-left-radius: .6em;
-	border-bottom-left-radius: .6em;
-	-moz-border-radius-bottomright: .6em;
-	-webkit-border-bottom-right-radius: .6em;
-	border-bottom-right-radius: .6em;
+	@include border-bottom-radius(.6em);
 }
 
 .ui-corner-right{
-	-moz-border-radius-topright: .6em;
-	-webkit-border-top-right-radius: .6em;
-	border-top-right-radius: .6em;
-	-moz-border-radius-bottomright: .6em;
-	-webkit-border-bottom-right-radius: .6em;
-	border-bottom-right-radius: .6em;
+	@include border-right-radius(.6em);
 }
 
 .ui-corner-left{
-	-moz-border-radius-topleft: .6em;
-	-webkit-border-top-left-radius: .6em;
-	border-top-left-radius: .6em;
-	-moz-border-radius-bottomleft: .6em;
-	-webkit-border-bottom-left-radius: .6em;
-	border-bottom-left-radius: .6em;
+	@include border-left-radius(.6em);
 }
 
 .ui-corner-all{
-	-moz-border-radius: .6em;
-	-webkit-border-radius: .6em;
-	border-radius: .6em;
+	@include border-radius(.6em);
 }
 
 /* Interaction Cues
