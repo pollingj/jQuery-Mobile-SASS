@@ -37,7 +37,7 @@ $a-btn-down-text-shadow-color: #000;
 $a-font-family: $base-font-family;
 
 .ui-bar-a{
-	@include ui-bar($a-bar-border-color, $a-bar-background-color, $a-bar-foreground-color, 0 -1px 1px $a-bar-text-shadow-color, #3c3c3c, #111111, bold);
+	@include ui-bar-body($a-bar-border-color, $a-bar-background-color, $a-bar-foreground-color, 0 -1px 1px $a-bar-text-shadow-color, #3c3c3c, #111111, bold);
 }
 
 .ui-bar-a,.ui-bar-a input,.ui-bar-a select,.ui-bar-a textarea,.ui-bar-a button{
@@ -54,13 +54,7 @@ $a-font-family: $base-font-family;
 }
 
 .ui-body-a{
-	border: 1px solid $a-body-border-color;
-	background: $a-body-background-color;
-	color: $a-body-foreground-color;
-	text-shadow: 0 1px 0 $a-body-text-shadow-color;
-	font-weight: 400;
-	background-image: 0;
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#666666', EndColorStr='#222222)')";
+	@include ui-bar-body($a-body-border-color, $a-body-background-color, $a-body-foreground-color, 0 1px 0 $a-body-text-shadow-color, #666666, #222222, 400);
 }
 
 .ui-body-a,.ui-body-a input,.ui-body-a select,.ui-body-a textarea,.ui-body-a button{

@@ -37,7 +37,7 @@ $b-btn-down-text-shadow-color: #225377;
 $b-font-family: $base-font-family;
 
 .ui-bar-b{
-	@include ui-bar($b-bar-border-color, $b-bar-background-color, $b-bar-foreground-color, 0 -1px 1px $b-bar-text-shadow-color, #81a8ce, #5e87b0, bold);
+	@include ui-bar-body($b-bar-border-color, $b-bar-background-color, $b-bar-foreground-color, 0 -1px 1px $b-bar-text-shadow-color, #81a8ce, #5e87b0, bold);
 }
 
 .ui-bar-b,.ui-bar-b input,.ui-bar-b select,.ui-bar-b textarea,.ui-bar-b button{
@@ -54,14 +54,7 @@ $b-font-family: $base-font-family;
 }
 
 .ui-body-b{
-	border: 1px solid $b-body-border-color;
-	background: $b-body-background-color;
-	color: $b-body-foreground-color;
-	text-shadow: 0 1px 0 $b-body-text-shadow-color;
-	font-weight: 400;
-	background-image: 0;
-	background-image: 0;
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e6e6e6', EndColorStr='#cccccc')";
+	@include ui-bar-body($b-body-border-color, $b-body-background-color, $b-body-foreground-color, 0 1px 0 $b-body-text-shadow-color, #e6e6e6, #ccc, 400);
 }
 
 .ui-body-b,.ui-body-b input,.ui-body-b select,.ui-body-b textarea,.ui-body-b button{

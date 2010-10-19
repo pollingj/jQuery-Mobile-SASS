@@ -37,17 +37,7 @@ $d-btn-down-text-shadow-color: #fff;
 $d-font-family: $base-font-family;
 
 .ui-bar-d{
-	@include ui-bar($d-bar-border-color, $d-bar-background-color, $d-bar-foreground-color, 0 1px 0 $d-bar-text-shadow-color, #ddd, #bbb);
-}
-
-.ui-bar-d{
-	border: 1px solid $d-bar-border-color;
-	background: $d-bar-background-color;
-	color: $d-bar-foreground-color;
-	text-shadow: 0 1px 0 $d-bar-text-shadow-color;
-	background-image: 0;
-	background-image: 0;
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ddd', EndColorStr='#bbb')";
+	@include ui-bar-body($d-bar-border-color, $d-bar-background-color, $d-bar-foreground-color, 0 1px 0 $d-bar-text-shadow-color, #ddd, #bbb);
 }
 
 .ui-bar-d,.ui-bar-d input,.ui-bar-d select,.ui-bar-d textarea,.ui-bar-d button{
@@ -64,10 +54,7 @@ $d-font-family: $base-font-family;
 }
 
 .ui-body-d{
-	border: 1px solid $d-body-border-color;
-	color: $d-body-foreground-color;
-	text-shadow: 0 1px 0 $d-body-text-shadow-color;
-	background: $d-body-background-color;
+	@include ui-bar-body($d-body-border-color, $d-body-background-color, $d-body-foreground-color, 0 1px 0 $d-body-text-shadow-color);
 }
 
 .ui-body-d,.ui-body-d input,.ui-body-d select,.ui-body-d textarea,.ui-body-d button{
