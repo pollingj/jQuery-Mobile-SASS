@@ -750,259 +750,313 @@ a.ui-link-inherit {
 /* .ui-icon { background-position: 50% 50%; background-repeat: no-repeat; background-color: #fff; background-color: rgba(0,0,0,.4);  -moz-border-radius: 9px; -webkit-border-radius: 9px; border-radius: 9px; } */
 /* line 109, ../src/jquery.mobile.scss */
 .ui-icon {
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+  -o-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -khtml-border-radius: 9px;
+  border-radius: 9px;
   background-image: url('http://code.jquery.com/mobile/1.0a1/images/icons-18-white.png');
   background-repeat: no-repeat;
   background-color: #666;
   background-color: rgba(0, 0, 0, 0.4);
-  -moz-border-radius: 9px;
-  -webkit-border-radius: 9px;
-  border-radius: 9px;
 }
 
-/* line 119, ../src/jquery.mobile.scss */
+/* line 117, ../src/jquery.mobile.scss */
 .ui-icon-disc {
-  background-color: #666;
-  background-color: rgba(0, 0, 0, 0.3);
   -moz-border-radius: 9px;
   -webkit-border-radius: 9px;
+  -o-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -khtml-border-radius: 9px;
   border-radius: 9px;
+  background-color: #666;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* alt color */
-/* line 128, ../src/jquery.mobile.scss */
+/* line 124, ../src/jquery.mobile.scss */
 .ui-icon-black {
   background-image: url('http://code.jquery.com/mobile/1.0a1/images/icons-18-black.png');
 }
 
-/* line 132, ../src/jquery.mobile.scss */
+/* line 128, ../src/jquery.mobile.scss */
 .ui-icon-black-disc {
-  background-color: #fff;
-  background-color: rgba(255, 255, 255, 0.3);
   -moz-border-radius: 9px;
   -webkit-border-radius: 9px;
+  -o-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -khtml-border-radius: 9px;
   border-radius: 9px;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 /* retina */
 @media screen and (-webkit-min-device-pixel-ratio:0), screen and (max--moz-device-pixel-ratio:2) {
-  /* line 142, ../src/jquery.mobile.scss */
+  /* line 136, ../src/jquery.mobile.scss */
   .ui-icon {
     background-image: url('http://code.jquery.com/mobile/1.0a1/images/icons-36-white.png');
     background-size: 558px 18px;
   }
 
-  /* line 147, ../src/jquery.mobile.scss */
+  /* line 141, ../src/jquery.mobile.scss */
   .ui-icon-black {
     background-image: url('http://code.jquery.com/mobile/1.0a1/images/icons-36-black.png');
   }
 }
 
 /*plus minus*/
-/* line 154, ../src/jquery.mobile.scss */
+/* line 148, ../src/jquery.mobile.scss */
 .ui-icon-plus {
   background-position: -0 0;
 }
 
-/* line 158, ../src/jquery.mobile.scss */
+/* line 152, ../src/jquery.mobile.scss */
 .ui-icon-minus {
   background-position: -36px 0;
 }
 
 /* delete/close */
-/* line 163, ../src/jquery.mobile.scss */
+/* line 157, ../src/jquery.mobile.scss */
 .ui-icon-delete {
   background-position: -72px 0;
 }
 
 /*arrows*/
-/* line 168, ../src/jquery.mobile.scss */
+/* line 162, ../src/jquery.mobile.scss */
 .ui-icon-arrow-r {
   background-position: -108px 0;
 }
 
-/* line 172, ../src/jquery.mobile.scss */
+/* line 166, ../src/jquery.mobile.scss */
 .ui-icon-arrow-l {
   background-position: -144px 0;
 }
 
-/* line 176, ../src/jquery.mobile.scss */
+/* line 170, ../src/jquery.mobile.scss */
 .ui-icon-arrow-u {
   background-position: -180px 0;
 }
 
-/* line 180, ../src/jquery.mobile.scss */
+/* line 174, ../src/jquery.mobile.scss */
 .ui-icon-arrow-d {
   background-position: -216px 0;
 }
 
-/* line 184, ../src/jquery.mobile.scss */
+/* line 178, ../src/jquery.mobile.scss */
 .ui-icon-check {
   background-position: -252px 0;
 }
 
-/* line 188, ../src/jquery.mobile.scss */
+/* line 182, ../src/jquery.mobile.scss */
 .ui-icon-gear {
   background-position: -288px 0;
 }
 
-/* line 192, ../src/jquery.mobile.scss */
+/* line 186, ../src/jquery.mobile.scss */
 .ui-icon-refresh {
   background-position: -324px 0;
 }
 
-/* line 196, ../src/jquery.mobile.scss */
+/* line 190, ../src/jquery.mobile.scss */
 .ui-icon-forward {
   background-position: -360px 0;
 }
 
-/* line 200, ../src/jquery.mobile.scss */
+/* line 194, ../src/jquery.mobile.scss */
 .ui-icon-back {
   background-position: -396px 0;
 }
 
-/* line 204, ../src/jquery.mobile.scss */
+/* line 198, ../src/jquery.mobile.scss */
 .ui-icon-grid {
   background-position: -432px 0;
 }
 
-/* line 208, ../src/jquery.mobile.scss */
+/* line 202, ../src/jquery.mobile.scss */
 .ui-icon-star {
   background-position: -468px 0;
 }
 
-/* line 212, ../src/jquery.mobile.scss */
+/* line 206, ../src/jquery.mobile.scss */
 .ui-icon-alert {
   background-position: -504px 0;
 }
 
-/* line 216, ../src/jquery.mobile.scss */
+/* line 210, ../src/jquery.mobile.scss */
 .ui-icon-info {
   background-position: -540px 0;
 }
 
 /*checks,radios*/
-/* line 221, ../src/jquery.mobile.scss */
+/* line 215, ../src/jquery.mobile.scss */
 .ui-icon-checkbox-off, .ui-icon-checkbox-on, .ui-icon-radio-off, .ui-icon-radio-on {
-  background-color: transparent;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
+  -o-border-radius: 0;
+  -ms-border-radius: 0;
+  -khtml-border-radius: 0;
   border-radius: 0;
+  background-color: transparent;
 }
 
-/* line 228, ../src/jquery.mobile.scss */
+/* line 220, ../src/jquery.mobile.scss */
 .ui-icon-checkbox-off {
   background-image: url('http://code.jquery.com/mobile/1.0a1/images/form-check-off.png');
 }
 
-/* line 232, ../src/jquery.mobile.scss */
+/* line 224, ../src/jquery.mobile.scss */
 .ui-icon-checkbox-on {
   background-image: url('http://code.jquery.com/mobile/1.0a1/images/form-check-on.png');
 }
 
-/* line 236, ../src/jquery.mobile.scss */
+/* line 228, ../src/jquery.mobile.scss */
 .ui-icon-radio-off {
   background-image: url('http://code.jquery.com/mobile/1.0a1/images/form-radio-off.png');
 }
 
-/* line 240, ../src/jquery.mobile.scss */
+/* line 232, ../src/jquery.mobile.scss */
 .ui-icon-radio-on {
   background-image: url('http://code.jquery.com/mobile/1.0a1/images/form-radio-on.png');
 }
 
-/* line 244, ../src/jquery.mobile.scss */
+/* line 236, ../src/jquery.mobile.scss */
 .ui-icon-search {
   background-image: url('http://code.jquery.com/mobile/1.0a1/images/icon-search-black.png');
 }
 
 /* loading icon */
-/* line 249, ../src/jquery.mobile.scss */
+/* line 241, ../src/jquery.mobile.scss */
 .ui-icon-loading {
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -o-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px;
   background-image: url('http://code.jquery.com/mobile/1.0a1/images/ajax-loader.png');
   width: 40px;
   height: 40px;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
 }
 
 /* btn Corner radius */
-/* line 259, ../src/jquery.mobile.scss */
+/* line 249, ../src/jquery.mobile.scss */
 .ui-btn-corner-tl {
   -moz-border-radius-topleft: 1em;
   -webkit-border-top-left-radius: 1em;
+  -o-border-top-left-radius: 1em;
+  -ms-border-top-left-radius: 1em;
+  -khtml-border-top-left-radius: 1em;
   border-top-left-radius: 1em;
 }
 
-/* line 265, ../src/jquery.mobile.scss */
+/* line 253, ../src/jquery.mobile.scss */
 .ui-btn-corner-tr {
   -moz-border-radius-topright: 1em;
   -webkit-border-top-right-radius: 1em;
+  -o-border-top-right-radius: 1em;
+  -ms-border-top-right-radius: 1em;
+  -khtml-border-top-right-radius: 1em;
   border-top-right-radius: 1em;
 }
 
-/* line 271, ../src/jquery.mobile.scss */
+/* line 257, ../src/jquery.mobile.scss */
 .ui-btn-corner-bl {
   -moz-border-radius-bottomleft: 1em;
   -webkit-border-bottom-left-radius: 1em;
+  -o-border-bottom-left-radius: 1em;
+  -ms-border-bottom-left-radius: 1em;
+  -khtml-border-bottom-left-radius: 1em;
   border-bottom-left-radius: 1em;
 }
 
-/* line 277, ../src/jquery.mobile.scss */
+/* line 261, ../src/jquery.mobile.scss */
 .ui-btn-corner-br {
   -moz-border-radius-bottomright: 1em;
   -webkit-border-bottom-right-radius: 1em;
+  -o-border-bottom-right-radius: 1em;
+  -ms-border-bottom-right-radius: 1em;
+  -khtml-border-bottom-right-radius: 1em;
   border-bottom-right-radius: 1em;
 }
 
-/* line 283, ../src/jquery.mobile.scss */
+/* line 265, ../src/jquery.mobile.scss */
 .ui-btn-corner-top {
   -moz-border-radius-topleft: 1em;
   -webkit-border-top-left-radius: 1em;
+  -o-border-top-left-radius: 1em;
+  -ms-border-top-left-radius: 1em;
+  -khtml-border-top-left-radius: 1em;
   border-top-left-radius: 1em;
   -moz-border-radius-topright: 1em;
   -webkit-border-top-right-radius: 1em;
+  -o-border-top-right-radius: 1em;
+  -ms-border-top-right-radius: 1em;
+  -khtml-border-top-right-radius: 1em;
   border-top-right-radius: 1em;
 }
 
-/* line 292, ../src/jquery.mobile.scss */
+/* line 269, ../src/jquery.mobile.scss */
 .ui-btn-corner-bottom {
   -moz-border-radius-bottomleft: 1em;
   -webkit-border-bottom-left-radius: 1em;
+  -o-border-bottom-left-radius: 1em;
+  -ms-border-bottom-left-radius: 1em;
+  -khtml-border-bottom-left-radius: 1em;
   border-bottom-left-radius: 1em;
   -moz-border-radius-bottomright: 1em;
   -webkit-border-bottom-right-radius: 1em;
+  -o-border-bottom-right-radius: 1em;
+  -ms-border-bottom-right-radius: 1em;
+  -khtml-border-bottom-right-radius: 1em;
   border-bottom-right-radius: 1em;
 }
 
-/* line 301, ../src/jquery.mobile.scss */
+/* line 273, ../src/jquery.mobile.scss */
 .ui-btn-corner-right {
   -moz-border-radius-topright: 1em;
   -webkit-border-top-right-radius: 1em;
+  -o-border-top-right-radius: 1em;
+  -ms-border-top-right-radius: 1em;
+  -khtml-border-top-right-radius: 1em;
   border-top-right-radius: 1em;
   -moz-border-radius-bottomright: 1em;
   -webkit-border-bottom-right-radius: 1em;
+  -o-border-bottom-right-radius: 1em;
+  -ms-border-bottom-right-radius: 1em;
+  -khtml-border-bottom-right-radius: 1em;
   border-bottom-right-radius: 1em;
 }
 
-/* line 310, ../src/jquery.mobile.scss */
+/* line 277, ../src/jquery.mobile.scss */
 .ui-btn-corner-left {
   -moz-border-radius-topleft: 1em;
   -webkit-border-top-left-radius: 1em;
+  -o-border-top-left-radius: 1em;
+  -ms-border-top-left-radius: 1em;
+  -khtml-border-top-left-radius: 1em;
   border-top-left-radius: 1em;
   -moz-border-radius-bottomleft: 1em;
   -webkit-border-bottom-left-radius: 1em;
+  -o-border-bottom-left-radius: 1em;
+  -ms-border-bottom-left-radius: 1em;
+  -khtml-border-bottom-left-radius: 1em;
   border-bottom-left-radius: 1em;
 }
 
-/* line 319, ../src/jquery.mobile.scss */
+/* line 281, ../src/jquery.mobile.scss */
 .ui-btn-corner-all {
   -moz-border-radius: 1em;
   -webkit-border-radius: 1em;
+  -o-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -khtml-border-radius: 1em;
   border-radius: 1em;
 }
 
 /* radius clip */
-/* line 326, ../src/jquery.mobile.scss */
+/* line 286, ../src/jquery.mobile.scss */
 .ui-corner-tl, .ui-corner-tr, .ui-corner-bl, .ui-corner-br, .ui-corner-top, .ui-corner-bottom, .ui-corner-right, .ui-corner-left, .ui-corner-all, .ui-btn-corner-tl, .ui-btn-corner-tr, .ui-btn-corner-bl, .ui-btn-corner-br, .ui-btn-corner-top, .ui-btn-corner-bottom, .ui-btn-corner-right, .ui-btn-corner-left, .ui-btn-corner-all {
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
@@ -1010,7 +1064,7 @@ a.ui-link-inherit {
 }
 
 /* Overlays */
-/* line 333, ../src/jquery.mobile.scss */
+/* line 293, ../src/jquery.mobile.scss */
 .ui-overlay {
   background: #666;
   opacity: .5;
@@ -1020,35 +1074,35 @@ a.ui-link-inherit {
   height: 100%;
 }
 
-/* line 342, ../src/jquery.mobile.scss */
+/* line 302, ../src/jquery.mobile.scss */
 .ui-overlay-shadow {
   -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
   -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
 }
 
-/* line 348, ../src/jquery.mobile.scss */
+/* line 308, ../src/jquery.mobile.scss */
 .ui-shadow {
   -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
-/* line 354, ../src/jquery.mobile.scss */
+/* line 314, ../src/jquery.mobile.scss */
 .ui-bar-a .ui-shadow, .ui-bar-b .ui-shadow, .ui-bar-c .ui-shadow {
   -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
   -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
 }
 
-/* line 360, ../src/jquery.mobile.scss */
+/* line 320, ../src/jquery.mobile.scss */
 .ui-shadow-inset {
   -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* line 366, ../src/jquery.mobile.scss */
+/* line 326, ../src/jquery.mobile.scss */
 .ui-icon-shadow {
   -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
   -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
@@ -1056,7 +1110,7 @@ a.ui-link-inherit {
 }
 
 /* set focus state last */
-/* line 373, ../src/jquery.mobile.scss */
+/* line 333, ../src/jquery.mobile.scss */
 .ui-focus {
   outline-width: 0;
   -moz-box-shadow: 0 0 12px #387bbe;
@@ -1065,14 +1119,14 @@ a.ui-link-inherit {
 }
 
 /* unset box shadow in browsers that don't do it right */
-/* line 381, ../src/jquery.mobile.scss */
+/* line 341, ../src/jquery.mobile.scss */
 .ui-mobile-nosupport-boxshadow * {
   -moz-box-shadow: none!important;
   -webkit-box-shadow: none!important;
   box-shadow: none!important;
 }
 
-/* line 387, ../src/jquery.mobile.scss */
+/* line 347, ../src/jquery.mobile.scss */
 .ui-mobile-nosupport-boxshadow .ui-focus {
   outline-width: 2px;
 }
@@ -1084,19 +1138,19 @@ a.ui-link-inherit {
 * Note: Code is in draft form and is subject to change 
 */
 /* some unsets - more probably needed */
-/* line 398, ../src/jquery.mobile.scss */
+/* line 358, ../src/jquery.mobile.scss */
 .ui-mobile fieldset, .ui-page {
   padding: 0;
   margin: 0;
 }
 
-/* line 403, ../src/jquery.mobile.scss */
+/* line 363, ../src/jquery.mobile.scss */
 .ui-mobile a img, .ui-mobile fieldset {
   border: 0;
 }
 
 /* responsive page widths */
-/* line 408, ../src/jquery.mobile.scss */
+/* line 368, ../src/jquery.mobile.scss */
 .ui-mobile body {
   margin: 0;
   overflow-x: hidden;
@@ -1107,7 +1161,7 @@ a.ui-link-inherit {
 
 /*orientations from js are available */
 /* "page" containers - full-screen views, one should always be in view post-pageload */
-/* line 424, ../src/jquery.mobile.scss */
+/* line 384, ../src/jquery.mobile.scss */
 .ui-page {
   top: 0;
   left: 0;
@@ -1119,29 +1173,29 @@ a.ui-link-inherit {
   border: 0;
 }
 
-/* line 435, ../src/jquery.mobile.scss */
+/* line 395, ../src/jquery.mobile.scss */
 .ui-page-active {
   display: block;
   overflow: visible;
 }
 
 /* loading screen */
-/* line 441, ../src/jquery.mobile.scss */
+/* line 401, ../src/jquery.mobile.scss */
 .ui-loading, .ui-loading body {
   overflow: hidden!important;
 }
 
-/* line 445, ../src/jquery.mobile.scss */
+/* line 405, ../src/jquery.mobile.scss */
 .ui-loading .ui-loader {
   display: block;
 }
 
-/* line 449, ../src/jquery.mobile.scss */
+/* line 409, ../src/jquery.mobile.scss */
 .ui-loading .ui-page {
   overflow: hidden;
 }
 
-/* line 453, ../src/jquery.mobile.scss */
+/* line 413, ../src/jquery.mobile.scss */
 .ui-loader {
   display: none;
   position: absolute;
@@ -1154,13 +1208,13 @@ a.ui-link-inherit {
   padding: 20px 30px;
 }
 
-/* line 465, ../src/jquery.mobile.scss */
+/* line 425, ../src/jquery.mobile.scss */
 .ui-loader h1 {
   font-size: 15px;
   text-align: center;
 }
 
-/* line 470, ../src/jquery.mobile.scss */
+/* line 430, ../src/jquery.mobile.scss */
 .ui-loader .ui-icon {
   position: static;
   display: block;
@@ -1172,7 +1226,7 @@ a.ui-link-inherit {
 }
 
 /*headers, content panels*/
-/* line 481, ../src/jquery.mobile.scss */
+/* line 441, ../src/jquery.mobile.scss */
 .ui-bar, .ui-body {
   position: relative;
   padding: .4em 15px;
@@ -1181,13 +1235,13 @@ a.ui-link-inherit {
   clear: both;
 }
 
-/* line 489, ../src/jquery.mobile.scss */
+/* line 449, ../src/jquery.mobile.scss */
 .ui-bar {
   font-size: 16px;
   margin: 0;
 }
 
-/* line 494, ../src/jquery.mobile.scss */
+/* line 454, ../src/jquery.mobile.scss */
 .ui-bar h1, .ui-bar h2, .ui-bar h3, .ui-bar h4, .ui-bar h5, .ui-bar h6 {
   margin: 0;
   padding: 0;
@@ -1195,19 +1249,19 @@ a.ui-link-inherit {
   display: inline-block;
 }
 
-/* line 501, ../src/jquery.mobile.scss */
+/* line 461, ../src/jquery.mobile.scss */
 .ui-page .ui-header, .ui-page .ui-footer {
   position: relative;
 }
 
-/* line 505, ../src/jquery.mobile.scss */
+/* line 465, ../src/jquery.mobile.scss */
 .ui-header .ui-btn-left {
   position: absolute;
   left: 10px;
   top: .4em;
 }
 
-/* line 511, ../src/jquery.mobile.scss */
+/* line 471, ../src/jquery.mobile.scss */
 .ui-header .ui-title, .ui-footer .ui-title {
   text-align: center;
   font-size: 16px;
@@ -1220,7 +1274,7 @@ a.ui-link-inherit {
   outline: 0!important;
 }
 
-/* line 523, ../src/jquery.mobile.scss */
+/* line 483, ../src/jquery.mobile.scss */
 .ui-header .ui-btn-right {
   position: absolute;
   right: 10px;
@@ -1228,33 +1282,33 @@ a.ui-link-inherit {
 }
 
 /*content area*/
-/* line 530, ../src/jquery.mobile.scss */
+/* line 490, ../src/jquery.mobile.scss */
 .ui-content {
   border-width: 0;
   overflow: visible;
   padding: 15px;
 }
 
-/* line 536, ../src/jquery.mobile.scss */
+/* line 496, ../src/jquery.mobile.scss */
 .ui-page-fullscreen .ui-content {
   padding: 0;
 }
 
 /* icons sizing */
-/* line 541, ../src/jquery.mobile.scss */
+/* line 501, ../src/jquery.mobile.scss */
 .ui-icon {
   width: 18px;
   height: 18px;
 }
 
 /* fullscreen class on ui-content div */
-/* line 550, ../src/jquery.mobile.scss */
+/* line 510, ../src/jquery.mobile.scss */
 .ui-fullscreen img {
   max-width: 100%;
 }
 
 /* non-js content hiding */
-/* line 555, ../src/jquery.mobile.scss */
+/* line 515, ../src/jquery.mobile.scss */
 .ui-nojs {
   position: absolute;
   left: -9999px;
@@ -1265,7 +1319,7 @@ a.ui-link-inherit {
 * Copyright (c) jQuery Project
 * Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
 */
-/* line 565, ../src/jquery.mobile.scss */
+/* line 525, ../src/jquery.mobile.scss */
 .spin {
   -webkit-animation-name: spin;
   -webkit-animation-duration: 1s;
@@ -1273,12 +1327,12 @@ a.ui-link-inherit {
 }
 
 @-webkit-keyframes spin {
-  /* line 572, ../src/jquery.mobile.scss */
+  /* line 532, ../src/jquery.mobile.scss */
   from {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 573, ../src/jquery.mobile.scss */
+  /* line 533, ../src/jquery.mobile.scss */
   to {
     -webkit-transform: rotate(360deg);
   }
@@ -1287,280 +1341,280 @@ a.ui-link-inherit {
 /* Transitions from jQtouch (with small modifications): http://www.jqtouch.com/
 Built by David Kaneda and maintained by Jonathan Stark.
 */
-/* line 579, ../src/jquery.mobile.scss */
+/* line 539, ../src/jquery.mobile.scss */
 .in, .out {
   -webkit-animation-timing-function: ease-in-out;
   -webkit-animation-duration: 350ms;
 }
 
-/* line 584, ../src/jquery.mobile.scss */
+/* line 544, ../src/jquery.mobile.scss */
 .slide.in {
   -webkit-animation-name: slideinfromright;
 }
 
-/* line 588, ../src/jquery.mobile.scss */
+/* line 548, ../src/jquery.mobile.scss */
 .slide.out {
   -webkit-animation-name: slideouttoleft;
 }
 
-/* line 592, ../src/jquery.mobile.scss */
+/* line 552, ../src/jquery.mobile.scss */
 .slide.in.reverse {
   -webkit-animation-name: slideinfromleft;
 }
 
-/* line 596, ../src/jquery.mobile.scss */
+/* line 556, ../src/jquery.mobile.scss */
 .slide.out.reverse {
   -webkit-animation-name: slideouttoright;
 }
 
-/* line 600, ../src/jquery.mobile.scss */
+/* line 560, ../src/jquery.mobile.scss */
 .slideup.in {
   -webkit-animation-name: slideinfrombottom;
   z-index: 10;
 }
 
-/* line 605, ../src/jquery.mobile.scss */
+/* line 565, ../src/jquery.mobile.scss */
 .slideup.out {
   -webkit-animation-name: dontmove;
   z-index: 0;
 }
 
-/* line 610, ../src/jquery.mobile.scss */
+/* line 570, ../src/jquery.mobile.scss */
 .slideup.out.reverse {
   z-index: 10;
   -webkit-animation-name: slideouttobottom;
 }
 
-/* line 615, ../src/jquery.mobile.scss */
+/* line 575, ../src/jquery.mobile.scss */
 .slideup.in.reverse {
   z-index: 0;
   -webkit-animation-name: dontmove;
 }
 
-/* line 620, ../src/jquery.mobile.scss */
+/* line 580, ../src/jquery.mobile.scss */
 .slidedown.in {
   -webkit-animation-name: slideinfromtop;
   z-index: 10;
 }
 
-/* line 625, ../src/jquery.mobile.scss */
+/* line 585, ../src/jquery.mobile.scss */
 .slidedown.out {
   -webkit-animation-name: dontmove;
   z-index: 0;
 }
 
-/* line 630, ../src/jquery.mobile.scss */
+/* line 590, ../src/jquery.mobile.scss */
 .slidedown.out.reverse {
   z-index: 10;
   -webkit-animation-name: slideouttotop;
 }
 
-/* line 635, ../src/jquery.mobile.scss */
+/* line 595, ../src/jquery.mobile.scss */
 .slidedown.in.reverse {
   z-index: 0;
   -webkit-animation-name: dontmove;
 }
 
 @-webkit-keyframes slideinfromright {
-  /* line 641, ../src/jquery.mobile.scss */
+  /* line 601, ../src/jquery.mobile.scss */
   from {
     -webkit-transform: translateX(100%);
   }
 
-  /* line 642, ../src/jquery.mobile.scss */
+  /* line 602, ../src/jquery.mobile.scss */
   to {
     -webkit-transform: translateX(0);
   }
 }
 
 @-webkit-keyframes slideinfromleft {
-  /* line 646, ../src/jquery.mobile.scss */
+  /* line 606, ../src/jquery.mobile.scss */
   from {
     -webkit-transform: translateX(-100%);
   }
 
-  /* line 647, ../src/jquery.mobile.scss */
+  /* line 607, ../src/jquery.mobile.scss */
   to {
     -webkit-transform: translateX(0);
   }
 }
 
 @-webkit-keyframes slideouttoleft {
-  /* line 651, ../src/jquery.mobile.scss */
+  /* line 611, ../src/jquery.mobile.scss */
   from {
     -webkit-transform: translateX(0);
   }
 
-  /* line 652, ../src/jquery.mobile.scss */
+  /* line 612, ../src/jquery.mobile.scss */
   to {
     -webkit-transform: translateX(-100%);
   }
 }
 
 @-webkit-keyframes slideouttoright {
-  /* line 656, ../src/jquery.mobile.scss */
+  /* line 616, ../src/jquery.mobile.scss */
   from {
     -webkit-transform: translateX(0);
   }
 
-  /* line 657, ../src/jquery.mobile.scss */
+  /* line 617, ../src/jquery.mobile.scss */
   to {
     -webkit-transform: translateX(100%);
   }
 }
 
 @-webkit-keyframes slideinfromtop {
-  /* line 661, ../src/jquery.mobile.scss */
+  /* line 621, ../src/jquery.mobile.scss */
   from {
     -webkit-transform: translateY(-100%);
   }
 
-  /* line 662, ../src/jquery.mobile.scss */
+  /* line 622, ../src/jquery.mobile.scss */
   to {
     -webkit-transform: translateY(0);
   }
 }
 
 @-webkit-keyframes slideinfrombottom {
-  /* line 666, ../src/jquery.mobile.scss */
+  /* line 626, ../src/jquery.mobile.scss */
   from {
     -webkit-transform: translateY(100%);
   }
 
-  /* line 667, ../src/jquery.mobile.scss */
+  /* line 627, ../src/jquery.mobile.scss */
   to {
     -webkit-transform: translateY(0);
   }
 }
 
 @-webkit-keyframes slideouttobottom {
-  /* line 671, ../src/jquery.mobile.scss */
+  /* line 631, ../src/jquery.mobile.scss */
   from {
     -webkit-transform: translateY(0);
   }
 
-  /* line 672, ../src/jquery.mobile.scss */
+  /* line 632, ../src/jquery.mobile.scss */
   to {
     -webkit-transform: translateY(100%);
   }
 }
 
 @-webkit-keyframes slideouttotop {
-  /* line 676, ../src/jquery.mobile.scss */
+  /* line 636, ../src/jquery.mobile.scss */
   from {
     -webkit-transform: translateY(0);
   }
 
-  /* line 677, ../src/jquery.mobile.scss */
+  /* line 637, ../src/jquery.mobile.scss */
   to {
     -webkit-transform: translateY(-100%);
   }
 }
 
 @-webkit-keyframes fadein {
-  /* line 681, ../src/jquery.mobile.scss */
+  /* line 641, ../src/jquery.mobile.scss */
   from {
     opacity: 0;
   }
 
-  /* line 682, ../src/jquery.mobile.scss */
+  /* line 642, ../src/jquery.mobile.scss */
   to {
     opacity: 1;
   }
 }
 
 @-webkit-keyframes fadeout {
-  /* line 686, ../src/jquery.mobile.scss */
+  /* line 646, ../src/jquery.mobile.scss */
   from {
     opacity: 1;
   }
 
-  /* line 687, ../src/jquery.mobile.scss */
+  /* line 647, ../src/jquery.mobile.scss */
   to {
     opacity: 0;
   }
 }
 
-/* line 690, ../src/jquery.mobile.scss */
+/* line 650, ../src/jquery.mobile.scss */
 .fade.in {
   z-index: 10;
   -webkit-animation-name: fadein;
 }
 
-/* line 695, ../src/jquery.mobile.scss */
+/* line 655, ../src/jquery.mobile.scss */
 .fade.out {
   z-index: 0;
 }
 
-/* line 699, ../src/jquery.mobile.scss */
+/* line 659, ../src/jquery.mobile.scss */
 .flip {
   -webkit-animation-duration: .65s;
 }
 
-/* line 703, ../src/jquery.mobile.scss */
+/* line 663, ../src/jquery.mobile.scss */
 .flip.in {
   -webkit-animation-name: flipinfromleft;
 }
 
-/* line 707, ../src/jquery.mobile.scss */
+/* line 667, ../src/jquery.mobile.scss */
 .flip.out {
   -webkit-animation-name: flipouttoleft;
 }
 
 /* Shake it all about */
-/* line 712, ../src/jquery.mobile.scss */
+/* line 672, ../src/jquery.mobile.scss */
 .flip.in.reverse {
   -webkit-animation-name: flipinfromright;
 }
 
-/* line 716, ../src/jquery.mobile.scss */
+/* line 676, ../src/jquery.mobile.scss */
 .flip.out.reverse {
   -webkit-animation-name: flipouttoright;
 }
 
 @-webkit-keyframes flipinfromright {
-  /* line 721, ../src/jquery.mobile.scss */
+  /* line 681, ../src/jquery.mobile.scss */
   from {
     -webkit-transform: rotateY(-180deg) scale(0.8);
   }
 
-  /* line 722, ../src/jquery.mobile.scss */
+  /* line 682, ../src/jquery.mobile.scss */
   to {
     -webkit-transform: rotateY(0) scale(1);
   }
 }
 
 @-webkit-keyframes flipinfromleft {
-  /* line 726, ../src/jquery.mobile.scss */
+  /* line 686, ../src/jquery.mobile.scss */
   from {
     -webkit-transform: rotateY(180deg) scale(0.8);
   }
 
-  /* line 727, ../src/jquery.mobile.scss */
+  /* line 687, ../src/jquery.mobile.scss */
   to {
     -webkit-transform: rotateY(0) scale(1);
   }
 }
 
 @-webkit-keyframes flipouttoleft {
-  /* line 731, ../src/jquery.mobile.scss */
+  /* line 691, ../src/jquery.mobile.scss */
   from {
     -webkit-transform: rotateY(0) scale(1);
   }
 
-  /* line 732, ../src/jquery.mobile.scss */
+  /* line 692, ../src/jquery.mobile.scss */
   to {
     -webkit-transform: rotateY(-180deg) scale(0.8);
   }
 }
 
 @-webkit-keyframes flipouttoright {
-  /* line 736, ../src/jquery.mobile.scss */
+  /* line 696, ../src/jquery.mobile.scss */
   from {
     -webkit-transform: rotateY(0) scale(1);
   }
 
-  /* line 737, ../src/jquery.mobile.scss */
+  /* line 697, ../src/jquery.mobile.scss */
   to {
     -webkit-transform: rotateY(180deg) scale(0.8);
   }
@@ -1568,48 +1622,48 @@ Built by David Kaneda and maintained by Jonathan Stark.
 
 /* Hackish, but reliable. */
 @-webkit-keyframes dontmove {
-  /* line 742, ../src/jquery.mobile.scss */
+  /* line 702, ../src/jquery.mobile.scss */
   from {
     opacity: 1;
   }
 
-  /* line 743, ../src/jquery.mobile.scss */
+  /* line 703, ../src/jquery.mobile.scss */
   to {
     opacity: 1;
   }
 }
 
-/* line 746, ../src/jquery.mobile.scss */
+/* line 706, ../src/jquery.mobile.scss */
 .pop {
   -webkit-transform-origin: 50% 50%;
 }
 
-/* line 750, ../src/jquery.mobile.scss */
+/* line 710, ../src/jquery.mobile.scss */
 .pop.in {
   -webkit-animation-name: popin;
   z-index: 10;
 }
 
-/* line 755, ../src/jquery.mobile.scss */
+/* line 715, ../src/jquery.mobile.scss */
 .pop.out.reverse {
   -webkit-animation-name: popout;
   z-index: 10;
 }
 
-/* line 760, ../src/jquery.mobile.scss */
+/* line 720, ../src/jquery.mobile.scss */
 .pop.in.reverse {
   z-index: 0;
   -webkit-animation-name: dontmove;
 }
 
 @-webkit-keyframes popin {
-  /* line 766, ../src/jquery.mobile.scss */
+  /* line 726, ../src/jquery.mobile.scss */
   from {
     -webkit-transform: scale(0.2);
     opacity: 0;
   }
 
-  /* line 767, ../src/jquery.mobile.scss */
+  /* line 727, ../src/jquery.mobile.scss */
   to {
     -webkit-transform: scale(1);
     opacity: 1;
@@ -1617,13 +1671,13 @@ Built by David Kaneda and maintained by Jonathan Stark.
 }
 
 @-webkit-keyframes popout {
-  /* line 771, ../src/jquery.mobile.scss */
+  /* line 731, ../src/jquery.mobile.scss */
   from {
     -webkit-transform: scale(1);
     opacity: 1;
   }
 
-  /* line 772, ../src/jquery.mobile.scss */
+  /* line 732, ../src/jquery.mobile.scss */
   to {
     -webkit-transform: scale(0.2);
     opacity: 0;
@@ -1636,12 +1690,12 @@ Built by David Kaneda and maintained by Jonathan Stark.
 * Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
 */
 /* content configurations. */
-/* line 781, ../src/jquery.mobile.scss */
+/* line 741, ../src/jquery.mobile.scss */
 .ui-grid-a, .ui-grid-b, .ui-grid-c {
   overflow: hidden;
 }
 
-/* line 785, ../src/jquery.mobile.scss */
+/* line 745, ../src/jquery.mobile.scss */
 .ui-block-a, .ui-block-b, .ui-block-c, .ui-block-d {
   margin: 0;
   padding: 0;
@@ -1650,23 +1704,23 @@ Built by David Kaneda and maintained by Jonathan Stark.
 }
 
 /* grid a: 50/50 */
-/* line 793, ../src/jquery.mobile.scss */
+/* line 753, ../src/jquery.mobile.scss */
 .ui-grid-a .ui-block-a, .ui-grid-a .ui-block-b {
   width: 50%;
 }
 
-/* line 797, ../src/jquery.mobile.scss */
+/* line 757, ../src/jquery.mobile.scss */
 .ui-grid-a .ui-block-a {
   clear: left;
 }
 
 /* grid b: 33/33/33 */
-/* line 802, ../src/jquery.mobile.scss */
+/* line 762, ../src/jquery.mobile.scss */
 .ui-grid-b .ui-block-a, .ui-grid-b .ui-block-b, .ui-grid-b .ui-block-c {
   width: 33.333%;
 }
 
-/* line 806, ../src/jquery.mobile.scss */
+/* line 766, ../src/jquery.mobile.scss */
 .ui-grid-b .ui-block-a {
   clear: left;
 }
@@ -1677,7 +1731,7 @@ Built by David Kaneda and maintained by Jonathan Stark.
 * Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
 */
 /* fixed page header & footer configuration */
-/* line 816, ../src/jquery.mobile.scss */
+/* line 776, ../src/jquery.mobile.scss */
 .ui-header, .ui-footer, .ui-page-fullscreen .ui-header, .ui-page-fullscreen .ui-footer {
   position: absolute;
   overflow: hidden;
@@ -1686,17 +1740,17 @@ Built by David Kaneda and maintained by Jonathan Stark.
   border-right-width: 0;
 }
 
-/* line 824, ../src/jquery.mobile.scss */
+/* line 784, ../src/jquery.mobile.scss */
 .ui-header-fixed, .ui-footer-fixed {
   z-index: 1000;
 }
 
-/* line 828, ../src/jquery.mobile.scss */
+/* line 788, ../src/jquery.mobile.scss */
 .ui-footer-duplicate, .ui-page-fullscreen .ui-fixed-inline {
   display: none;
 }
 
-/* line 832, ../src/jquery.mobile.scss */
+/* line 792, ../src/jquery.mobile.scss */
 .ui-page-fullscreen .ui-header, .ui-page-fullscreen .ui-footer {
   opacity: .9;
 }
@@ -1706,12 +1760,12 @@ Built by David Kaneda and maintained by Jonathan Stark.
 * Copyright (c) jQuery Project
 * Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
 */
-/* line 841, ../src/jquery.mobile.scss */
+/* line 801, ../src/jquery.mobile.scss */
 .ui-navbar {
   overflow: hidden;
 }
 
-/* line 845, ../src/jquery.mobile.scss */
+/* line 805, ../src/jquery.mobile.scss */
 .ui-navbar ul, .ui-navbar-expanded ul {
   list-style: none;
   padding: 0;
@@ -1721,27 +1775,27 @@ Built by David Kaneda and maintained by Jonathan Stark.
   border: 0;
 }
 
-/* line 854, ../src/jquery.mobile.scss */
+/* line 814, ../src/jquery.mobile.scss */
 .ui-navbar-collapsed ul {
   float: left;
   width: 75%;
   margin-right: -2px;
 }
 
-/* line 860, ../src/jquery.mobile.scss */
+/* line 820, ../src/jquery.mobile.scss */
 .ui-navbar-collapsed .ui-navbar-toggle {
   float: left;
   width: 25%;
 }
 
-/* line 865, ../src/jquery.mobile.scss */
+/* line 825, ../src/jquery.mobile.scss */
 .ui-navbar li.ui-navbar-truncate {
   position: absolute;
   left: -99999px;
   top: -99999px;
 }
 
-/* line 871, ../src/jquery.mobile.scss */
+/* line 831, ../src/jquery.mobile.scss */
 .ui-navbar li .ui-btn, .ui-navbar .ui-navbar-toggle .ui-btn {
   display: block;
   font-size: 12px;
@@ -1751,75 +1805,75 @@ Built by David Kaneda and maintained by Jonathan Stark.
   border-right-width: 0;
 }
 
-/* line 880, ../src/jquery.mobile.scss */
+/* line 840, ../src/jquery.mobile.scss */
 .ui-navbar li .ui-btn {
   margin-right: -1px;
 }
 
-/* line 884, ../src/jquery.mobile.scss */
+/* line 844, ../src/jquery.mobile.scss */
 .ui-navbar li .ui-btn:last-child {
   margin-right: 0;
 }
 
-/* line 888, ../src/jquery.mobile.scss */
+/* line 848, ../src/jquery.mobile.scss */
 .ui-header .ui-navbar li .ui-btn, .ui-header .ui-navbar .ui-navbar-toggle .ui-btn, .ui-footer .ui-navbar li .ui-btn, .ui-footer .ui-navbar .ui-navbar-toggle .ui-btn {
   border-top-width: 0;
   border-bottom-width: 0;
 }
 
-/* line 893, ../src/jquery.mobile.scss */
+/* line 853, ../src/jquery.mobile.scss */
 .ui-navbar .ui-btn-inner {
   padding-left: 2px;
   padding-right: 2px;
 }
 
-/* line 898, ../src/jquery.mobile.scss */
+/* line 858, ../src/jquery.mobile.scss */
 .ui-navbar-noicons li .ui-btn .ui-btn-inner, .ui-navbar-noicons .ui-navbar-toggle .ui-btn-inner {
   padding-top: .8em;
   padding-bottom: .9em;
 }
 
 /*expanded page styles*/
-/* line 904, ../src/jquery.mobile.scss */
+/* line 864, ../src/jquery.mobile.scss */
 .ui-navbar-expanded .ui-btn {
   margin: 0;
   font-size: 14px;
 }
 
-/* line 909, ../src/jquery.mobile.scss */
+/* line 869, ../src/jquery.mobile.scss */
 .ui-navbar-expanded .ui-btn-inner {
   padding-left: 5px;
   padding-right: 5px;
 }
 
-/* line 914, ../src/jquery.mobile.scss */
+/* line 874, ../src/jquery.mobile.scss */
 .ui-navbar-expanded .ui-btn-icon-top .ui-btn-inner {
   padding: 45px 5px 15px;
   text-align: center;
 }
 
-/* line 919, ../src/jquery.mobile.scss */
+/* line 879, ../src/jquery.mobile.scss */
 .ui-navbar-expanded .ui-btn-icon-top .ui-icon {
   top: 15px;
 }
 
-/* line 923, ../src/jquery.mobile.scss */
+/* line 883, ../src/jquery.mobile.scss */
 .ui-navbar-expanded .ui-btn-icon-bottom .ui-btn-inner {
   padding: 15px 5px 45px;
   text-align: center;
 }
 
-/* line 928, ../src/jquery.mobile.scss */
+/* line 888, ../src/jquery.mobile.scss */
 .ui-navbar-expanded .ui-btn-icon-bottom .ui-icon {
   bottom: 15px;
 }
 
-/* line 932, ../src/jquery.mobile.scss */
+/* line 892, ../src/jquery.mobile.scss */
 .ui-navbar-expanded li .ui-btn .ui-btn-inner {
   min-height: 2.5em;
 }
 
-/* line 936, ../src/jquery.mobile.scss */
+/* line 896, ../src/jquery.mobile.scss */
 .ui-navbar-expanded .ui-navbar-noicons .ui-btn .ui-btn-inner {
   padding-top: 1.8em;
   padding-bottom: 1.9em;
@@ -1830,7 +1884,7 @@ Built by David Kaneda and maintained by Jonathan Stark.
 * Copyright (c) jQuery Project
 * Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
 */
-/* line 946, ../src/jquery.mobile.scss */
+/* line 906, ../src/jquery.mobile.scss */
 .ui-btn {
   display: block;
   text-align: center;
@@ -1840,24 +1894,24 @@ Built by David Kaneda and maintained by Jonathan Stark.
   padding: 0;
 }
 
-/* line 955, ../src/jquery.mobile.scss */
+/* line 915, ../src/jquery.mobile.scss */
 .ui-btn:focus, .ui-btn a:focus {
   outline: none;
 }
 
-/* line 959, ../src/jquery.mobile.scss */
+/* line 919, ../src/jquery.mobile.scss */
 .ui-header .ui-btn, .ui-footer .ui-btn, .ui-bar .ui-btn {
   display: inline-block;
   font-size: 13px;
   margin: 0;
 }
 
-/* line 965, ../src/jquery.mobile.scss */
+/* line 925, ../src/jquery.mobile.scss */
 .ui-btn-inline {
   display: inline-block;
 }
 
-/* line 969, ../src/jquery.mobile.scss */
+/* line 929, ../src/jquery.mobile.scss */
 .ui-btn-inner {
   padding: .6em 25px;
   display: block;
@@ -1868,12 +1922,12 @@ Built by David Kaneda and maintained by Jonathan Stark.
   position: relative;
 }
 
-/* line 982, ../src/jquery.mobile.scss */
+/* line 942, ../src/jquery.mobile.scss */
 .ui-header .ui-btn-inner, .ui-footer .ui-btn-inner, .ui-bar .ui-btn-inner {
   padding: .4em 8px .5em;
 }
 
-/* line 986, ../src/jquery.mobile.scss */
+/* line 946, ../src/jquery.mobile.scss */
 .ui-btn-icon-notext {
   display: block;
   width: 20px;
@@ -1882,121 +1936,121 @@ Built by David Kaneda and maintained by Jonathan Stark.
   text-indent: -9999px;
 }
 
-/* line 994, ../src/jquery.mobile.scss */
+/* line 954, ../src/jquery.mobile.scss */
 .ui-btn-icon-notext .ui-btn-inner {
   padding: 0;
 }
 
-/* line 998, ../src/jquery.mobile.scss */
+/* line 958, ../src/jquery.mobile.scss */
 .ui-btn-icon-notext .ui-btn-text {
   position: absolute;
   left: -999px;
 }
 
-/* line 1003, ../src/jquery.mobile.scss */
+/* line 963, ../src/jquery.mobile.scss */
 .ui-btn-icon-left .ui-btn-inner {
   padding-left: 33px;
 }
 
-/* line 1007, ../src/jquery.mobile.scss */
+/* line 967, ../src/jquery.mobile.scss */
 .ui-header .ui-btn-icon-left .ui-btn-inner, .ui-footer .ui-btn-icon-left .ui-btn-inner, .ui-bar .ui-btn-icon-left .ui-btn-inner {
   padding-left: 27px;
 }
 
-/* line 1011, ../src/jquery.mobile.scss */
+/* line 971, ../src/jquery.mobile.scss */
 .ui-btn-icon-right .ui-btn-inner {
   padding-right: 33px;
 }
 
-/* line 1016, ../src/jquery.mobile.scss */
+/* line 976, ../src/jquery.mobile.scss */
 .ui-header .ui-btn-icon-right .ui-btn-inner, .ui-footer .ui-btn-icon-right .ui-btn-inner
 .ui-bar .ui-btn-icon-right .ui-btn-inner {
   padding-right: 27px;
 }
 
-/* line 1020, ../src/jquery.mobile.scss */
+/* line 980, ../src/jquery.mobile.scss */
 .ui-btn-icon-top .ui-btn-inner {
   padding-top: 33px;
 }
 
-/* line 1025, ../src/jquery.mobile.scss */
+/* line 985, ../src/jquery.mobile.scss */
 .ui-header .ui-btn-icon-top .ui-btn-inner
 .ui-footer .ui-btn-icon-top .ui-btn-inner, .ui-bar .ui-btn-icon-top .ui-btn-inner {
   padding-top: 27px;
 }
 
-/* line 1029, ../src/jquery.mobile.scss */
+/* line 989, ../src/jquery.mobile.scss */
 .ui-btn-icon-bottom .ui-btn-inner {
   padding-bottom: 33px;
 }
 
-/* line 1033, ../src/jquery.mobile.scss */
+/* line 993, ../src/jquery.mobile.scss */
 .ui-header .ui-btn-icon-bottom .ui-btn-inner, .ui-footer .ui-btn-icon-bottom .ui-btn-inner, .ui-bar .ui-btn-icon-bottom .ui-btn-inner {
   padding-bottom: 27px;
 }
 
 /*btn icon positioning*/
-/* line 1038, ../src/jquery.mobile.scss */
+/* line 998, ../src/jquery.mobile.scss */
 .ui-btn-icon-notext .ui-icon {
   display: block;
 }
 
-/* line 1042, ../src/jquery.mobile.scss */
+/* line 1002, ../src/jquery.mobile.scss */
 .ui-btn-icon-left .ui-icon, .ui-btn-icon-right .ui-icon {
   position: absolute;
   top: 50%;
   margin-top: -9px;
 }
 
-/* line 1048, ../src/jquery.mobile.scss */
+/* line 1008, ../src/jquery.mobile.scss */
 .ui-btn-icon-top .ui-icon, .ui-btn-icon-bottom .ui-icon {
   position: absolute;
   left: 50%;
   margin-left: -9px;
 }
 
-/* line 1054, ../src/jquery.mobile.scss */
+/* line 1014, ../src/jquery.mobile.scss */
 .ui-btn-icon-left .ui-icon {
   left: 10px;
 }
 
-/* line 1058, ../src/jquery.mobile.scss */
+/* line 1018, ../src/jquery.mobile.scss */
 .ui-btn-icon-right .ui-icon {
   right: 10px;
 }
 
-/* line 1062, ../src/jquery.mobile.scss */
+/* line 1022, ../src/jquery.mobile.scss */
 .ui-header .ui-btn-icon-left .ui-icon, .ui-footer .ui-btn-icon-left .ui-icon, .ui-bar .ui-btn-icon-left .ui-icon {
   left: 4px;
 }
 
-/* line 1066, ../src/jquery.mobile.scss */
+/* line 1026, ../src/jquery.mobile.scss */
 .ui-header .ui-btn-icon-right .ui-icon, .ui-footer .ui-btn-icon-right .ui-icon, .ui-bar .ui-btn-icon-right .ui-icon {
   right: 4px;
 }
 
-/* line 1070, ../src/jquery.mobile.scss */
+/* line 1030, ../src/jquery.mobile.scss */
 .ui-header .ui-btn-icon-top .ui-icon, .ui-footer .ui-btn-icon-top .ui-icon, .ui-bar .ui-btn-icon-top .ui-icon {
   top: 4px;
 }
 
-/* line 1074, ../src/jquery.mobile.scss */
+/* line 1034, ../src/jquery.mobile.scss */
 .ui-header .ui-btn-icon-bottom .ui-icon, .ui-footer .ui-btn-icon-bottom .ui-icon, .ui-bar .ui-btn-icon-bottom .ui-icon {
   bottom: 4px;
 }
 
-/* line 1078, ../src/jquery.mobile.scss */
+/* line 1038, ../src/jquery.mobile.scss */
 .ui-btn-icon-top .ui-icon {
   top: 5px;
 }
 
-/* line 1082, ../src/jquery.mobile.scss */
+/* line 1042, ../src/jquery.mobile.scss */
 .ui-btn-icon-bottom .ui-icon {
   bottom: 5px;
 }
 
 /*hiding native button,inputs */
-/* line 1087, ../src/jquery.mobile.scss */
+/* line 1047, ../src/jquery.mobile.scss */
 .ui-btn-hidden {
   position: absolute;
   left: -9999px;
@@ -2007,12 +2061,12 @@ Built by David Kaneda and maintained by Jonathan Stark.
 * Copyright (c) jQuery Project
 * Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
 */
-/* line 1097, ../src/jquery.mobile.scss */
+/* line 1057, ../src/jquery.mobile.scss */
 .ui-collapsible-contain {
   margin: .5em 0;
 }
 
-/* line 1101, ../src/jquery.mobile.scss */
+/* line 1061, ../src/jquery.mobile.scss */
 .ui-collapsible-heading {
   font-size: 16px;
   display: block;
@@ -2022,18 +2076,18 @@ Built by David Kaneda and maintained by Jonathan Stark.
   position: relative;
 }
 
-/* line 1110, ../src/jquery.mobile.scss */
+/* line 1070, ../src/jquery.mobile.scss */
 .ui-collapsible-heading a {
   text-align: left;
   margin: 0;
 }
 
-/* line 1115, ../src/jquery.mobile.scss */
+/* line 1075, ../src/jquery.mobile.scss */
 .ui-collapsible-heading a .ui-btn-inner {
   padding-left: 40px;
 }
 
-/* line 1119, ../src/jquery.mobile.scss */
+/* line 1079, ../src/jquery.mobile.scss */
 .ui-collapsible-heading a span.ui-btn {
   position: absolute;
   left: 6px;
@@ -2045,29 +2099,29 @@ Built by David Kaneda and maintained by Jonathan Stark.
   text-indent: -9999px;
 }
 
-/* line 1130, ../src/jquery.mobile.scss */
+/* line 1090, ../src/jquery.mobile.scss */
 .ui-collapsible-heading a span.ui-btn .ui-btn-inner {
   padding: 0;
 }
 
-/* line 1134, ../src/jquery.mobile.scss */
+/* line 1094, ../src/jquery.mobile.scss */
 .ui-collapsible-heading a span.ui-btn .ui-icon {
   left: 2px;
 }
 
-/* line 1138, ../src/jquery.mobile.scss */
+/* line 1098, ../src/jquery.mobile.scss */
 .ui-collapsible-heading-status {
   position: absolute;
   left: -99999px;
 }
 
-/* line 1143, ../src/jquery.mobile.scss */
+/* line 1103, ../src/jquery.mobile.scss */
 .ui-collapsible-content {
   display: block;
   padding: 10px 0 10px 8px;
 }
 
-/* line 1148, ../src/jquery.mobile.scss */
+/* line 1108, ../src/jquery.mobile.scss */
 .ui-collapsible-content-collapsed {
   display: none;
 }
@@ -2077,18 +2131,18 @@ Built by David Kaneda and maintained by Jonathan Stark.
 * Copyright (c) jQuery Project
 * Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
 */
-/* line 1157, ../src/jquery.mobile.scss */
+/* line 1117, ../src/jquery.mobile.scss */
 .ui-controlgroup, fieldset.ui-controlgroup {
   padding: 0;
   margin: .5em 0 1em;
 }
 
-/* line 1162, ../src/jquery.mobile.scss */
+/* line 1122, ../src/jquery.mobile.scss */
 .ui-bar .ui-controlgroup {
   margin: 0 .3em;
 }
 
-/* line 1166, ../src/jquery.mobile.scss */
+/* line 1126, ../src/jquery.mobile.scss */
 .ui-controlgroup-label {
   font-size: 16px;
   line-height: 1.4;
@@ -2096,50 +2150,50 @@ Built by David Kaneda and maintained by Jonathan Stark.
   margin: 0 0 .3em;
 }
 
-/* line 1173, ../src/jquery.mobile.scss */
+/* line 1133, ../src/jquery.mobile.scss */
 .ui-controlgroup-controls {
   display: block;
   width: 95%;
 }
 
-/* line 1178, ../src/jquery.mobile.scss */
+/* line 1138, ../src/jquery.mobile.scss */
 .ui-controlgroup li {
   list-style: none;
 }
 
-/* line 1182, ../src/jquery.mobile.scss */
+/* line 1142, ../src/jquery.mobile.scss */
 .ui-controlgroup-vertical .ui-btn, .ui-controlgroup-vertical div.ui-checkbox, .ui-controlgroup-vertical div.ui-radio {
   margin: 0;
   border-bottom-width: 0;
 }
 
-/* line 1187, ../src/jquery.mobile.scss */
+/* line 1147, ../src/jquery.mobile.scss */
 .ui-controlgroup-vertical .ui-controlgroup-last {
   border-bottom-width: 1px;
 }
 
-/* line 1191, ../src/jquery.mobile.scss */
+/* line 1151, ../src/jquery.mobile.scss */
 .ui-controlgroup-horizontal {
   padding: 0;
 }
 
-/* line 1195, ../src/jquery.mobile.scss */
+/* line 1155, ../src/jquery.mobile.scss */
 .ui-controlgroup-horizontal .ui-btn, .ui-controlgroup-horizontal div.ui-checkbox, .ui-controlgroup-horizontal div.ui-radio {
   margin: 0 -5px 0 0;
   display: inline-block;
 }
 
-/* line 1200, ../src/jquery.mobile.scss */
+/* line 1160, ../src/jquery.mobile.scss */
 .ui-controlgroup-horizontal div.ui-checkbox .ui-btn, .ui-controlgroup-horizontal div.ui-radio .ui-btn, .ui-controlgroup-horizontal div.ui-checkbox:last-child, .ui-controlgroup-horizontal div.ui-radio:last-child {
   margin-right: 0;
 }
 
-/* line 1204, ../src/jquery.mobile.scss */
+/* line 1164, ../src/jquery.mobile.scss */
 .ui-controlgroup-horizontal .ui-controlgroup-last {
   margin-right: 0;
 }
 
-/* line 1208, ../src/jquery.mobile.scss */
+/* line 1168, ../src/jquery.mobile.scss */
 .ui-controlgroup .ui-checkbox label, .ui-controlgroup .ui-radio label {
   font-size: 16px;
 }
@@ -2149,7 +2203,7 @@ Built by David Kaneda and maintained by Jonathan Stark.
 .ui-controlgroup .ui-btn-icon-notext .ui-btn-inner {  padding: 5px 6px 5px 5px; }
 */
 @media screen and (min-width:480px) {
-  /* line 1217, ../src/jquery.mobile.scss */
+  /* line 1177, ../src/jquery.mobile.scss */
   .ui-controlgroup-label {
     vertical-align: top;
     display: inline-block;
@@ -2157,7 +2211,7 @@ Built by David Kaneda and maintained by Jonathan Stark.
     margin: 0 2% 0 0;
   }
 
-  /* line 1224, ../src/jquery.mobile.scss */
+  /* line 1184, ../src/jquery.mobile.scss */
   .ui-controlgroup-controls {
     width: 60%;
     display: inline-block;
@@ -2169,19 +2223,19 @@ Built by David Kaneda and maintained by Jonathan Stark.
 * Copyright (c) jQuery Project
 * Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
 */
-/* line 1236, ../src/jquery.mobile.scss */
+/* line 1196, ../src/jquery.mobile.scss */
 .ui-dialog .ui-header, .ui-dialog .ui-content, .ui-dialog .ui-footer {
   margin: 15px;
   position: relative;
 }
 
-/* line 1241, ../src/jquery.mobile.scss */
+/* line 1201, ../src/jquery.mobile.scss */
 .ui-dialog .ui-header, .ui-dialog .ui-footer {
   z-index: 10;
   width: auto;
 }
 
-/* line 1246, ../src/jquery.mobile.scss */
+/* line 1206, ../src/jquery.mobile.scss */
 .ui-dialog .ui-content, .ui-dialog .ui-footer {
   margin-top: -15px;
 }
@@ -2191,40 +2245,40 @@ Built by David Kaneda and maintained by Jonathan Stark.
 * Copyright (c) jQuery Project
 * Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
 */
-/* line 1255, ../src/jquery.mobile.scss */
+/* line 1215, ../src/jquery.mobile.scss */
 div.ui-checkbox, div.ui-radio {
   position: relative;
   margin: .2em 0 .5em;
 }
 
-/* line 1260, ../src/jquery.mobile.scss */
+/* line 1220, ../src/jquery.mobile.scss */
 .ui-checkbox .ui-btn, .ui-radio .ui-btn {
   margin: 0;
   text-align: left;
 }
 
-/* line 1265, ../src/jquery.mobile.scss */
+/* line 1225, ../src/jquery.mobile.scss */
 .ui-checkbox .ui-btn-icon-left .ui-btn-inner, .ui-radio .ui-btn-icon-left .ui-btn-inner {
   padding-left: 45px;
 }
 
-/* line 1269, ../src/jquery.mobile.scss */
+/* line 1229, ../src/jquery.mobile.scss */
 .ui-checkbox .ui-btn-icon-right .ui-btn-inner, .ui-radio .ui-btn-icon-right .ui-btn-inner {
   padding-right: 45px;
 }
 
-/* line 1273, ../src/jquery.mobile.scss */
+/* line 1233, ../src/jquery.mobile.scss */
 .ui-checkbox .ui-btn-icon-left .ui-icon, .ui-radio .ui-btn-icon-left .ui-icon {
   left: 15px;
 }
 
-/* line 1277, ../src/jquery.mobile.scss */
+/* line 1237, ../src/jquery.mobile.scss */
 .ui-checkbox .ui-btn-icon-right .ui-icon, .ui-radio .ui-btn-icon-right .ui-icon {
   right: 15px;
 }
 
 /* input, label positioning */
-/* line 1282, ../src/jquery.mobile.scss */
+/* line 1242, ../src/jquery.mobile.scss */
 .ui-checkbox input, .ui-radio input {
   position: absolute;
   left: 20px;
@@ -2240,7 +2294,7 @@ div.ui-checkbox, div.ui-radio {
 * Copyright (c) jQuery Project
 * Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
 */
-/* line 1297, ../src/jquery.mobile.scss */
+/* line 1257, ../src/jquery.mobile.scss */
 .ui-field-contain {
   background: none;
   padding: 1.5em 0;
@@ -2249,13 +2303,13 @@ div.ui-checkbox, div.ui-radio {
   overflow: visible;
 }
 
-/* line 1305, ../src/jquery.mobile.scss */
+/* line 1265, ../src/jquery.mobile.scss */
 .ui-field-contain:first-child {
   border-top-width: 0;
 }
 
 @media screen and (max-width:480px) {
-  /* line 1310, ../src/jquery.mobile.scss */
+  /* line 1270, ../src/jquery.mobile.scss */
   .ui-field-contain {
     border-width: 0;
     padding: 0;
@@ -2268,29 +2322,29 @@ div.ui-checkbox, div.ui-radio {
 * Copyright (c) jQuery Project
 * Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
 */
-/* line 1323, ../src/jquery.mobile.scss */
+/* line 1283, ../src/jquery.mobile.scss */
 .ui-select {
   display: block;
 }
 
-/* line 1327, ../src/jquery.mobile.scss */
+/* line 1287, ../src/jquery.mobile.scss */
 .ui-select select {
   position: absolute;
   left: -99999px;
 }
 
-/* line 1332, ../src/jquery.mobile.scss */
+/* line 1292, ../src/jquery.mobile.scss */
 .ui-select .ui-btn-icon-right .ui-btn-inner {
   padding-right: 45px;
 }
 
-/* line 1336, ../src/jquery.mobile.scss */
+/* line 1296, ../src/jquery.mobile.scss */
 .ui-select .ui-btn-icon-right .ui-icon {
   right: 15px;
 }
 
 /* labels */
-/* line 1341, ../src/jquery.mobile.scss */
+/* line 1301, ../src/jquery.mobile.scss */
 label.ui-select {
   font-size: 16px;
   line-height: 1.4;
@@ -2300,7 +2354,7 @@ label.ui-select {
 }
 
 /*listbox*/
-/* line 1350, ../src/jquery.mobile.scss */
+/* line 1310, ../src/jquery.mobile.scss */
 .ui-listbox {
   position: absolute;
   padding: 0;
@@ -2310,18 +2364,18 @@ label.ui-select {
   padding: 6px;
 }
 
-/* line 1359, ../src/jquery.mobile.scss */
+/* line 1319, ../src/jquery.mobile.scss */
 .ui-listbox .ui-listview {
   margin: 0;
 }
 
-/* line 1363, ../src/jquery.mobile.scss */
+/* line 1323, ../src/jquery.mobile.scss */
 .ui-listbox-hidden {
   top: -999999px;
   left: -99999px;
 }
 
-/* line 1368, ../src/jquery.mobile.scss */
+/* line 1328, ../src/jquery.mobile.scss */
 .ui-listbox-screen {
   position: absolute;
   top: 0;
@@ -2331,31 +2385,31 @@ label.ui-select {
   z-index: 99;
 }
 
-/* line 1377, ../src/jquery.mobile.scss */
+/* line 1337, ../src/jquery.mobile.scss */
 .ui-screen-hidden, .ui-listbox-list .ui-li .ui-icon {
   display: none;
 }
 
-/* line 1381, ../src/jquery.mobile.scss */
+/* line 1341, ../src/jquery.mobile.scss */
 .ui-listbox-list .ui-btn-active .ui-icon {
   display: block;
 }
 
 /*used in listbox - to be removed/replaced with page-style hiding*/
-/* line 1386, ../src/jquery.mobile.scss */
+/* line 1346, ../src/jquery.mobile.scss */
 .ui-helper-hidden, .ui-mobile .ui-content-hidden {
   display: none;
 }
 
 @media screen and (min-width:480px) {
-  /* line 1391, ../src/jquery.mobile.scss */
+  /* line 1351, ../src/jquery.mobile.scss */
   label.ui-select {
     display: inline-block;
     width: 20%;
     margin: 0 2% 0 0;
   }
 
-  /* line 1397, ../src/jquery.mobile.scss */
+  /* line 1357, ../src/jquery.mobile.scss */
   .ui-select {
     width: 60%;
     display: inline-block;
@@ -2367,7 +2421,7 @@ label.ui-select {
 * Copyright (c) jQuery Project
 * Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
 */
-/* line 1409, ../src/jquery.mobile.scss */
+/* line 1369, ../src/jquery.mobile.scss */
 label.ui-input-text {
   font-size: 16px;
   line-height: 1.4;
@@ -2376,7 +2430,7 @@ label.ui-input-text {
   margin: 0 0 .3em;
 }
 
-/* line 1417, ../src/jquery.mobile.scss */
+/* line 1377, ../src/jquery.mobile.scss */
 input.ui-input-text, textarea.ui-input-text {
   background-image: none;
   padding: .4em;
@@ -2386,7 +2440,7 @@ input.ui-input-text, textarea.ui-input-text {
   width: 95%;
 }
 
-/* line 1426, ../src/jquery.mobile.scss */
+/* line 1386, ../src/jquery.mobile.scss */
 textarea.ui-input-text {
   height: 50px;
   -webkit-transition: height 200ms linear;
@@ -2395,7 +2449,7 @@ textarea.ui-input-text {
   transition: height 200ms linear;
 }
 
-/* line 1434, ../src/jquery.mobile.scss */
+/* line 1394, ../src/jquery.mobile.scss */
 .ui-input-search {
   padding: 0 30px;
   width: 77%;
@@ -2404,7 +2458,7 @@ textarea.ui-input-text {
   position: relative;
 }
 
-/* line 1442, ../src/jquery.mobile.scss */
+/* line 1402, ../src/jquery.mobile.scss */
 .ui-input-search input.ui-input-text {
   border: none;
   width: 98%;
@@ -2415,7 +2469,7 @@ textarea.ui-input-text {
   outline: 0!important;
 }
 
-/* line 1452, ../src/jquery.mobile.scss */
+/* line 1412, ../src/jquery.mobile.scss */
 .ui-input-search .ui-input-clear {
   position: absolute;
   right: 2px;
@@ -2423,32 +2477,32 @@ textarea.ui-input-text {
   margin-top: -12px;
 }
 
-/* line 1459, ../src/jquery.mobile.scss */
+/* line 1419, ../src/jquery.mobile.scss */
 .ui-input-search .ui-input-clear-hidden {
   display: none;
 }
 
 /* orientation adjustments - incomplete!*/
 @media screen and (min-width:480px) {
-  /* line 1465, ../src/jquery.mobile.scss */
+  /* line 1425, ../src/jquery.mobile.scss */
   label.ui-input-text {
     vertical-align: top;
   }
 
-  /* line 1469, ../src/jquery.mobile.scss */
+  /* line 1429, ../src/jquery.mobile.scss */
   label.ui-input-text, label.ui-select {
     display: inline-block;
     width: 20%;
     margin: 0 2% 0 0;
   }
 
-  /* line 1475, ../src/jquery.mobile.scss */
+  /* line 1435, ../src/jquery.mobile.scss */
   input.ui-input-text, textarea.ui-input-text, .ui-input-search {
     width: 60%;
     display: inline-block;
   }
 
-  /* line 1480, ../src/jquery.mobile.scss */
+  /* line 1440, ../src/jquery.mobile.scss */
   .ui-input-search {
     width: 50%;
   }
@@ -2459,26 +2513,26 @@ textarea.ui-input-text {
 * Copyright (c) jQuery Project
 * Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
 */
-/* line 1491, ../src/jquery.mobile.scss */
+/* line 1451, ../src/jquery.mobile.scss */
 .ui-listview {
   margin: 0;
   counter-reset: listnumbering;
   margin: -15px;
 }
 
-/* line 1497, ../src/jquery.mobile.scss */
+/* line 1457, ../src/jquery.mobile.scss */
 .ui-listview-inset {
   margin: 1em 0;
 }
 
-/* line 1501, ../src/jquery.mobile.scss */
+/* line 1461, ../src/jquery.mobile.scss */
 .ui-listview, .ui-li {
   list-style: none;
   padding: 0;
   zoom: 1;
 }
 
-/* line 1507, ../src/jquery.mobile.scss */
+/* line 1467, ../src/jquery.mobile.scss */
 .ui-li {
   display: block;
   margin: 0;
@@ -2489,14 +2543,14 @@ textarea.ui-input-text {
   border-top-width: 1px;
 }
 
-/* line 1517, ../src/jquery.mobile.scss */
+/* line 1477, ../src/jquery.mobile.scss */
 .ui-li .ui-btn-text {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
 }
 
-/* line 1523, ../src/jquery.mobile.scss */
+/* line 1483, ../src/jquery.mobile.scss */
 .ui-li-divider, .ui-li-static {
   padding: .5em 15px;
   font-size: 14px;
@@ -2504,7 +2558,7 @@ textarea.ui-input-text {
   counter-reset: listnumbering;
 }
 
-/* line 1530, ../src/jquery.mobile.scss */
+/* line 1490, ../src/jquery.mobile.scss */
 ol.ui-listview .ui-link-inherit:before, .ui-li-dec {
   font-size: .8em;
   display: inline-block;
@@ -2514,43 +2568,43 @@ ol.ui-listview .ui-link-inherit:before, .ui-li-dec {
   content: counter(listnumbering) ". ";
 }
 
-/* line 1539, ../src/jquery.mobile.scss */
+/* line 1499, ../src/jquery.mobile.scss */
 ol.ui-listview .ui-li-jsnumbering:before {
   content: ""!important;
 }
 
 /* to avoid chance of duplication */
-/* line 1544, ../src/jquery.mobile.scss */
+/* line 1504, ../src/jquery.mobile.scss */
 .ui-listview-inset .ui-li {
   border-right-width: 1px;
   border-left-width: 1px;
 }
 
-/* line 1549, ../src/jquery.mobile.scss */
+/* line 1509, ../src/jquery.mobile.scss */
 .ui-li:last-child {
   border-bottom-width: 1px;
 }
 
-/* line 1553, ../src/jquery.mobile.scss */
+/* line 1513, ../src/jquery.mobile.scss */
 .ui-li .ui-btn-inner {
   display: block;
   position: relative;
   padding: .7em 75px .7em 15px;
 }
 
-/* line 1559, ../src/jquery.mobile.scss */
+/* line 1519, ../src/jquery.mobile.scss */
 .ui-li-has-thumb .ui-btn-inner {
   min-height: 60px;
   padding-left: 100px;
 }
 
-/* line 1564, ../src/jquery.mobile.scss */
+/* line 1524, ../src/jquery.mobile.scss */
 .ui-li-has-icon .ui-btn-inner {
   min-height: 20px;
   padding-left: 40px;
 }
 
-/* line 1569, ../src/jquery.mobile.scss */
+/* line 1529, ../src/jquery.mobile.scss */
 .ui-li-heading {
   font-size: 16px;
   font-weight: 700;
@@ -2561,7 +2615,7 @@ ol.ui-listview .ui-li-jsnumbering:before {
   white-space: nowrap;
 }
 
-/* line 1579, ../src/jquery.mobile.scss */
+/* line 1539, ../src/jquery.mobile.scss */
 .ui-li-desc {
   font-size: 12px;
   font-weight: 400;
@@ -2572,7 +2626,7 @@ ol.ui-listview .ui-li-jsnumbering:before {
   white-space: nowrap;
 }
 
-/* line 1589, ../src/jquery.mobile.scss */
+/* line 1549, ../src/jquery.mobile.scss */
 .ui-li-thumb, .ui-li-icon {
   position: absolute;
   left: 1px;
@@ -2581,7 +2635,7 @@ ol.ui-listview .ui-li-jsnumbering:before {
   max-width: 80px;
 }
 
-/* line 1597, ../src/jquery.mobile.scss */
+/* line 1557, ../src/jquery.mobile.scss */
 .ui-li-icon {
   max-height: 40px;
   max-width: 40px;
@@ -2589,13 +2643,13 @@ ol.ui-listview .ui-li-jsnumbering:before {
   top: .9em;
 }
 
-/* line 1604, ../src/jquery.mobile.scss */
+/* line 1564, ../src/jquery.mobile.scss */
 .ui-li-thumb, .ui-li-icon, .ui-li-content {
   float: left;
   margin-right: 10px;
 }
 
-/* line 1609, ../src/jquery.mobile.scss */
+/* line 1569, ../src/jquery.mobile.scss */
 .ui-li-aside {
   float: right;
   width: 25%;
@@ -2603,12 +2657,12 @@ ol.ui-listview .ui-li-jsnumbering:before {
   margin: .3em 0;
 }
 
-/* line 1616, ../src/jquery.mobile.scss */
+/* line 1576, ../src/jquery.mobile.scss */
 .ui-li-has-alt .ui-btn-inner {
   padding-right: 95px;
 }
 
-/* line 1620, ../src/jquery.mobile.scss */
+/* line 1580, ../src/jquery.mobile.scss */
 .ui-li-count {
   position: absolute;
   font-size: 11px;
@@ -2619,17 +2673,17 @@ ol.ui-listview .ui-li-jsnumbering:before {
   right: 38px;
 }
 
-/* line 1630, ../src/jquery.mobile.scss */
+/* line 1590, ../src/jquery.mobile.scss */
 .ui-li-divider .ui-li-count {
   right: 10px;
 }
 
-/* line 1634, ../src/jquery.mobile.scss */
+/* line 1594, ../src/jquery.mobile.scss */
 .ui-li-has-alt .ui-li-count {
   right: 55px;
 }
 
-/* line 1638, ../src/jquery.mobile.scss */
+/* line 1598, ../src/jquery.mobile.scss */
 .ui-li-link-alt {
   position: absolute;
   width: 40px;
@@ -2642,7 +2696,7 @@ ol.ui-listview .ui-li-jsnumbering:before {
   padding: 0;
 }
 
-/* line 1650, ../src/jquery.mobile.scss */
+/* line 1610, ../src/jquery.mobile.scss */
 .ui-li-link-alt .ui-btn {
   overflow: hidden;
   position: absolute;
@@ -2652,26 +2706,26 @@ ol.ui-listview .ui-li-jsnumbering:before {
   border-bottom-width: 1px;
 }
 
-/* line 1659, ../src/jquery.mobile.scss */
+/* line 1619, ../src/jquery.mobile.scss */
 .ui-li-link-alt .ui-btn-inner {
   padding: 0;
   position: static;
 }
 
-/* line 1664, ../src/jquery.mobile.scss */
+/* line 1624, ../src/jquery.mobile.scss */
 .ui-li-link-alt .ui-btn .ui-icon {
   right: 50%;
   margin-right: -9px;
 }
 
-/* line 1669, ../src/jquery.mobile.scss */
+/* line 1629, ../src/jquery.mobile.scss */
 .ui-listview-filter {
   border-width: 0;
   overflow: hidden;
   margin: -15px -15px 15px;
 }
 
-/* line 1675, ../src/jquery.mobile.scss */
+/* line 1635, ../src/jquery.mobile.scss */
 .ui-listview-filter .ui-input-search {
   margin: 5px;
   width: auto;
@@ -2683,23 +2737,23 @@ ol.ui-listview .ui-li-jsnumbering:before {
 * Copyright (c) jQuery Project
 * Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
 */
-/* line 1686, ../src/jquery.mobile.scss */
+/* line 1646, ../src/jquery.mobile.scss */
 label.ui-slider {
   display: block;
 }
 
-/* line 1690, ../src/jquery.mobile.scss */
+/* line 1650, ../src/jquery.mobile.scss */
 input.ui-slider-input {
   display: inline-block;
   width: 40px;
 }
 
-/* line 1695, ../src/jquery.mobile.scss */
+/* line 1655, ../src/jquery.mobile.scss */
 select.ui-slider-switch {
   display: none;
 }
 
-/* line 1699, ../src/jquery.mobile.scss */
+/* line 1659, ../src/jquery.mobile.scss */
 div.ui-slider {
   position: relative;
   display: inline-block;
@@ -2711,7 +2765,7 @@ div.ui-slider {
   width: 66%;
 }
 
-/* line 1710, ../src/jquery.mobile.scss */
+/* line 1670, ../src/jquery.mobile.scss */
 a.ui-slider-handle {
   position: absolute;
   z-index: 10;
@@ -2722,34 +2776,34 @@ a.ui-slider-handle {
   margin-left: -15px;
 }
 
-/* line 1720, ../src/jquery.mobile.scss */
+/* line 1680, ../src/jquery.mobile.scss */
 a.ui-slider-handle .ui-btn-inner {
   padding-left: 0;
   padding-right: 0;
 }
 
 @media screen and (min-width:480px) {
-  /* line 1726, ../src/jquery.mobile.scss */
+  /* line 1686, ../src/jquery.mobile.scss */
   label.ui-slider {
     display: inline-block;
     width: 20%;
     margin: 0 2% 0 0;
   }
 
-  /* line 1732, ../src/jquery.mobile.scss */
+  /* line 1692, ../src/jquery.mobile.scss */
   div.ui-slider {
     width: 45%;
   }
 }
 
-/* line 1738, ../src/jquery.mobile.scss */
+/* line 1698, ../src/jquery.mobile.scss */
 div.ui-slider-switch {
   height: 32px;
   overflow: hidden;
   margin-left: 0;
 }
 
-/* line 1744, ../src/jquery.mobile.scss */
+/* line 1704, ../src/jquery.mobile.scss */
 div.ui-slider-inneroffset {
   margin-left: 50%;
   position: absolute;
@@ -2758,12 +2812,12 @@ div.ui-slider-inneroffset {
   width: 50%;
 }
 
-/* line 1752, ../src/jquery.mobile.scss */
+/* line 1712, ../src/jquery.mobile.scss */
 div.ui-slider-handle-snapping {
   -webkit-transition: left 100ms linear;
 }
 
-/* line 1756, ../src/jquery.mobile.scss */
+/* line 1716, ../src/jquery.mobile.scss */
 div.ui-slider-labelbg {
   position: absolute;
   top: 0;
@@ -2771,31 +2825,31 @@ div.ui-slider-labelbg {
   border-width: 0;
 }
 
-/* line 1763, ../src/jquery.mobile.scss */
+/* line 1723, ../src/jquery.mobile.scss */
 div.ui-slider-switch div.ui-slider-labelbg-a {
   width: 60%;
   height: 100%;
   left: 0;
 }
 
-/* line 1769, ../src/jquery.mobile.scss */
+/* line 1729, ../src/jquery.mobile.scss */
 div.ui-slider-switch div.ui-slider-labelbg-b {
   width: 60%;
   height: 100%;
   right: 0;
 }
 
-/* line 1775, ../src/jquery.mobile.scss */
+/* line 1735, ../src/jquery.mobile.scss */
 .ui-slider-switch-a div.ui-slider-labelbg-a, .ui-slider-switch-b div.ui-slider-labelbg-b {
   z-index: 1;
 }
 
-/* line 1779, ../src/jquery.mobile.scss */
+/* line 1739, ../src/jquery.mobile.scss */
 .ui-slider-switch-a div.ui-slider-labelbg-b, .ui-slider-switch-b div.ui-slider-labelbg-a {
   z-index: 10;
 }
 
-/* line 1783, ../src/jquery.mobile.scss */
+/* line 1743, ../src/jquery.mobile.scss */
 div.ui-slider-switch a.ui-slider-handle {
   z-index: 20;
   width: 101%;
@@ -2804,7 +2858,7 @@ div.ui-slider-switch a.ui-slider-handle {
   margin-left: -101%;
 }
 
-/* line 1791, ../src/jquery.mobile.scss */
+/* line 1751, ../src/jquery.mobile.scss */
 span.ui-slider-label {
   width: 100%;
   position: absolute;
@@ -2816,13 +2870,13 @@ span.ui-slider-label {
   border-color: transparent;
 }
 
-/* line 1802, ../src/jquery.mobile.scss */
+/* line 1762, ../src/jquery.mobile.scss */
 span.ui-slider-label-a {
   left: -100%;
   margin-right: -1px;
 }
 
-/* line 1807, ../src/jquery.mobile.scss */
+/* line 1767, ../src/jquery.mobile.scss */
 span.ui-slider-label-b {
   right: -100%;
   margin-left: -1px;

@@ -107,21 +107,17 @@ a.ui-link-inherit{
 ----------------------------------*/
 /* .ui-icon { background-position: 50% 50%; background-repeat: no-repeat; background-color: #fff; background-color: rgba(0,0,0,.4);  -moz-border-radius: 9px; -webkit-border-radius: 9px; border-radius: 9px; } */
 .ui-icon{
+	@include border-radius(9px);
 	background-image: image-url("icons-18-white.png");
 	background-repeat: no-repeat;
 	background-color: #666;
 	background-color: rgba(0,0,0,.4);
-	-moz-border-radius: 9px;
-	-webkit-border-radius: 9px;
-	border-radius: 9px;
 }
 
 .ui-icon-disc{
+	@include border-radius(9px);
 	background-color: #666;
 	background-color: rgba(0,0,0,.3);
-	-moz-border-radius: 9px;
-	-webkit-border-radius: 9px;
-	border-radius: 9px;
 }
 
 /* alt color */
@@ -130,11 +126,9 @@ a.ui-link-inherit{
 }
 
 .ui-icon-black-disc{
+	@include border-radius(9px);
 	background-color: #fff;
 	background-color: rgba(255,255,255,.3);
-	-moz-border-radius: 9px;
-	-webkit-border-radius: 9px;
-	border-radius: 9px;
 }
 
 /* retina */
@@ -219,10 +213,8 @@ a.ui-link-inherit{
 
 /*checks,radios*/
 .ui-icon-checkbox-off,.ui-icon-checkbox-on,.ui-icon-radio-off,.ui-icon-radio-on{
+	@include border-radius(0);
 	background-color: transparent;
-	-moz-border-radius: 0;
-	-webkit-border-radius: 0;
-	border-radius: 0;
 }
 
 .ui-icon-checkbox-off{
@@ -247,79 +239,47 @@ a.ui-link-inherit{
 
 /* loading icon */
 .ui-icon-loading{
+	@include border-radius(20px);
 	background-image: image-url("ajax-loader.png");
 	width: 40px;
 	height: 40px;
-	-moz-border-radius: 20px;
-	-webkit-border-radius: 20px;
-	border-radius: 20px;
 }
 
 /* btn Corner radius */
 .ui-btn-corner-tl{
-	-moz-border-radius-topleft: 1em;
-	-webkit-border-top-left-radius: 1em;
-	border-top-left-radius: 1em;
+	@include border-corner-radius(top, left, 1em);
 }
 
 .ui-btn-corner-tr{
-	-moz-border-radius-topright: 1em;
-	-webkit-border-top-right-radius: 1em;
-	border-top-right-radius: 1em;
+	@include border-corner-radius(top, right, 1em);
 }
 
 .ui-btn-corner-bl{
-	-moz-border-radius-bottomleft: 1em;
-	-webkit-border-bottom-left-radius: 1em;
-	border-bottom-left-radius: 1em;
+	@include border-corner-radius(bottom, left, 1em);
 }
 
 .ui-btn-corner-br{
-	-moz-border-radius-bottomright: 1em;
-	-webkit-border-bottom-right-radius: 1em;
-	border-bottom-right-radius: 1em;
+	@include border-corner-radius(bottom, right, 1em);
 }
 
 .ui-btn-corner-top{
-	-moz-border-radius-topleft: 1em;
-	-webkit-border-top-left-radius: 1em;
-	border-top-left-radius: 1em;
-	-moz-border-radius-topright: 1em;
-	-webkit-border-top-right-radius: 1em;
-	border-top-right-radius: 1em;
+	@include border-top-radius(1em);
 }
 
 .ui-btn-corner-bottom{
-	-moz-border-radius-bottomleft: 1em;
-	-webkit-border-bottom-left-radius: 1em;
-	border-bottom-left-radius: 1em;
-	-moz-border-radius-bottomright: 1em;
-	-webkit-border-bottom-right-radius: 1em;
-	border-bottom-right-radius: 1em;
+	@include border-bottom-radius(1em);
 }
 
 .ui-btn-corner-right{
-	-moz-border-radius-topright: 1em;
-	-webkit-border-top-right-radius: 1em;
-	border-top-right-radius: 1em;
-	-moz-border-radius-bottomright: 1em;
-	-webkit-border-bottom-right-radius: 1em;
-	border-bottom-right-radius: 1em;
+	@include border-right-radius(1em);
 }
 
 .ui-btn-corner-left{
-	-moz-border-radius-topleft: 1em;
-	-webkit-border-top-left-radius: 1em;
-	border-top-left-radius: 1em;
-	-moz-border-radius-bottomleft: 1em;
-	-webkit-border-bottom-left-radius: 1em;
-	border-bottom-left-radius: 1em;
+	@include border-left-radius(1em);
 }
 
 .ui-btn-corner-all{
-	-moz-border-radius: 1em;
-	-webkit-border-radius: 1em;
-	border-radius: 1em;
+	@include border-radius(1em);
 }
 
 /* radius clip */
