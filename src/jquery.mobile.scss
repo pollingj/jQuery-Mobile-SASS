@@ -18,11 +18,11 @@
 
 @import "themes/base_styles";
 @import "themes/mixins";
-@import "themes/a";
-@import "themes/b";
-@import "themes/c";
-@import "themes/d";
-@import "themes/e";
+@import "themes/default/a";
+@import "themes/default/b";
+@import "themes/default/c";
+@import "themes/default/d";
+@import "themes/default/e";
 
 .ui-br{
 	border-bottom: 1px solid rgba(130,130,130,.3);

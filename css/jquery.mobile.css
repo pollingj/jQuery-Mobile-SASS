@@ -17,7 +17,7 @@
 /* The naming convention for all the theme elements are taken directly from the 
 	jQuery Mobile themes 
 */
-/* line 40, ../src/themes/_a.scss */
+/* line 40, ../src/themes/default/_a.scss */
 .ui-bar-a {
   border: 1px solid #2a2a2a;
   background: #111111;
@@ -30,23 +30,23 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#3c3c3c', EndColorStr='#111111')";
 }
 
-/* line 44, ../src/themes/_a.scss */
+/* line 44, ../src/themes/default/_a.scss */
 .ui-bar-a, .ui-bar-a input, .ui-bar-a select, .ui-bar-a textarea, .ui-bar-a button {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* line 48, ../src/themes/_a.scss */
+/* line 48, ../src/themes/default/_a.scss */
 .ui-bar-a .ui-link-inherit {
   color: white;
 }
 
-/* line 52, ../src/themes/_a.scss */
+/* line 52, ../src/themes/default/_a.scss */
 .ui-bar-a .ui-link {
   color: #7cc4e7;
   font-weight: 700;
 }
 
-/* line 58, ../src/themes/_a.scss */
+/* line 58, ../src/themes/default/_a.scss */
 .ui-body-a {
   border: 1px solid #2a2a2a;
   background: #222222;
@@ -59,23 +59,23 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#666666', EndColorStr='#222222')";
 }
 
-/* line 62, ../src/themes/_a.scss */
+/* line 62, ../src/themes/default/_a.scss */
 .ui-body-a, .ui-body-a input, .ui-body-a select, .ui-body-a textarea, .ui-body-a button {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* line 66, ../src/themes/_a.scss */
+/* line 66, ../src/themes/default/_a.scss */
 .ui-body-a .ui-link-inherit {
   color: white;
 }
 
-/* line 70, ../src/themes/_a.scss */
+/* line 70, ../src/themes/default/_a.scss */
 .ui-body-a .ui-link {
   color: #2489ce;
   font-weight: 700;
 }
 
-/* line 76, ../src/themes/_a.scss */
+/* line 76, ../src/themes/default/_a.scss */
 .ui-btn-up-a {
   border: 1px solid #222222;
   background: #333333;
@@ -90,12 +90,12 @@
   text-decoration: none;
 }
 
-/* line 80, ../src/themes/_a.scss */
+/* line 80, ../src/themes/default/_a.scss */
 .ui-btn-up-a a.ui-link-inherit {
   color: white;
 }
 
-/* line 84, ../src/themes/_a.scss */
+/* line 84, ../src/themes/default/_a.scss */
 .ui-btn-hover-a {
   border: 1px solid black;
   background: #444444;
@@ -110,12 +110,12 @@
   text-decoration: none;
 }
 
-/* line 88, ../src/themes/_a.scss */
+/* line 88, ../src/themes/default/_a.scss */
 .ui-btn-hover-a a.ui-link-inherit {
   color: white;
 }
 
-/* line 92, ../src/themes/_a.scss */
+/* line 92, ../src/themes/default/_a.scss */
 .ui-btn-down-a {
   border: 1px solid black;
   background: #444444;
@@ -130,12 +130,12 @@
   text-decoration: none;
 }
 
-/* line 96, ../src/themes/_a.scss */
+/* line 96, ../src/themes/default/_a.scss */
 .ui-btn-down-a a.ui-link-inherit {
   color: white;
 }
 
-/* line 100, ../src/themes/_a.scss */
+/* line 100, ../src/themes/default/_a.scss */
 .ui-btn-up-a, .ui-btn-hover-a, .ui-btn-down-a {
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -143,7 +143,7 @@
 /* The naming convention for all the theme elements are taken directly from the 
 	jQuery Mobile themes 
 */
-/* line 40, ../src/themes/_b.scss */
+/* line 40, ../src/themes/default/_b.scss */
 .ui-bar-b {
   border: 1px solid #456f9a;
   background: #5e87b0;
@@ -156,23 +156,23 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#81a8ce', EndColorStr='#5e87b0')";
 }
 
-/* line 44, ../src/themes/_b.scss */
+/* line 44, ../src/themes/default/_b.scss */
 .ui-bar-b, .ui-bar-b input, .ui-bar-b select, .ui-bar-b textarea, .ui-bar-b button {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* line 48, ../src/themes/_b.scss */
+/* line 48, ../src/themes/default/_b.scss */
 .ui-bar-b .ui-link-inherit {
   color: white;
 }
 
-/* line 52, ../src/themes/_b.scss */
+/* line 52, ../src/themes/default/_b.scss */
 .ui-bar-b .ui-link {
   color: #7cc4e7;
   font-weight: 700;
 }
 
-/* line 58, ../src/themes/_b.scss */
+/* line 58, ../src/themes/default/_b.scss */
 .ui-body-b {
   border: 1px solid #c6c6c6;
   background: #cccccc;
@@ -185,23 +185,23 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e6e6e6', EndColorStr='#cccccc')";
 }
 
-/* line 62, ../src/themes/_b.scss */
+/* line 62, ../src/themes/default/_b.scss */
 .ui-body-b, .ui-body-b input, .ui-body-b select, .ui-body-b textarea, .ui-body-b button {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* line 66, ../src/themes/_b.scss */
+/* line 66, ../src/themes/default/_b.scss */
 .ui-body-b .ui-link-inherit {
   color: #333333;
 }
 
-/* line 70, ../src/themes/_b.scss */
+/* line 70, ../src/themes/default/_b.scss */
 .ui-body-b .ui-link {
   color: #2489ce;
   font-weight: 700;
 }
 
-/* line 77, ../src/themes/_b.scss */
+/* line 77, ../src/themes/default/_b.scss */
 .ui-btn-up-b {
   border: 1px solid #145072;
   background: #2567ab;
@@ -216,12 +216,12 @@
   text-decoration: none;
 }
 
-/* line 81, ../src/themes/_b.scss */
+/* line 81, ../src/themes/default/_b.scss */
 .ui-btn-up-b a.ui-link-inherit {
   color: white;
 }
 
-/* line 85, ../src/themes/_b.scss */
+/* line 85, ../src/themes/default/_b.scss */
 .ui-btn-hover-b {
   border: 1px solid #397cbe;
   background: #5397d5;
@@ -236,12 +236,12 @@
   text-decoration: none;
 }
 
-/* line 89, ../src/themes/_b.scss */
+/* line 89, ../src/themes/default/_b.scss */
 .ui-btn-hover-b a.ui-link-inherit {
   color: white;
 }
 
-/* line 93, ../src/themes/_b.scss */
+/* line 93, ../src/themes/default/_b.scss */
 .ui-btn-down-b {
   border: 1px solid #225377;
   background: #4e89c5;
@@ -256,12 +256,12 @@
   text-decoration: none;
 }
 
-/* line 97, ../src/themes/_b.scss */
+/* line 97, ../src/themes/default/_b.scss */
 .ui-btn-down-b a.ui-link-inherit {
   color: white;
 }
 
-/* line 101, ../src/themes/_b.scss */
+/* line 101, ../src/themes/default/_b.scss */
 .ui-btn-up-b, .ui-btn-hover-b, .ui-btn-down-b {
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -269,7 +269,7 @@
 /* The naming convention for all the theme elements are taken directly from the 
 	jQuery Mobile themes 
 */
-/* line 40, ../src/themes/_c.scss */
+/* line 40, ../src/themes/default/_c.scss */
 .ui-bar-c {
   border: 1px solid #b3b3b3;
   background: #e9eaeb;
@@ -282,12 +282,12 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f0f0f0', EndColorStr='#e9eaeb')";
 }
 
-/* line 44, ../src/themes/_c.scss */
+/* line 44, ../src/themes/default/_c.scss */
 .ui-bar-c, .ui-bar-c input, .ui-bar-c select, .ui-bar-c textarea, .ui-bar-c button {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* line 49, ../src/themes/_c.scss */
+/* line 49, ../src/themes/default/_c.scss */
 .ui-body-c {
   border: 1px solid #b3b3b3;
   background: #f0f0f0;
@@ -299,23 +299,23 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='white', EndColorStr='#f0f0f0')";
 }
 
-/* line 53, ../src/themes/_c.scss */
+/* line 53, ../src/themes/default/_c.scss */
 .ui-body-c, .ui-body-c input, .ui-body-c select, .ui-body-c textarea, .ui-body-c button {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* line 57, ../src/themes/_c.scss */
+/* line 57, ../src/themes/default/_c.scss */
 .ui-body-c .ui-link-inherit {
   color: #333333;
 }
 
-/* line 61, ../src/themes/_c.scss */
+/* line 61, ../src/themes/default/_c.scss */
 .ui-body-c .ui-link {
   color: #2489ce;
   font-weight: 700;
 }
 
-/* line 67, ../src/themes/_c.scss */
+/* line 67, ../src/themes/default/_c.scss */
 .ui-btn-up-c {
   border: 1px solid #cccccc;
   background: #eeeeee;
@@ -330,12 +330,12 @@
   text-decoration: none;
 }
 
-/* line 71, ../src/themes/_c.scss */
+/* line 71, ../src/themes/default/_c.scss */
 .ui-btn-up-c a.ui-link-inherit {
   color: #2f3e46;
 }
 
-/* line 75, ../src/themes/_c.scss */
+/* line 75, ../src/themes/default/_c.scss */
 .ui-btn-hover-c {
   border: 1px solid #aaaaaa;
   background: #f5f5f5;
@@ -350,12 +350,12 @@
   text-decoration: none;
 }
 
-/* line 79, ../src/themes/_c.scss */
+/* line 79, ../src/themes/default/_c.scss */
 .ui-btn-hover-c a.ui-link-inherit {
   color: #2f3e46;
 }
 
-/* line 83, ../src/themes/_c.scss */
+/* line 83, ../src/themes/default/_c.scss */
 .ui-btn-down-c {
   border: 1px solid gray;
   background: #fdfdfd;
@@ -370,12 +370,12 @@
   text-decoration: none;
 }
 
-/* line 87, ../src/themes/_c.scss */
+/* line 87, ../src/themes/default/_c.scss */
 .ui-btn-down-c a.ui-link-inherit {
   color: #2f3e46;
 }
 
-/* line 91, ../src/themes/_c.scss */
+/* line 91, ../src/themes/default/_c.scss */
 .ui-btn-up-c, .ui-btn-hover-c, .ui-btn-down-c {
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -383,7 +383,7 @@
 /* The naming convention for all the theme elements are taken directly from the 
 	jQuery Mobile themes 
 */
-/* line 40, ../src/themes/_d.scss */
+/* line 40, ../src/themes/default/_d.scss */
 .ui-bar-d {
   border: 1px solid #cccccc;
   background: #bbbbbb;
@@ -395,23 +395,23 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#dddddd', EndColorStr='#bbbbbb')";
 }
 
-/* line 44, ../src/themes/_d.scss */
+/* line 44, ../src/themes/default/_d.scss */
 .ui-bar-d, .ui-bar-d input, .ui-bar-d select, .ui-bar-d textarea, .ui-bar-d button {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* line 48, ../src/themes/_d.scss */
+/* line 48, ../src/themes/default/_d.scss */
 .ui-bar-d .ui-link-inherit {
   color: #333333;
 }
 
-/* line 52, ../src/themes/_d.scss */
+/* line 52, ../src/themes/default/_d.scss */
 .ui-bar-d .ui-link {
   color: #2489ce;
   font-weight: 700;
 }
 
-/* line 58, ../src/themes/_d.scss */
+/* line 58, ../src/themes/default/_d.scss */
 .ui-body-d {
   border: 1px solid #cccccc;
   background: white;
@@ -419,23 +419,23 @@
   text-shadow: 0 1px 0 white;
 }
 
-/* line 62, ../src/themes/_d.scss */
+/* line 62, ../src/themes/default/_d.scss */
 .ui-body-d, .ui-body-d input, .ui-body-d select, .ui-body-d textarea, .ui-body-d button {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* line 66, ../src/themes/_d.scss */
+/* line 66, ../src/themes/default/_d.scss */
 .ui-body-d .ui-link-inherit {
   color: #333333;
 }
 
-/* line 70, ../src/themes/_d.scss */
+/* line 70, ../src/themes/default/_d.scss */
 .ui-body-d .ui-link {
   color: #2489ce;
   font-weight: 700;
 }
 
-/* line 76, ../src/themes/_d.scss */
+/* line 76, ../src/themes/default/_d.scss */
 .ui-btn-up-d {
   border: 1px solid #cccccc;
   background: white;
@@ -446,12 +446,12 @@
   text-decoration: none;
 }
 
-/* line 80, ../src/themes/_d.scss */
+/* line 80, ../src/themes/default/_d.scss */
 .ui-btn-up-d a.ui-link-inherit {
   color: #333333;
 }
 
-/* line 84, ../src/themes/_d.scss */
+/* line 84, ../src/themes/default/_d.scss */
 .ui-btn-hover-d {
   border: 1px solid #aaaaaa;
   background: #eeeeee;
@@ -466,12 +466,12 @@
   text-decoration: none;
 }
 
-/* line 88, ../src/themes/_d.scss */
+/* line 88, ../src/themes/default/_d.scss */
 .ui-btn-hover-d a.ui-link-inherit {
   color: #222222;
 }
 
-/* line 92, ../src/themes/_d.scss */
+/* line 92, ../src/themes/default/_d.scss */
 .ui-btn-down-d {
   border: 1px solid #aaaaaa;
   background: white;
@@ -486,7 +486,7 @@
   text-decoration: none;
 }
 
-/* line 96, ../src/themes/_d.scss */
+/* line 96, ../src/themes/default/_d.scss */
 .ui-btn-down-d a.ui-link-inherit {
   border: 1px solid gray;
   background: #ced0d2;
@@ -501,7 +501,7 @@
   text-decoration: none;
 }
 
-/* line 100, ../src/themes/_d.scss */
+/* line 100, ../src/themes/default/_d.scss */
 .ui-btn-up-d, .ui-btn-hover-d, .ui-btn-down-d {
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -509,7 +509,7 @@
 /* The naming convention for all the theme elements are taken directly from the 
 	jQuery Mobile themes 
 */
-/* line 40, ../src/themes/_e.scss */
+/* line 40, ../src/themes/default/_e.scss */
 .ui-bar-e {
   border: 1px solid #f7c942;
   background: #fadb4e;
@@ -521,23 +521,23 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fceda7', EndColorStr='#fadb4e')";
 }
 
-/* line 44, ../src/themes/_e.scss */
+/* line 44, ../src/themes/default/_e.scss */
 .ui-bar-e, .ui-bar-e input, .ui-bar-e select, .ui-bar-e textarea, .ui-bar-d button {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* line 48, ../src/themes/_e.scss */
+/* line 48, ../src/themes/default/_e.scss */
 .ui-bar-e .ui-link-inherit {
   color: #333333;
 }
 
-/* line 52, ../src/themes/_e.scss */
+/* line 52, ../src/themes/default/_e.scss */
 .ui-bar-e .ui-link {
   color: #2489ce;
   font-weight: 700;
 }
 
-/* line 58, ../src/themes/_e.scss */
+/* line 58, ../src/themes/default/_e.scss */
 .ui-body-e {
   border: 1px solid #f7c942;
   background: #faeb9e;
@@ -549,23 +549,23 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='white', EndColorStr='#faeb9e')";
 }
 
-/* line 62, ../src/themes/_e.scss */
+/* line 62, ../src/themes/default/_e.scss */
 .ui-body-e, .ui-body-e input, .ui-body-e select, .ui-body-e textarea, .ui-body-e button {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* line 66, ../src/themes/_e.scss */
+/* line 66, ../src/themes/default/_e.scss */
 .ui-body-e .ui-link-inherit {
   color: #333333;
 }
 
-/* line 70, ../src/themes/_e.scss */
+/* line 70, ../src/themes/default/_e.scss */
 .ui-body-e .ui-link {
   color: #2489ce;
   font-weight: 700;
 }
 
-/* line 76, ../src/themes/_e.scss */
+/* line 76, ../src/themes/default/_e.scss */
 .ui-btn-up-e {
   border: 1px solid #f7c942;
   background: #fadb4e;
@@ -580,12 +580,12 @@
   text-decoration: none;
 }
 
-/* line 80, ../src/themes/_e.scss */
+/* line 80, ../src/themes/default/_e.scss */
 .ui-btn-up-e a.ui-link-inherit {
   color: #333333;
 }
 
-/* line 84, ../src/themes/_e.scss */
+/* line 84, ../src/themes/default/_e.scss */
 .ui-btn-hover-e {
   border: 1px solid #e79952;
   background: #fbe26f;
@@ -600,12 +600,12 @@
   text-decoration: none;
 }
 
-/* line 88, ../src/themes/_e.scss */
+/* line 88, ../src/themes/default/_e.scss */
 .ui-btn-hover-e a.ui-link-inherit {
   color: #333333;
 }
 
-/* line 92, ../src/themes/_e.scss */
+/* line 92, ../src/themes/default/_e.scss */
 .ui-btn-down-e {
   border: 1px solid #f7c942;
   background: #fceda7;
@@ -620,12 +620,12 @@
   text-decoration: none;
 }
 
-/* line 96, ../src/themes/_e.scss */
+/* line 96, ../src/themes/default/_e.scss */
 .ui-btn-down-e a.ui-link-inherit {
   color: #333333;
 }
 
-/* line 100, ../src/themes/_e.scss */
+/* line 100, ../src/themes/default/_e.scss */
 .ui-btn-up-e, .ui-btn-hover-e, .ui-btn-down-e {
   font-family: Helvetica, Arial, sans-serif;
 }
