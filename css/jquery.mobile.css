@@ -147,7 +147,7 @@
 	
 	- swatch "b" is secondary level (blue in the default theme)
 */
-/* line 42, ../src/themes/default/_b.scss */
+/* line 52, ../src/themes/default/_b.scss */
 .ui-bar-b {
   border: 1px solid #456f9a;
   background: #5e87b0;
@@ -160,23 +160,23 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#81a8ce', EndColorStr='#5e87b0')";
 }
 
-/* line 46, ../src/themes/default/_b.scss */
+/* line 56, ../src/themes/default/_b.scss */
 .ui-bar-b, .ui-bar-b input, .ui-bar-b select, .ui-bar-b textarea, .ui-bar-b button {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* line 50, ../src/themes/default/_b.scss */
+/* line 60, ../src/themes/default/_b.scss */
 .ui-bar-b .ui-link-inherit {
   color: white;
 }
 
-/* line 54, ../src/themes/default/_b.scss */
+/* line 64, ../src/themes/default/_b.scss */
 .ui-bar-b .ui-link {
   color: #7cc4e7;
   font-weight: 700;
 }
 
-/* line 60, ../src/themes/default/_b.scss */
+/* line 70, ../src/themes/default/_b.scss */
 .ui-body-b {
   border: 1px solid #c6c6c6;
   background: #cccccc;
@@ -189,43 +189,43 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e6e6e6', EndColorStr='#cccccc')";
 }
 
-/* line 64, ../src/themes/default/_b.scss */
+/* line 74, ../src/themes/default/_b.scss */
 .ui-body-b, .ui-body-b input, .ui-body-b select, .ui-body-b textarea, .ui-body-b button {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* line 68, ../src/themes/default/_b.scss */
+/* line 78, ../src/themes/default/_b.scss */
 .ui-body-b .ui-link-inherit {
   color: #333333;
 }
 
-/* line 72, ../src/themes/default/_b.scss */
+/* line 82, ../src/themes/default/_b.scss */
 .ui-body-b .ui-link {
   color: #2489ce;
   font-weight: 700;
 }
 
-/* line 79, ../src/themes/default/_b.scss */
+/* line 89, ../src/themes/default/_b.scss */
 .ui-btn-up-b {
   border: 1px solid #145072;
   background: #2567ab;
   color: white;
   font-weight: 700;
   text-shadow: 0 -1px 1px #145072;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #4e89c5), color-stop(100%, #2567ab));
-  background-image: -moz-linear-gradient(top, #4e89c5 0%, #2567ab 100%);
-  background-image: linear-gradient(top, #4e89c5 0%, #2567ab 100%);
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#4e89c5', EndColorStr='#2567ab')";
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #4e89c5), color-stop(100%, #4e89c5));
+  background-image: -moz-linear-gradient(top, #4e89c5 0%, #4e89c5 100%);
+  background-image: linear-gradient(top, #4e89c5 0%, #4e89c5 100%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#4e89c5', EndColorStr='#4e89c5')";
   cursor: pointer;
   text-decoration: none;
 }
 
-/* line 83, ../src/themes/default/_b.scss */
+/* line 93, ../src/themes/default/_b.scss */
 .ui-btn-up-b a.ui-link-inherit {
   color: white;
 }
 
-/* line 87, ../src/themes/default/_b.scss */
+/* line 97, ../src/themes/default/_b.scss */
 .ui-btn-hover-b {
   border: 1px solid #397cbe;
   background: #5397d5;
@@ -240,12 +240,12 @@
   text-decoration: none;
 }
 
-/* line 91, ../src/themes/default/_b.scss */
+/* line 101, ../src/themes/default/_b.scss */
 .ui-btn-hover-b a.ui-link-inherit {
   color: white;
 }
 
-/* line 95, ../src/themes/default/_b.scss */
+/* line 105, ../src/themes/default/_b.scss */
 .ui-btn-down-b {
   border: 1px solid #225377;
   background: #4e89c5;
@@ -260,12 +260,12 @@
   text-decoration: none;
 }
 
-/* line 99, ../src/themes/default/_b.scss */
+/* line 109, ../src/themes/default/_b.scss */
 .ui-btn-down-b a.ui-link-inherit {
   color: white;
 }
 
-/* line 103, ../src/themes/default/_b.scss */
+/* line 113, ../src/themes/default/_b.scss */
 .ui-btn-up-b, .ui-btn-hover-b, .ui-btn-down-b {
   font-family: Helvetica, Arial, sans-serif;
 }
