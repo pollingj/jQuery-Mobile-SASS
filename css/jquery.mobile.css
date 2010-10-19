@@ -2453,13 +2453,21 @@ input.ui-input-text, textarea.ui-input-text {
 /* line 1370, ../src/jquery.mobile.scss */
 textarea.ui-input-text {
   height: 50px;
-  -webkit-transition: height 200ms linear;
-  -moz-transition: height 200ms linear;
-  -o-transition: height 200ms linear;
-  transition: height 200ms linear;
+  -moz-transition-property: height;
+  -webkit-transition-property: height;
+  -o-transition-property: height;
+  transition-property: height;
+  -moz-transition-duration: 200ms;
+  -webkit-transition-duration: 200ms;
+  -o-transition-duration: 200ms;
+  transition-duration: 200ms;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
 }
 
-/* line 1378, ../src/jquery.mobile.scss */
+/* line 1375, ../src/jquery.mobile.scss */
 .ui-input-search {
   padding: 0 30px;
   width: 77%;
@@ -2468,7 +2476,7 @@ textarea.ui-input-text {
   position: relative;
 }
 
-/* line 1386, ../src/jquery.mobile.scss */
+/* line 1383, ../src/jquery.mobile.scss */
 .ui-input-search input.ui-input-text {
   border: none;
   width: 98%;
@@ -2479,7 +2487,7 @@ textarea.ui-input-text {
   outline: 0!important;
 }
 
-/* line 1396, ../src/jquery.mobile.scss */
+/* line 1393, ../src/jquery.mobile.scss */
 .ui-input-search .ui-input-clear {
   position: absolute;
   right: 2px;
@@ -2487,32 +2495,32 @@ textarea.ui-input-text {
   margin-top: -12px;
 }
 
-/* line 1403, ../src/jquery.mobile.scss */
+/* line 1400, ../src/jquery.mobile.scss */
 .ui-input-search .ui-input-clear-hidden {
   display: none;
 }
 
 /* orientation adjustments - incomplete!*/
 @media screen and (min-width:480px) {
-  /* line 1409, ../src/jquery.mobile.scss */
+  /* line 1406, ../src/jquery.mobile.scss */
   label.ui-input-text {
     vertical-align: top;
   }
 
-  /* line 1413, ../src/jquery.mobile.scss */
+  /* line 1410, ../src/jquery.mobile.scss */
   label.ui-input-text, label.ui-select {
     display: inline-block;
     width: 20%;
     margin: 0 2% 0 0;
   }
 
-  /* line 1419, ../src/jquery.mobile.scss */
+  /* line 1416, ../src/jquery.mobile.scss */
   input.ui-input-text, textarea.ui-input-text, .ui-input-search {
     width: 60%;
     display: inline-block;
   }
 
-  /* line 1424, ../src/jquery.mobile.scss */
+  /* line 1421, ../src/jquery.mobile.scss */
   .ui-input-search {
     width: 50%;
   }
@@ -2523,26 +2531,26 @@ textarea.ui-input-text {
 * Copyright (c) jQuery Project
 * Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
 */
-/* line 1435, ../src/jquery.mobile.scss */
+/* line 1432, ../src/jquery.mobile.scss */
 .ui-listview {
   margin: 0;
   counter-reset: listnumbering;
   margin: -15px;
 }
 
-/* line 1441, ../src/jquery.mobile.scss */
+/* line 1438, ../src/jquery.mobile.scss */
 .ui-listview-inset {
   margin: 1em 0;
 }
 
-/* line 1445, ../src/jquery.mobile.scss */
+/* line 1442, ../src/jquery.mobile.scss */
 .ui-listview, .ui-li {
   list-style: none;
   padding: 0;
   zoom: 1;
 }
 
-/* line 1451, ../src/jquery.mobile.scss */
+/* line 1448, ../src/jquery.mobile.scss */
 .ui-li {
   display: block;
   margin: 0;
@@ -2553,14 +2561,14 @@ textarea.ui-input-text {
   border-top-width: 1px;
 }
 
-/* line 1461, ../src/jquery.mobile.scss */
+/* line 1458, ../src/jquery.mobile.scss */
 .ui-li .ui-btn-text {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
 }
 
-/* line 1467, ../src/jquery.mobile.scss */
+/* line 1464, ../src/jquery.mobile.scss */
 .ui-li-divider, .ui-li-static {
   padding: .5em 15px;
   font-size: 14px;
@@ -2568,7 +2576,7 @@ textarea.ui-input-text {
   counter-reset: listnumbering;
 }
 
-/* line 1474, ../src/jquery.mobile.scss */
+/* line 1471, ../src/jquery.mobile.scss */
 ol.ui-listview .ui-link-inherit:before, .ui-li-dec {
   font-size: .8em;
   display: inline-block;
@@ -2578,43 +2586,43 @@ ol.ui-listview .ui-link-inherit:before, .ui-li-dec {
   content: counter(listnumbering) ". ";
 }
 
-/* line 1483, ../src/jquery.mobile.scss */
+/* line 1480, ../src/jquery.mobile.scss */
 ol.ui-listview .ui-li-jsnumbering:before {
   content: ""!important;
 }
 
 /* to avoid chance of duplication */
-/* line 1488, ../src/jquery.mobile.scss */
+/* line 1485, ../src/jquery.mobile.scss */
 .ui-listview-inset .ui-li {
   border-right-width: 1px;
   border-left-width: 1px;
 }
 
-/* line 1493, ../src/jquery.mobile.scss */
+/* line 1490, ../src/jquery.mobile.scss */
 .ui-li:last-child {
   border-bottom-width: 1px;
 }
 
-/* line 1497, ../src/jquery.mobile.scss */
+/* line 1494, ../src/jquery.mobile.scss */
 .ui-li .ui-btn-inner {
   display: block;
   position: relative;
   padding: .7em 75px .7em 15px;
 }
 
-/* line 1503, ../src/jquery.mobile.scss */
+/* line 1500, ../src/jquery.mobile.scss */
 .ui-li-has-thumb .ui-btn-inner {
   min-height: 60px;
   padding-left: 100px;
 }
 
-/* line 1508, ../src/jquery.mobile.scss */
+/* line 1505, ../src/jquery.mobile.scss */
 .ui-li-has-icon .ui-btn-inner {
   min-height: 20px;
   padding-left: 40px;
 }
 
-/* line 1513, ../src/jquery.mobile.scss */
+/* line 1510, ../src/jquery.mobile.scss */
 .ui-li-heading {
   font-size: 16px;
   font-weight: 700;
@@ -2625,7 +2633,7 @@ ol.ui-listview .ui-li-jsnumbering:before {
   white-space: nowrap;
 }
 
-/* line 1523, ../src/jquery.mobile.scss */
+/* line 1520, ../src/jquery.mobile.scss */
 .ui-li-desc {
   font-size: 12px;
   font-weight: 400;
@@ -2636,7 +2644,7 @@ ol.ui-listview .ui-li-jsnumbering:before {
   white-space: nowrap;
 }
 
-/* line 1533, ../src/jquery.mobile.scss */
+/* line 1530, ../src/jquery.mobile.scss */
 .ui-li-thumb, .ui-li-icon {
   position: absolute;
   left: 1px;
@@ -2645,7 +2653,7 @@ ol.ui-listview .ui-li-jsnumbering:before {
   max-width: 80px;
 }
 
-/* line 1541, ../src/jquery.mobile.scss */
+/* line 1538, ../src/jquery.mobile.scss */
 .ui-li-icon {
   max-height: 40px;
   max-width: 40px;
@@ -2653,13 +2661,13 @@ ol.ui-listview .ui-li-jsnumbering:before {
   top: .9em;
 }
 
-/* line 1548, ../src/jquery.mobile.scss */
+/* line 1545, ../src/jquery.mobile.scss */
 .ui-li-thumb, .ui-li-icon, .ui-li-content {
   float: left;
   margin-right: 10px;
 }
 
-/* line 1553, ../src/jquery.mobile.scss */
+/* line 1550, ../src/jquery.mobile.scss */
 .ui-li-aside {
   float: right;
   width: 25%;
@@ -2667,12 +2675,12 @@ ol.ui-listview .ui-li-jsnumbering:before {
   margin: .3em 0;
 }
 
-/* line 1560, ../src/jquery.mobile.scss */
+/* line 1557, ../src/jquery.mobile.scss */
 .ui-li-has-alt .ui-btn-inner {
   padding-right: 95px;
 }
 
-/* line 1564, ../src/jquery.mobile.scss */
+/* line 1561, ../src/jquery.mobile.scss */
 .ui-li-count {
   position: absolute;
   font-size: 11px;
@@ -2683,17 +2691,17 @@ ol.ui-listview .ui-li-jsnumbering:before {
   right: 38px;
 }
 
-/* line 1574, ../src/jquery.mobile.scss */
+/* line 1571, ../src/jquery.mobile.scss */
 .ui-li-divider .ui-li-count {
   right: 10px;
 }
 
-/* line 1578, ../src/jquery.mobile.scss */
+/* line 1575, ../src/jquery.mobile.scss */
 .ui-li-has-alt .ui-li-count {
   right: 55px;
 }
 
-/* line 1582, ../src/jquery.mobile.scss */
+/* line 1579, ../src/jquery.mobile.scss */
 .ui-li-link-alt {
   position: absolute;
   width: 40px;
@@ -2706,7 +2714,7 @@ ol.ui-listview .ui-li-jsnumbering:before {
   padding: 0;
 }
 
-/* line 1594, ../src/jquery.mobile.scss */
+/* line 1591, ../src/jquery.mobile.scss */
 .ui-li-link-alt .ui-btn {
   overflow: hidden;
   position: absolute;
@@ -2716,26 +2724,26 @@ ol.ui-listview .ui-li-jsnumbering:before {
   border-bottom-width: 1px;
 }
 
-/* line 1603, ../src/jquery.mobile.scss */
+/* line 1600, ../src/jquery.mobile.scss */
 .ui-li-link-alt .ui-btn-inner {
   padding: 0;
   position: static;
 }
 
-/* line 1608, ../src/jquery.mobile.scss */
+/* line 1605, ../src/jquery.mobile.scss */
 .ui-li-link-alt .ui-btn .ui-icon {
   right: 50%;
   margin-right: -9px;
 }
 
-/* line 1613, ../src/jquery.mobile.scss */
+/* line 1610, ../src/jquery.mobile.scss */
 .ui-listview-filter {
   border-width: 0;
   overflow: hidden;
   margin: -15px -15px 15px;
 }
 
-/* line 1619, ../src/jquery.mobile.scss */
+/* line 1616, ../src/jquery.mobile.scss */
 .ui-listview-filter .ui-input-search {
   margin: 5px;
   width: auto;
@@ -2747,23 +2755,23 @@ ol.ui-listview .ui-li-jsnumbering:before {
 * Copyright (c) jQuery Project
 * Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
 */
-/* line 1630, ../src/jquery.mobile.scss */
+/* line 1627, ../src/jquery.mobile.scss */
 label.ui-slider {
   display: block;
 }
 
-/* line 1634, ../src/jquery.mobile.scss */
+/* line 1631, ../src/jquery.mobile.scss */
 input.ui-slider-input {
   display: inline-block;
   width: 40px;
 }
 
-/* line 1639, ../src/jquery.mobile.scss */
+/* line 1636, ../src/jquery.mobile.scss */
 select.ui-slider-switch {
   display: none;
 }
 
-/* line 1643, ../src/jquery.mobile.scss */
+/* line 1640, ../src/jquery.mobile.scss */
 div.ui-slider {
   position: relative;
   display: inline-block;
@@ -2775,7 +2783,7 @@ div.ui-slider {
   width: 66%;
 }
 
-/* line 1654, ../src/jquery.mobile.scss */
+/* line 1651, ../src/jquery.mobile.scss */
 a.ui-slider-handle {
   position: absolute;
   z-index: 10;
@@ -2786,34 +2794,34 @@ a.ui-slider-handle {
   margin-left: -15px;
 }
 
-/* line 1664, ../src/jquery.mobile.scss */
+/* line 1661, ../src/jquery.mobile.scss */
 a.ui-slider-handle .ui-btn-inner {
   padding-left: 0;
   padding-right: 0;
 }
 
 @media screen and (min-width:480px) {
-  /* line 1670, ../src/jquery.mobile.scss */
+  /* line 1667, ../src/jquery.mobile.scss */
   label.ui-slider {
     display: inline-block;
     width: 20%;
     margin: 0 2% 0 0;
   }
 
-  /* line 1676, ../src/jquery.mobile.scss */
+  /* line 1673, ../src/jquery.mobile.scss */
   div.ui-slider {
     width: 45%;
   }
 }
 
-/* line 1682, ../src/jquery.mobile.scss */
+/* line 1679, ../src/jquery.mobile.scss */
 div.ui-slider-switch {
   height: 32px;
   overflow: hidden;
   margin-left: 0;
 }
 
-/* line 1688, ../src/jquery.mobile.scss */
+/* line 1685, ../src/jquery.mobile.scss */
 div.ui-slider-inneroffset {
   margin-left: 50%;
   position: absolute;
@@ -2822,12 +2830,23 @@ div.ui-slider-inneroffset {
   width: 50%;
 }
 
-/* line 1696, ../src/jquery.mobile.scss */
+/* line 1693, ../src/jquery.mobile.scss */
 div.ui-slider-handle-snapping {
-  -webkit-transition: left 100ms linear;
+  -moz-transition-property: left;
+  -webkit-transition-property: left;
+  -o-transition-property: left;
+  transition-property: left;
+  -moz-transition-duration: 100ms;
+  -webkit-transition-duration: 100ms;
+  -o-transition-duration: 100ms;
+  transition-duration: 100ms;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
 }
 
-/* line 1700, ../src/jquery.mobile.scss */
+/* line 1697, ../src/jquery.mobile.scss */
 div.ui-slider-labelbg {
   position: absolute;
   top: 0;
@@ -2835,31 +2854,31 @@ div.ui-slider-labelbg {
   border-width: 0;
 }
 
-/* line 1707, ../src/jquery.mobile.scss */
+/* line 1704, ../src/jquery.mobile.scss */
 div.ui-slider-switch div.ui-slider-labelbg-a {
   width: 60%;
   height: 100%;
   left: 0;
 }
 
-/* line 1713, ../src/jquery.mobile.scss */
+/* line 1710, ../src/jquery.mobile.scss */
 div.ui-slider-switch div.ui-slider-labelbg-b {
   width: 60%;
   height: 100%;
   right: 0;
 }
 
-/* line 1719, ../src/jquery.mobile.scss */
+/* line 1716, ../src/jquery.mobile.scss */
 .ui-slider-switch-a div.ui-slider-labelbg-a, .ui-slider-switch-b div.ui-slider-labelbg-b {
   z-index: 1;
 }
 
-/* line 1723, ../src/jquery.mobile.scss */
+/* line 1720, ../src/jquery.mobile.scss */
 .ui-slider-switch-a div.ui-slider-labelbg-b, .ui-slider-switch-b div.ui-slider-labelbg-a {
   z-index: 10;
 }
 
-/* line 1727, ../src/jquery.mobile.scss */
+/* line 1724, ../src/jquery.mobile.scss */
 div.ui-slider-switch a.ui-slider-handle {
   z-index: 20;
   width: 101%;
@@ -2868,7 +2887,7 @@ div.ui-slider-switch a.ui-slider-handle {
   margin-left: -101%;
 }
 
-/* line 1735, ../src/jquery.mobile.scss */
+/* line 1732, ../src/jquery.mobile.scss */
 span.ui-slider-label {
   width: 100%;
   position: absolute;
@@ -2880,13 +2899,13 @@ span.ui-slider-label {
   border-color: transparent;
 }
 
-/* line 1746, ../src/jquery.mobile.scss */
+/* line 1743, ../src/jquery.mobile.scss */
 span.ui-slider-label-a {
   left: -100%;
   margin-right: -1px;
 }
 
-/* line 1751, ../src/jquery.mobile.scss */
+/* line 1748, ../src/jquery.mobile.scss */
 span.ui-slider-label-b {
   right: -100%;
   margin-left: -1px;

@@ -1369,10 +1369,7 @@ input.ui-input-text,textarea.ui-input-text{
 
 textarea.ui-input-text{
 	height: 50px;
-	-webkit-transition: height 200ms linear;
-	-moz-transition: height 200ms linear;
-	-o-transition: height 200ms linear;
-	transition: height 200ms linear;
+	@include transition(height, 200ms, linear);
 }
 
 .ui-input-search{
@@ -1694,7 +1691,7 @@ div.ui-slider-inneroffset{
 }
 
 div.ui-slider-handle-snapping{
-	-webkit-transition: left 100ms linear;
+	@include transition(left, 100ms, linear);
 }
 
 div.ui-slider-labelbg{
