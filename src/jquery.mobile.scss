@@ -132,7 +132,7 @@ a.ui-link-inherit{
 }
 
 /* retina */
-@media screen and (-webkit-min-device-pixel-ratio:0), screen and (max--moz-device-pixel-ratio:2) {
+@media screen and (-webkit-min-device-pixel-ratio:2), screen and (max--moz-device-pixel-ratio:2) {
 	.ui-icon{
 		background-image: image-url("icons-36-white.png");
 		background-size: 558px 18px;
@@ -288,7 +288,16 @@ a.ui-link-inherit{
 }
 
 /* Overlays */
-.ui-overlay{
+.ui-overlay { background: #666; opacity: .5; filter:Alpha(Opacity=50); position: absolute;  width: 100%; height: 100%; }
+.ui-overlay-shadow {  -moz-box-shadow: 0px 0px 12px rgba(0,0,0,.6); -webkit-box-shadow: 0px 0px 12px rgba(0,0,0,.6); box-shadow: 0px 0px 12px rgba(0,0,0,.6); }
+
+.ui-shadow { -moz-box-shadow: 0px 1px 4px rgba(0,0,0,.3); -webkit-box-shadow: 0px 1px 4px rgba(0,0,0,.3); box-shadow: 0px 1px 4px rgba(0,0,0,.3); }
+.ui-bar-a .ui-shadow, .ui-bar-b .ui-shadow , .ui-bar-c .ui-shadow  { -moz-box-shadow: 0px 1px 0 rgba(255,255,255,.3); -webkit-box-shadow: 0px 1px 0 rgba(255,255,255,.3); box-shadow: 0px 1px 0 rgba(255,255,255,.3); }
+.ui-shadow-inset { -moz-box-shadow: inset 0px 1px 4px rgba(0,0,0,.2); -webkit-box-shadow: inset 0px 1px 4px rgba(0,0,0,.2); box-shadow: inset 0px 1px 4px rgba(0,0,0,.2); }
+.ui-icon-shadow { -moz-box-shadow: 0px 1px 0 rgba(255,255,255,.4); -webkit-box-shadow: 0px 1px 0 rgba(255,255,255,.4); box-shadow: 0px 1px 0 rgba(255,255,255,.4);  }
+
+
+/*.ui-overlay{
 	background: #666;
 	opacity: .5;
 	filter: Alpha(Opacity=50);
@@ -315,7 +324,9 @@ a.ui-link-inherit{
 
 .ui-icon-shadow{
 	@include box-shadow(rgba(255,255,255,.4), 0, 1px, 0);
-}
+}*/
+
+
 
 /* set focus state last */
 .ui-focus{
