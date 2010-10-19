@@ -33,3 +33,98 @@ $b-btn-down-foreground-color: #fff;
 $b-btn-down-link-color: #fff;
 $b-btn-down-text-shadow-color: #225377;
 
+// fonts
+$b-font-family: $base-font-family;
+
+.ui-bar-b{
+	@include ui-bar($b-bar-border-color, $b-bar-background-color, $b-bar-foreground-color, 0 -1px 1px $b-bar-text-shadow-color, #81a8ce, #5e87b0, bold);
+}
+
+.ui-bar-b,.ui-bar-b input,.ui-bar-b select,.ui-bar-b textarea,.ui-bar-b button{
+	font-family: $b-font-family;
+}
+
+.ui-bar-b .ui-link-inherit{
+	color: $b-bar-foreground-color;
+}
+
+.ui-bar-b .ui-link{
+	color: $b-bar-link-color;
+	font-weight: 700;
+}
+
+.ui-body-b{
+	border: 1px solid $b-body-border-color;
+	background: $b-body-background-color;
+	color: $b-body-foreground-color;
+	text-shadow: 0 1px 0 $b-body-text-shadow-color;
+	font-weight: 400;
+	background-image: 0;
+	background-image: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e6e6e6', EndColorStr='#cccccc')";
+}
+
+.ui-body-b,.ui-body-b input,.ui-body-b select,.ui-body-b textarea,.ui-body-b button{
+	font-family: $b-font-family;
+}
+
+.ui-body-b .ui-link-inherit{
+	color: $b-body-foreground-color;
+}
+
+.ui-body-b .ui-link{
+	color: $b-body-link-color;
+	font-weight: 700;
+}
+
+.ui-btn-up-b{
+	border: 1px solid $b-btn-up-border-color;
+	background: $b-btn-up-background-color;
+	font-weight: 700;
+	color: $b-btn-up-foreground-color;
+	cursor: pointer;
+	text-shadow: 0 -1px 1px $b-btn-up-text-shadow-color;
+	text-decoration: none;
+	background-image: 0;
+	background-image: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#4e89c5', EndColorStr='#2567ab')";
+}
+
+.ui-btn-up-b a.ui-link-inherit{
+	color: $b-btn-up-link-color;
+}
+
+.ui-btn-hover-b{
+	border: 1px solid $b-btn-hover-border-color;
+	background: $b-btn-hover-background-color;
+	font-weight: 700;
+	color: $b-btn-hover-foreground-color;
+	text-shadow: 0 -1px 1px $b-btn-hover-text-shadow-color;
+	background-image: 0;
+	text-decoration: none;
+	background-image: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#71a2d0', EndColorStr='#397cbe')";
+}
+
+.ui-btn-hover-b a.ui-link-inherit{
+	color: $b-btn-hover-link-color;
+}
+
+.ui-btn-down-b{
+	border: 1px solid $b-btn-down-border-color;
+	background: $b-btn-down-background-color;
+	font-weight: 700;
+	color: $b-btn-down-foreground-color;
+	text-shadow: 0 -1px 1px $b-btn-down-text-shadow-color;
+	background-image: 0;
+	background-image: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#396b9e', EndColorStr='#4e89c5')";
+}
+
+.ui-btn-down-b a.ui-link-inherit{
+	color: $b-btn-down-link-color;
+}
+
+.ui-btn-up-b,.ui-btn-hover-b,.ui-btn-down-b{
+	font-family: $b-font-family;
+}

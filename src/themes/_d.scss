@@ -33,3 +33,108 @@ $d-btn-down-foreground-color: #111;
 $d-btn-down-link-color: #111;
 $d-btn-down-text-shadow-color: #fff;
 
+// fonts
+$d-font-family: $base-font-family;
+
+.ui-bar-d{
+	@include ui-bar($d-bar-border-color, $d-bar-background-color, $d-bar-foreground-color, 0 1px 0 $d-bar-text-shadow-color, #ddd, #bbb);
+}
+
+.ui-bar-d{
+	border: 1px solid $d-bar-border-color;
+	background: $d-bar-background-color;
+	color: $d-bar-foreground-color;
+	text-shadow: 0 1px 0 $d-bar-text-shadow-color;
+	background-image: 0;
+	background-image: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ddd', EndColorStr='#bbb')";
+}
+
+.ui-bar-d,.ui-bar-d input,.ui-bar-d select,.ui-bar-d textarea,.ui-bar-d button{
+	font-family: $d-font-family;
+}
+
+.ui-bar-d .ui-link-inherit{
+	color: $d-bar-foreground-color;
+}
+
+.ui-bar-d .ui-link{
+	color: $d-bar-link-color;
+	font-weight: 700;
+}
+
+.ui-body-d{
+	border: 1px solid $d-body-border-color;
+	color: $d-body-foreground-color;
+	text-shadow: 0 1px 0 $d-body-text-shadow-color;
+	background: $d-body-background-color;
+}
+
+.ui-body-d,.ui-body-d input,.ui-body-d select,.ui-body-d textarea,.ui-body-d button{
+	font-family: $d-font-family;
+}
+
+.ui-body-d .ui-link-inherit{
+	color: $d-body-foreground-color;
+}
+
+.ui-body-d .ui-link{
+	color: $d-body-link-color;
+	font-weight: 700;
+}
+
+.ui-btn-up-d{
+	border: 1px solid $d-btn-up-border-color;
+	background: $d-btn-up-background-color;
+	font-weight: 700;
+	color: $d-btn-up-foreground-color;
+	text-decoration: none;
+	text-shadow: 0 1px 1px $d-btn-up-text-shadow-color;
+}
+
+.ui-btn-up-d a.ui-link-inherit{
+	color: $d-btn-up-link-color;
+}
+
+.ui-btn-hover-d{
+	border: 1px solid $d-btn-hover-border-color;
+	background: $d-btn-hover-background-color;
+	font-weight: 700;
+	color: $d-btn-hover-foreground-color;
+	cursor: pointer;
+	text-shadow: 0 1px 1px $d-btn-hover-text-shadow-color;
+	text-decoration: none;
+	background-image: 0;
+	background-image: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fdfdfd', EndColorStr='#eeeeee')";
+}
+
+.ui-btn-hover-d a.ui-link-inherit{
+	color: $d-btn-hover-link-color;
+}
+
+.ui-btn-down-d{
+	border: 1px solid $d-btn-down-border-color;
+	background: $d-btn-down-background-color;
+	font-weight: 700;
+	color: $d-btn-down-foreground-color;
+	text-shadow: 0 1px 1px $d-btn-down-text-shadow-color;
+	background-image: 0;
+	background-image: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#ffffff')";
+}
+
+.ui-btn-down-d a.ui-link-inherit{
+	border: 1px solid gray;
+	background: #ced0d2;
+	font-weight: 700;
+	color: $d-btn-down-link-color;
+	text-shadow: none;
+	background-image: 0;
+	background-image: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#cccccc', EndColorStr='#eeeeee')";
+}
+
+.ui-btn-up-d,.ui-btn-hover-d,.ui-btn-down-d{
+	font-family: $d-font-family;
+}
