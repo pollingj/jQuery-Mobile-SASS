@@ -19,7 +19,7 @@
 	
 	- swatch "a" is the highest level of visual priority (black in the default theme)
 */
-/* line 42, ../src/themes/default/_a.scss */
+/* line 52, ../src/themes/default/_a.scss */
 .ui-bar-a {
   border: 1px solid #2a2a2a;
   background: #111111;
@@ -32,23 +32,23 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#3c3c3c', EndColorStr='#111111')";
 }
 
-/* line 46, ../src/themes/default/_a.scss */
+/* line 56, ../src/themes/default/_a.scss */
 .ui-bar-a, .ui-bar-a input, .ui-bar-a select, .ui-bar-a textarea, .ui-bar-a button {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* line 50, ../src/themes/default/_a.scss */
+/* line 60, ../src/themes/default/_a.scss */
 .ui-bar-a .ui-link-inherit {
   color: white;
 }
 
-/* line 54, ../src/themes/default/_a.scss */
+/* line 64, ../src/themes/default/_a.scss */
 .ui-bar-a .ui-link {
   color: #7cc4e7;
   font-weight: 700;
 }
 
-/* line 60, ../src/themes/default/_a.scss */
+/* line 70, ../src/themes/default/_a.scss */
 .ui-body-a {
   border: 1px solid #2a2a2a;
   background: #222222;
@@ -61,23 +61,23 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#666666', EndColorStr='#222222')";
 }
 
-/* line 64, ../src/themes/default/_a.scss */
+/* line 74, ../src/themes/default/_a.scss */
 .ui-body-a, .ui-body-a input, .ui-body-a select, .ui-body-a textarea, .ui-body-a button {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* line 68, ../src/themes/default/_a.scss */
+/* line 78, ../src/themes/default/_a.scss */
 .ui-body-a .ui-link-inherit {
   color: white;
 }
 
-/* line 72, ../src/themes/default/_a.scss */
+/* line 82, ../src/themes/default/_a.scss */
 .ui-body-a .ui-link {
   color: #2489ce;
   font-weight: 700;
 }
 
-/* line 78, ../src/themes/default/_a.scss */
+/* line 88, ../src/themes/default/_a.scss */
 .ui-btn-up-a {
   border: 1px solid #222222;
   background: #333333;
@@ -92,12 +92,12 @@
   text-decoration: none;
 }
 
-/* line 82, ../src/themes/default/_a.scss */
+/* line 92, ../src/themes/default/_a.scss */
 .ui-btn-up-a a.ui-link-inherit {
   color: white;
 }
 
-/* line 86, ../src/themes/default/_a.scss */
+/* line 96, ../src/themes/default/_a.scss */
 .ui-btn-hover-a {
   border: 1px solid black;
   background: #444444;
@@ -112,12 +112,12 @@
   text-decoration: none;
 }
 
-/* line 90, ../src/themes/default/_a.scss */
+/* line 100, ../src/themes/default/_a.scss */
 .ui-btn-hover-a a.ui-link-inherit {
   color: white;
 }
 
-/* line 94, ../src/themes/default/_a.scss */
+/* line 104, ../src/themes/default/_a.scss */
 .ui-btn-down-a {
   border: 1px solid black;
   background: #444444;
@@ -132,12 +132,12 @@
   text-decoration: none;
 }
 
-/* line 98, ../src/themes/default/_a.scss */
+/* line 108, ../src/themes/default/_a.scss */
 .ui-btn-down-a a.ui-link-inherit {
   color: white;
 }
 
-/* line 102, ../src/themes/default/_a.scss */
+/* line 112, ../src/themes/default/_a.scss */
 .ui-btn-up-a, .ui-btn-hover-a, .ui-btn-down-a {
   font-family: Helvetica, Arial, sans-serif;
 }
