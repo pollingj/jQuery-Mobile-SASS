@@ -1,0 +1,22 @@
+@mixin ui-bar-body($border-color, $background-color, $foreground-color, $text-shadow, $ms-filter-start-color = nil, $ms-filter-end-color = nil, $font-weight = nil)
+{
+	border: 1px solid $border-color;
+	background: $background-color;
+	color: $foreground-color;
+	@if $font-weight != nil {
+		font-weight: $font-weight;
+	}
+	text-shadow: $text-shadow;
+	background-image: 0;
+	
+	@if $ms-filter-start-color != nil and $ms-filter-end-color != nil {
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='" + $ms-filter-start-color + "', EndColorStr='" + $ms-filter-end-color + "')";
+	}
+}
+
+@mixin ui-button($border-color, $background-color, $foreground-color, $text-shadow, $ms-filter-start-color = nil, $ms-filter-end-color = nil, $font-weight = nil)
+{
+	@include ui-bar-body($border-color, $background-color, $foreground-color, $text-shadow, $ms-filter-start-color, $ms-filter-end-color, $font-weight);
+	cursor: pointer;
+	text-decoration: none;	
+}
