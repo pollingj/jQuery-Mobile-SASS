@@ -4,10 +4,17 @@ This is currently for the Alpha release of jQuery Mobile.  It will be updated as
 
 Where possible the theme elements have been kept inline with the jQuery Mobile rules, so that maintenance of rules in the future will be simple and also makes users new to this project find the cross over easy.
 
-NOTE
-----
-Using git-flow to have a consistent usage of git
+WORK DONE SO FAR
+----------------
+* The themes have been separated out into partials
+* Themes have been tidied a bit with mixins, whilst keeping the basic jQuery Mobile rules in place
+* Compass has been brought in to remove as much maintenance of vendor specific css
 
 TODO
 ----
-Need to convert the non-theme rules
+* More tidying of non-theme related rules.  e.g. better use of mixins and variables
+* Add more customisation of theme options. So far only done what is required for own projects 
+
+NOTE
+----
+Using git-flow to have a consistent usage of git
