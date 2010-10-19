@@ -14,6 +14,8 @@
 */
 /* theme bar,body,btn containers
 ----------------------------------*/
+@import "compass/css3";
+
 @import "themes/base_styles";
 @import "themes/mixins";
 @import "themes/a";
@@ -21,9 +23,6 @@
 @import "themes/c";
 @import "themes/d";
 @import "themes/e";
-
-@import "compass/css3";
-
 
 .ui-br{
 	border-bottom: 1px solid rgba(130,130,130,.3);

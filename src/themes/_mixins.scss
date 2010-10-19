@@ -1,4 +1,4 @@
-@mixin ui-bar-body($border-color, $background-color, $foreground-color, $text-shadow, $ms-filter-start-color = nil, $ms-filter-end-color = nil, $font-weight = nil)
+@mixin ui-bar-body($border-color, $background-color, $foreground-color, $text-shadow, $gradient-start-background-color = nil, $gradient-end-background-color = nil, $font-weight = nil)
 {
 	border: 1px solid $border-color;
 	background: $background-color;
@@ -7,16 +7,15 @@
 		font-weight: $font-weight;
 	}
 	text-shadow: $text-shadow;
-	background-image: 0;
-	
-	@if $ms-filter-start-color != nil and $ms-filter-end-color != nil {
-		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='" + $ms-filter-start-color + "', EndColorStr='" + $ms-filter-end-color + "')";
+	@if $gradient-start-background-color != nil and $gradient-end-background-color != nil {
+		@include linear-gradient(color-stops($gradient-start-background-color, $gradient-end-background-color));
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='" + $gradient-start-background-color + "', EndColorStr='" + $gradient-end-background-color + "')";
 	}
 }
 
-@mixin ui-button($border-color, $background-color, $foreground-color, $text-shadow, $ms-filter-start-color = nil, $ms-filter-end-color = nil, $font-weight = nil)
+@mixin ui-button($border-color, $background-color, $foreground-color, $text-shadow, $gradient-start-background-color = nil, $gradient-end-background-color = nil, $font-weight = nil)
 {
-	@include ui-bar-body($border-color, $background-color, $foreground-color, $text-shadow, $ms-filter-start-color, $ms-filter-end-color, $font-weight);
+	@include ui-bar-body($border-color, $background-color, $foreground-color, $text-shadow, $gradient-start-background-color, $gradient-end-background-color, $font-weight);
 	cursor: pointer;
 	text-decoration: none;	
 }
