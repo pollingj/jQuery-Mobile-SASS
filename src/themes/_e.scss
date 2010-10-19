@@ -36,6 +36,7 @@ $e-btn-down-text-shadow-color: #fff;
 // fonts
 $e-font-family: $base-font-family;
 
+// Bar styling
 .ui-bar-e{
 	@include ui-bar-body($e-bar-border-color, $e-bar-background-color, $e-bar-foreground-color, 0 1px 0 $e-bar-text-shadow-color, #fceda7, #fadb4e);
 }
@@ -53,6 +54,7 @@ $e-font-family: $base-font-family;
 	font-weight: 700;
 }
 
+// Body styling
 .ui-body-e{
 	@include ui-bar-body($e-body-border-color, $e-body-background-color, $e-body-foreground-color, 0 1px 0 $e-body-text-shadow-color, #fff, #faeb9e);
 }
@@ -70,17 +72,9 @@ $e-font-family: $base-font-family;
 	font-weight: 700;
 }
 
+// Button styling
 .ui-btn-up-e{
-	border: 1px solid $e-btn-up-border-color;
-	background: $e-btn-up-background-color;
-	font-weight: 700;
-	color: $e-btn-up-foreground-color;
-	cursor: pointer;
-	text-decoration: none;
-	text-shadow: 0 1px 0 $e-btn-up-text-shadow-color;
-	background-image: 0;
-	background-image: 0;
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fceda7', EndColorStr='#fadb4e')";
+	@include ui-button($e-btn-up-border-color, $e-btn-up-background-color, $e-btn-up-foreground-color, 0 1px 0 $e-btn-up-text-shadow-color, #fceda7, #fadb4e, 700);
 }
 
 .ui-btn-up-e a.ui-link-inherit{
@@ -88,15 +82,7 @@ $e-font-family: $base-font-family;
 }
 
 .ui-btn-hover-e{
-	border: 1px solid $e-btn-hover-border-color;
-	background: $e-btn-hover-background-color;
-	font-weight: 700;
-	color: $e-btn-hover-foreground-color;
-	text-decoration: none;
-	text-shadow: 0 1px 1px $e-btn-hover-text-shadow-color;
-	background-image: 0;
-	background-image: 0;
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fcf0b5', EndColorStr='#fbe26f')";
+	@include ui-button($e-btn-hover-border-color, $e-btn-hover-background-color, $e-btn-hover-foreground-color, 0 1px 1px $e-btn-up-text-shadow-color, #fcf0b5, #fbe26f, 700);
 }
 
 .ui-btn-hover-e a.ui-link-inherit{
@@ -104,14 +90,7 @@ $e-font-family: $base-font-family;
 }
 
 .ui-btn-down-e{
-	border: 1px solid $e-btn-down-border-color;
-	background: $e-btn-down-background-color;
-	font-weight: 700;
-	color: $e-btn-down-foreground-color;
-	text-shadow: 0 1px 1px $e-btn-down-text-shadow-color;
-	background-image: 0;
-	background-image: 0;
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fadb4e', EndColorStr='#fceda7')";
+	@include ui-button($e-btn-down-border-color, $e-btn-down-background-color, $e-btn-down-foreground-color, 0 1px 1px $e-btn-down-text-shadow-color, #fadb4e, #fceda7, 700);
 }
 
 .ui-btn-down-e a.ui-link-inherit{

@@ -24,6 +24,10 @@
 
 
 // TODO: Clean all these styles up
+.ui-br{
+	border-bottom: 1px solid rgba(130,130,130,.3);
+}
+
 /* links within "buttons" */
 a.ui-link-inherit{
 	text-decoration: none!important;

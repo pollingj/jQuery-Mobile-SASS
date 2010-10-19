@@ -36,6 +36,7 @@ $d-btn-down-text-shadow-color: #fff;
 // fonts
 $d-font-family: $base-font-family;
 
+// Bar styling
 .ui-bar-d{
 	@include ui-bar-body($d-bar-border-color, $d-bar-background-color, $d-bar-foreground-color, 0 1px 0 $d-bar-text-shadow-color, #ddd, #bbb);
 }
@@ -53,6 +54,7 @@ $d-font-family: $base-font-family;
 	font-weight: 700;
 }
 
+// Body styling
 .ui-body-d{
 	@include ui-bar-body($d-body-border-color, $d-body-background-color, $d-body-foreground-color, 0 1px 0 $d-body-text-shadow-color);
 }
@@ -70,13 +72,9 @@ $d-font-family: $base-font-family;
 	font-weight: 700;
 }
 
+// Button styling
 .ui-btn-up-d{
-	border: 1px solid $d-btn-up-border-color;
-	background: $d-btn-up-background-color;
-	font-weight: 700;
-	color: $d-btn-up-foreground-color;
-	text-decoration: none;
-	text-shadow: 0 1px 1px $d-btn-up-text-shadow-color;
+	@include ui-button($d-btn-up-border-color, $d-btn-up-background-color, $d-btn-up-foreground-color, 0 1px 1px $d-btn-up-text-shadow-color, nil, nil, 700);
 }
 
 .ui-btn-up-d a.ui-link-inherit{
@@ -84,16 +82,7 @@ $d-font-family: $base-font-family;
 }
 
 .ui-btn-hover-d{
-	border: 1px solid $d-btn-hover-border-color;
-	background: $d-btn-hover-background-color;
-	font-weight: 700;
-	color: $d-btn-hover-foreground-color;
-	cursor: pointer;
-	text-shadow: 0 1px 1px $d-btn-hover-text-shadow-color;
-	text-decoration: none;
-	background-image: 0;
-	background-image: 0;
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fdfdfd', EndColorStr='#eeeeee')";
+	@include ui-button($d-btn-hover-border-color, $d-btn-hover-background-color, $d-btn-hover-foreground-color, 0 1px 1px $d-btn-hover-text-shadow-color, #fdfdfd, #eee, 700);
 }
 
 .ui-btn-hover-d a.ui-link-inherit{
@@ -101,25 +90,11 @@ $d-font-family: $base-font-family;
 }
 
 .ui-btn-down-d{
-	border: 1px solid $d-btn-down-border-color;
-	background: $d-btn-down-background-color;
-	font-weight: 700;
-	color: $d-btn-down-foreground-color;
-	text-shadow: 0 1px 1px $d-btn-down-text-shadow-color;
-	background-image: 0;
-	background-image: 0;
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#ffffff')";
+	@include ui-button($d-btn-down-border-color, $d-btn-down-background-color, $d-btn-down-foreground-color, 0 1px 1px $d-btn-down-text-shadow-color, #eee, #fff, 700);
 }
 
 .ui-btn-down-d a.ui-link-inherit{
-	border: 1px solid gray;
-	background: #ced0d2;
-	font-weight: 700;
-	color: $d-btn-down-link-color;
-	text-shadow: none;
-	background-image: 0;
-	background-image: 0;
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#cccccc', EndColorStr='#eeeeee')";
+	@include ui-button(gray, #ced0d2, $d-btn-down-link-color, none, #ccc, #eee, 700);
 }
 
 .ui-btn-up-d,.ui-btn-hover-d,.ui-btn-down-d{

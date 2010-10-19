@@ -36,6 +36,7 @@ $a-btn-down-text-shadow-color: #000;
 // fonts
 $a-font-family: $base-font-family;
 
+// Bar styling
 .ui-bar-a{
 	@include ui-bar-body($a-bar-border-color, $a-bar-background-color, $a-bar-foreground-color, 0 -1px 1px $a-bar-text-shadow-color, #3c3c3c, #111111, bold);
 }
@@ -53,6 +54,7 @@ $a-font-family: $base-font-family;
 	font-weight: 700;
 }
 
+// Body styling
 .ui-body-a{
 	@include ui-bar-body($a-body-border-color, $a-body-background-color, $a-body-foreground-color, 0 1px 0 $a-body-text-shadow-color, #666666, #222222, 400);
 }
@@ -70,21 +72,9 @@ $a-font-family: $base-font-family;
 	font-weight: 700;
 }
 
-.ui-br{
-	border-bottom: 1px solid rgba(130,130,130,.3);
-}
-
+// Button styling
 .ui-btn-up-a{
-	border: 1px solid $a-btn-up-border-color;
-	background: $a-btn-up-background-color;
-	font-weight: 700;
-	color: $a-btn-up-foreground-color;
-	cursor: pointer;
-	text-shadow: 0 -1px 1px $a-btn-up-text-shadow-color;
-	text-decoration: none;
-	background-image: 0;
-	background-image: 0;
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#555555', EndColorStr='#333333')";
+	@include ui-button($a-btn-up-border-color, $a-btn-up-background-color, $a-btn-up-foreground-color, 0 -1px 1px $a-btn-up-text-shadow-color, #555, #333, 700);
 }
 
 .ui-btn-up-a a.ui-link-inherit{
@@ -92,15 +82,7 @@ $a-font-family: $base-font-family;
 }
 
 .ui-btn-hover-a{
-	border: 1px solid $a-btn-hover-border-color;
-	background: $a-btn-hover-background-color;
-	font-weight: 700;
-	color: $a-btn-hover-foreground-color;
-	text-shadow: 0 -1px 1px $a-btn-hover-text-shadow-color;
-	text-decoration: none;
-	background-image: 0;
-	background-image: 0;
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#666666', EndColorStr='#444444')";
+	@include ui-button($a-btn-hover-border-color, $a-btn-hover-background-color, $a-btn-hover-foreground-color, 0 -1px 1px $a-btn-hover-text-shadow-color, #666, #444, 700);
 }
 
 .ui-btn-hover-a a.ui-link-inherit{
@@ -108,14 +90,7 @@ $a-font-family: $base-font-family;
 }
 
 .ui-btn-down-a{
-	border: 1px solid $a-btn-down-border-color;
-	background: #3d3d3d;
-	font-weight: 700;
-	color: $a-btn-down-foreground-color;
-	text-shadow: 0 -1px 1px $a-btn-down-text-shadow-color;
-	background-image: 0;
-	background-image: 0;
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#333333', EndColorStr='#5a5a5a')";
+	@include ui-button($a-btn-down-border-color, $a-btn-down-background-color, $a-btn-down-foreground-color, 0 -1px 1px $a-btn-down-text-shadow-color, #333, #5a5a5a, 700);
 }
 
 .ui-btn-down-a a.ui-link-inherit{

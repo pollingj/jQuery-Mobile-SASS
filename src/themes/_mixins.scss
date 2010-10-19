@@ -13,3 +13,10 @@
 		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='" + $ms-filter-start-color + "', EndColorStr='" + $ms-filter-end-color + "')";
 	}
 }
+
+@mixin ui-button($border-color, $background-color, $foreground-color, $text-shadow, $ms-filter-start-color = nil, $ms-filter-end-color = nil, $font-weight = nil)
+{
+	@include ui-bar-body($border-color, $background-color, $foreground-color, $text-shadow, $ms-filter-start-color, $ms-filter-end-color, $font-weight);
+	cursor: pointer;
+	text-decoration: none;	
+}
