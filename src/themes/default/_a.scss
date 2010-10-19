@@ -10,37 +10,47 @@ $a-bar-border-color: #2A2A2A;
 $a-bar-foreground-color: #fff;
 $a-bar-link-color: #7cc4e7;
 $a-bar-text-shadow-color: #000;
+$a-bar-gradient-start-background-color: #3c3c3c;
+$a-bar-gradient-end-background-color: #111;
 
 $a-body-background-color: #222;
 $a-body-border-color: #2A2A2A;
 $a-body-foreground-color: #fff; 
 $a-body-link-color: #2489CE;
 $a-body-text-shadow-color: #000;
+$a-body-gradient-start-background-color: #666;
+$a-body-gradient-end-background-color: #222;
 
 $a-btn-up-background-color: #333;
 $a-btn-up-border-color: #222;
 $a-btn-up-foreground-color: #fff;
 $a-btn-up-link-color: #fff;
 $a-btn-up-text-shadow-color: #000;
+$a-btn-up-gradient-start-background-color: #555;
+$a-btn-up-gradient-end-background-color: #333;
 
 $a-btn-hover-background-color: #444;
 $a-btn-hover-border-color: #000;
 $a-btn-hover-foreground-color: #fff;
 $a-btn-hover-link-color: #fff;
 $a-btn-hover-text-shadow-color: #000;
+$a-btn-hover-gradient-start-background-color: #666;
+$a-btn-hover-gradient-end-background-color: #444;
 
 $a-btn-down-background-color: #444;
 $a-btn-down-border-color: #000;
 $a-btn-down-foreground-color: #fff;
 $a-btn-down-link-color: #fff;
 $a-btn-down-text-shadow-color: #000;
+$a-btn-down-gradient-start-background-color: #333;
+$a-btn-down-gradient-end-background-color: #5a5a5a;
 
 // fonts
 $a-font-family: $base-font-family;
 
 // Bar styling
 .ui-bar-a{
-	@include ui-bar-body($a-bar-border-color, $a-bar-background-color, $a-bar-foreground-color, 0 -1px 1px $a-bar-text-shadow-color, #3c3c3c, #111111, bold);
+	@include ui-bar-body($a-bar-border-color, $a-bar-background-color, $a-bar-foreground-color, 0 -1px 1px $a-bar-text-shadow-color, $a-bar-gradient-start-background-color, $a-bar-gradient-end-background-color, bold);
 }
 
 .ui-bar-a,.ui-bar-a input,.ui-bar-a select,.ui-bar-a textarea,.ui-bar-a button{
@@ -58,7 +68,7 @@ $a-font-family: $base-font-family;
 
 // Body styling
 .ui-body-a{
-	@include ui-bar-body($a-body-border-color, $a-body-background-color, $a-body-foreground-color, 0 1px 0 $a-body-text-shadow-color, #666666, #222222, 400);
+	@include ui-bar-body($a-body-border-color, $a-body-background-color, $a-body-foreground-color, 0 1px 0 $a-body-text-shadow-color, $a-body-gradient-start-background-color, $a-body-gradient-end-background-color, 400);
 }
 
 .ui-body-a,.ui-body-a input,.ui-body-a select,.ui-body-a textarea,.ui-body-a button{
@@ -76,7 +86,7 @@ $a-font-family: $base-font-family;
 
 // Button styling
 .ui-btn-up-a{
-	@include ui-button($a-btn-up-border-color, $a-btn-up-background-color, $a-btn-up-foreground-color, 0 -1px 1px $a-btn-up-text-shadow-color, #555, #333, 700);
+	@include ui-button($a-btn-up-border-color, $a-btn-up-background-color, $a-btn-up-foreground-color, 0 -1px 1px $a-btn-up-text-shadow-color, $a-btn-up-gradient-start-background-color, $a-btn-up-gradient-end-background-color, 700);
 }
 
 .ui-btn-up-a a.ui-link-inherit{
@@ -84,7 +94,7 @@ $a-font-family: $base-font-family;
 }
 
 .ui-btn-hover-a{
-	@include ui-button($a-btn-hover-border-color, $a-btn-hover-background-color, $a-btn-hover-foreground-color, 0 -1px 1px $a-btn-hover-text-shadow-color, #666, #444, 700);
+	@include ui-button($a-btn-hover-border-color, $a-btn-hover-background-color, $a-btn-hover-foreground-color, 0 -1px 1px $a-btn-hover-text-shadow-color, $a-btn-hover-gradient-start-background-color, $a-btn-hover-gradient-end-background-color, 700);
 }
 
 .ui-btn-hover-a a.ui-link-inherit{
@@ -92,7 +102,7 @@ $a-font-family: $base-font-family;
 }
 
 .ui-btn-down-a{
-	@include ui-button($a-btn-down-border-color, $a-btn-down-background-color, $a-btn-down-foreground-color, 0 -1px 1px $a-btn-down-text-shadow-color, #333, #5a5a5a, 700);
+	@include ui-button($a-btn-down-border-color, $a-btn-down-background-color, $a-btn-down-foreground-color, 0 -1px 1px $a-btn-down-text-shadow-color, $a-btn-down-gradient-start-background-color, $a-btn-down-gradient-end-background-color, 700);
 }
 
 .ui-btn-down-a a.ui-link-inherit{
