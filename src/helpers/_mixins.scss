@@ -1,6 +1,6 @@
-@mixin ui-bar-body($border-color, $background-color, $foreground-color, $text-shadow, $gradient-start-background-color = nil, $gradient-end-background-color = nil, $font-weight = nil)
+@mixin ui-bar-body($border-color, $background-color, $foreground-color, $text-shadow, $gradient-start-background-color: nil, $gradient-end-background-color: nil, $font-weight: nil, $border-width: 1px)
 {
-	border: 1px solid $border-color;
+	border: $border-width solid $border-color;
 	background: $background-color;
 	color: $foreground-color;
 	@if $font-weight != nil {
@@ -13,7 +13,7 @@
 	}
 }
 
-@mixin ui-button($border-color, $background-color, $foreground-color, $text-shadow, $gradient-start-background-color = nil, $gradient-end-background-color = nil, $font-weight = nil)
+@mixin ui-button($border-color, $background-color, $foreground-color, $text-shadow, $gradient-start-background-color: nil, $gradient-end-background-color: nil, $font-weight: nil, $border-with: 1px)
 {
 	@include ui-bar-body($border-color, $background-color, $foreground-color, $text-shadow, $gradient-start-background-color, $gradient-end-background-color, $font-weight);
 	cursor: pointer;
