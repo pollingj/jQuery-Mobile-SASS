@@ -1,0 +1,217 @@
+/*
+* jQuery Mobile Framework
+* Copyright (c) jQuery Project
+* Dual licensed under the MIT (MIT-LICENSE.txt) or GPL (GPL-LICENSE.txt) licenses.
+*/
+
+.spin {
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite; }
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg); } }
+
+
+/* Transitions from jQtouch (with small modifications): http://www.jqtouch.com/
+Built by David Kaneda and maintained by Jonathan Stark.
+*/
+
+.in, .out {
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-duration: 350ms; }
+
+.slide {
+  &.in {
+    -webkit-animation-name: slideinfromright; }
+  &.out {
+    -webkit-animation-name: slideouttoleft; }
+  &.in.reverse {
+    -webkit-animation-name: slideinfromleft; }
+  &.out.reverse {
+    -webkit-animation-name: slideouttoright; } }
+
+.slideup {
+  &.in {
+    -webkit-animation-name: slideinfrombottom;
+    z-index: 10; }
+  &.out {
+    -webkit-animation-name: dontmove;
+    z-index: 0;
+    &.reverse {
+      z-index: 10;
+      -webkit-animation-name: slideouttobottom; } }
+  &.in.reverse {
+    z-index: 0;
+    -webkit-animation-name: dontmove; } }
+
+.slidedown {
+  &.in {
+    -webkit-animation-name: slideinfromtop;
+    z-index: 10; }
+  &.out {
+    -webkit-animation-name: dontmove;
+    z-index: 0;
+    &.reverse {
+      z-index: 10;
+      -webkit-animation-name: slideouttotop; } }
+  &.in.reverse {
+    z-index: 0;
+    -webkit-animation-name: dontmove; } }
+
+@-webkit-keyframes slideinfromright {
+  from {
+    -webkit-transform: translateX(100%); }
+  to {
+    -webkit-transform: translateX(0); } }
+
+
+@-webkit-keyframes slideinfromleft {
+  from {
+    -webkit-transform: translateX(-100%); }
+  to {
+    -webkit-transform: translateX(0); } }
+
+
+@-webkit-keyframes slideouttoleft {
+  from {
+    -webkit-transform: translateX(0); }
+  to {
+    -webkit-transform: translateX(-100%); } }
+
+
+@-webkit-keyframes slideouttoright {
+  from {
+    -webkit-transform: translateX(0); }
+  to {
+    -webkit-transform: translateX(100%); } }
+
+
+@-webkit-keyframes slideinfromtop {
+  from {
+    -webkit-transform: translateY(-100%); }
+  to {
+    -webkit-transform: translateY(0); } }
+
+
+@-webkit-keyframes slideinfrombottom {
+  from {
+    -webkit-transform: translateY(100%); }
+  to {
+    -webkit-transform: translateY(0); } }
+
+
+@-webkit-keyframes slideouttobottom {
+  from {
+    -webkit-transform: translateY(0); }
+  to {
+    -webkit-transform: translateY(100%); } }
+
+
+@-webkit-keyframes slideouttotop {
+  from {
+    -webkit-transform: translateY(0); }
+  to {
+    -webkit-transform: translateY(-100%); } }
+
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+
+@-webkit-keyframes fadeout {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+
+.fade {
+  &.in {
+    z-index: 10;
+    -webkit-animation-name: fadein; }
+  &.out {
+    z-index: 0; } }
+
+.flip {
+  -webkit-animation-duration: .65s;
+  &.in {
+    -webkit-animation-name: flipinfromleft; }
+  &.out {
+    -webkit-animation-name: flipouttoleft; }
+  &.in.reverse {
+    -webkit-animation-name: flipinfromright; }
+  &.out.reverse {
+    -webkit-animation-name: flipouttoright; } }
+
+/* Shake it all about */
+
+@-webkit-keyframes flipinfromright {
+  from {
+    -webkit-transform: rotateY(-180deg) scale(0.8); }
+  to {
+    -webkit-transform: rotateY(0) scale(1); } }
+
+
+@-webkit-keyframes flipinfromleft {
+  from {
+    -webkit-transform: rotateY(180deg) scale(0.8); }
+  to {
+    -webkit-transform: rotateY(0) scale(1); } }
+
+
+@-webkit-keyframes flipouttoleft {
+  from {
+    -webkit-transform: rotateY(0) scale(1); }
+  to {
+    -webkit-transform: rotateY(-180deg) scale(0.8); } }
+
+
+@-webkit-keyframes flipouttoright {
+  from {
+    -webkit-transform: rotateY(0) scale(1); }
+  to {
+    -webkit-transform: rotateY(180deg) scale(0.8); } }
+
+
+/* Hackish, but reliable. */
+
+@-webkit-keyframes dontmove {
+  from, to {
+    opacity: 1; } }
+
+
+.pop {
+  -webkit-transform-origin: 50% 50%;
+  &.in {
+    -webkit-animation-name: popin;
+    z-index: 10; }
+  &.out.reverse {
+    -webkit-animation-name: popout;
+    z-index: 10; }
+  &.in.reverse {
+    z-index: 0;
+    -webkit-animation-name: dontmove; } }
+
+@-webkit-keyframes popin {
+  from {
+    -webkit-transform: scale(0.2);
+    opacity: 0; }
+  to {
+    -webkit-transform: scale(1);
+    opacity: 1; } }
+
+
+@-webkit-keyframes popout {
+  from {
+    -webkit-transform: scale(1);
+    opacity: 1; }
+  to {
+    -webkit-transform: scale(0.2);
+    opacity: 0; } }
