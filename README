@@ -4,6 +4,10 @@ This is currently for the Alpha release of jQuery Mobile.  It will be updated as
 
 Where possible the theme elements have been kept inline with the jQuery Mobile rules, so that maintenance of rules in the future will be simple and also makes users new to this project find the cross over easy.
 
+CURRENT RELEASE
+---------------
+jQuery Mobile 1.0a2 (Alpha 2)
+
 WORK DONE SO FAR
 ----------------
 * The themes have been separated out into partials
