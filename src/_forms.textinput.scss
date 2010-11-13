@@ -20,17 +20,14 @@ input.ui-input-text {
   width: 95%; }
 
 textarea.ui-input-text {
+ @include transition(height, 200ms, linear);
   background-image: none;
   padding: .4em;
   line-height: 1.4;
   font-size: 16px;
   display: block;
   width: 95%;
-  height: 50px;
-  -webkit-transition: height 200ms linear;
-  -moz-transition: height 200ms linear;
-  -o-transition: height 200ms linear;
-  transition: height 200ms linear; }
+  height: 50px; }
 
 .ui-input-search {
   padding: 0 30px;

@@ -57,7 +57,7 @@ div {
     height: 100%;
     width: 50%; }
   &.ui-slider-handle-snapping {
-    -webkit-transition: left 100ms linear; }
+    -@include transition(left, 100ms, linear); }
   &.ui-slider-labelbg {
     position: absolute;
     top: 0;
