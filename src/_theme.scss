@@ -9,7 +9,7 @@
 a.ui-link-inherit { text-decoration: none !important; }
 
 /* Active class used as the "on" state across all themes */
-.ui-btn-active { @include linear-gradient(#5393c5, #85bae4); border: 1px solid #155678; background: #4596ce; font-weight: bold; color: #fff; cursor: pointer;  text-shadow: 0 -1px 1px #145072; text-decoration: none;  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#85bae4', EndColorStr='#5393c5')"; }
+.ui-btn-active { @include linear-gradient(color-stops(#5393c5, #85bae4)); border: 1px solid #155678; background: #4596ce; font-weight: bold; color: #fff; cursor: pointer;  text-shadow: 0 -1px 1px #145072; text-decoration: none;  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#85bae4', EndColorStr='#5393c5')"; }
 .ui-btn-active a.ui-link-inherit {  color: #fff; }
 
 /* button inner top highlight */
