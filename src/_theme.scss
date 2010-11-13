@@ -108,9 +108,7 @@ a.ui-link-inherit { text-decoration: none !important; }
 .ui-btn-corner-tl, .ui-btn-corner-tr, .ui-btn-corner-bl, 
 .ui-btn-corner-br, .ui-btn-corner-top, .ui-btn-corner-bottom, 
 .ui-btn-corner-right, .ui-btn-corner-left, .ui-btn-corner-all {
-  -webkit-background-clip: padding-box;
-     -moz-background-clip: padding-box;
-          background-clip: padding-box;
+	@include background-clip(padding-box);
 }
 
 /* Overlays */
