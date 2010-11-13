@@ -1,6 +1,6 @@
 # Require any additional compass plugins here.
 # Set this to the root of your project when deployed:
-http_path = "http://code.jquery.com/mobile/1.0a2"
+#http_path = "http://code.jquery.com/mobile/1.0a2"
 css_dir = "/"
 sass_dir = "src"
 images_dir = "images"
