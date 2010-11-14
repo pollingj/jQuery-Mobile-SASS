@@ -1,0 +1,104 @@
+/* The naming convention for all the theme elements are taken directly from the 
+	jQuery Mobile themes 
+	
+	- swatch "e" is an accent swatch 
+*/
+
+// Colors
+$e-bar-background-color: #fadb4e;
+$e-bar-border-color: #F7C942;
+$e-bar-foreground-color: #333; 
+$e-bar-link-color: #2489CE;
+$e-bar-text-shadow-color: #fff;
+
+$e-body-background-color: #faeb9e;
+$e-body-border-color: #F7C942;
+$e-body-foreground-color: #333;
+$e-body-link-color: #2489CE;
+$e-body-text-shadow-color: #fff;
+
+$e-btn-up-background-color: #fadb4e;
+$e-btn-up-border-color: #F7C942;
+$e-btn-up-foreground-color: #333;
+$e-btn-up-link-color: #333;
+$e-btn-up-text-shadow-color: #fff;
+
+$e-btn-hover-background-color: #fbe26f;
+$e-btn-hover-border-color: #e79952;
+$e-btn-hover-foreground-color: #111;
+$e-btn-hover-link-color: #333;
+$e-btn-hover-text-shadow-color: #fff;
+
+$e-btn-down-background-color: #fceda7;
+$e-btn-down-border-color: #F7C942;
+$e-btn-down-foreground-color: #111;
+$e-btn-down-link-color: #333;
+$e-btn-down-text-shadow-color: #fff;
+
+// fonts
+$e-font-family: $base-font-family;
+
+// Bar styling
+.ui-bar-e{
+	@include ui-bar-body($e-bar-border-color, $e-bar-background-color, $e-bar-foreground-color, 0 1px 0 $e-bar-text-shadow-color, #fceda7, #fadb4e);
+}
+
+.ui-bar-e,.ui-bar-e input,.ui-bar-e select,.ui-bar-e textarea,.ui-bar-d button{
+	font-family: $e-font-family;
+}
+
+.ui-bar-e .ui-link-inherit{
+	color: $e-bar-foreground-color;
+}
+
+.ui-bar-e .ui-link{
+	color: $e-bar-link-color;
+	font-weight: 700;
+}
+
+// Body styling
+.ui-body-e{
+	@include ui-bar-body($e-body-border-color, $e-body-background-color, $e-body-foreground-color, 0 1px 0 $e-body-text-shadow-color, #fff, #faeb9e);
+}
+
+.ui-body-e,.ui-body-e input,.ui-body-e select,.ui-body-e textarea,.ui-body-e button{
+	font-family: $e-font-family;
+}
+
+.ui-body-e .ui-link-inherit{
+	color: $e-body-foreground-color;
+}
+
+.ui-body-e .ui-link{
+	color: $e-body-link-color;
+	font-weight: 700;
+}
+
+// Button styling
+.ui-btn-up-e{
+	@include ui-button($e-btn-up-border-color, $e-btn-up-background-color, $e-btn-up-foreground-color, 0 1px 0 $e-btn-up-text-shadow-color, #fceda7, #fadb4e, 700);
+}
+
+.ui-btn-up-e a.ui-link-inherit{
+	color: $e-btn-up-link-color;
+}
+
+.ui-btn-hover-e{
+	@include ui-button($e-btn-hover-border-color, $e-btn-hover-background-color, $e-btn-hover-foreground-color, 0 1px 1px $e-btn-up-text-shadow-color, #fcf0b5, #fbe26f, 700);
+}
+
+.ui-btn-hover-e a.ui-link-inherit{
+	color: $e-btn-hover-link-color;
+}
+
+.ui-btn-down-e{
+	@include ui-button($e-btn-down-border-color, $e-btn-down-background-color, $e-btn-down-foreground-color, 0 1px 1px $e-btn-down-text-shadow-color, #fadb4e, #fceda7, 700);
+}
+
+.ui-btn-down-e a.ui-link-inherit{
+	color: $e-btn-down-link-color;
+}
+
+.ui-btn-up-e,.ui-btn-hover-e,.ui-btn-down-e{
+	font-family: $e-font-family;
+}
