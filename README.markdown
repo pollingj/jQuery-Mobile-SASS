@@ -1,8 +1,32 @@
+jQuery Mobile for Compass
+=========================
 A port of the existing jQuery Mobile CSS file into SASS.  
 
 This is currently for the Alpha release of jQuery Mobile.  It will be updated as and when the jQuery team release more versions.
 
 Where possible the theme elements have been kept inline with the jQuery Mobile rules, so that maintenance of rules in the future will be simple and also makes users new to this project find the cross over easy.
+
+Install
+=======
+From the command line:
+
+    gem install compass-jquery-mobile-plugin
+    cd my_compass_project
+
+Add the following to your compass configuration:
+
+    require 'compass-jquery-mobile-plugin'
+
+The run from the command line:
+
+    compass install jquery-mobile
+
+To one of your sass stylesheets to import the jquery-mobile styles add:
+
+    @import 'jquery-mobile'
+
+Information
+===========
 
 CURRENT RELEASE
 ---------------
