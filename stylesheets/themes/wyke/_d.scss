@@ -1,0 +1,104 @@
+/* The naming convention for all the theme elements are taken directly from the 
+	jQuery Mobile themes 
+	
+	- swatch "d" for an alternate secondary level 
+*/
+
+// Colors
+$d-bar-background-color: #bbb;
+$d-bar-border-color: #ccc;
+$d-bar-foreground-color: #333; 
+$d-bar-link-color: #2489CE;
+$d-bar-text-shadow-color: #eee;
+
+$d-body-background-color: #fff;
+$d-body-border-color: #ccc;
+$d-body-foreground-color: #333;
+$d-body-link-color: #2489CE;
+$d-body-text-shadow-color: #fff;
+
+$d-btn-up-background-color: #fff;
+$d-btn-up-border-color: #ccc;
+$d-btn-up-foreground-color: #444;
+$d-btn-up-link-color: #333;
+$d-btn-up-text-shadow-color: #fff;
+
+$d-btn-hover-background-color: #eee;
+$d-btn-hover-border-color: #aaa;
+$d-btn-hover-foreground-color: #222;
+$d-btn-hover-link-color: #222;
+$d-btn-hover-text-shadow-color: #fff;
+
+$d-btn-down-background-color: #fff;
+$d-btn-down-border-color: #aaa;
+$d-btn-down-foreground-color: #111;
+$d-btn-down-link-color: #111;
+$d-btn-down-text-shadow-color: #fff;
+
+// fonts
+$d-font-family: $base-font-family;
+
+// Bar styling
+.ui-bar-d{
+	@include ui-bar-body($d-bar-border-color, $d-bar-background-color, $d-bar-foreground-color, 0 1px 0 $d-bar-text-shadow-color, #ddd, #bbb);
+}
+
+.ui-bar-d,.ui-bar-d input,.ui-bar-d select,.ui-bar-d textarea,.ui-bar-d button{
+	font-family: $d-font-family;
+}
+
+.ui-bar-d .ui-link-inherit{
+	color: $d-bar-foreground-color;
+}
+
+.ui-bar-d .ui-link{
+	color: $d-bar-link-color;
+	font-weight: 700;
+}
+
+// Body styling
+.ui-body-d{
+	@include ui-bar-body($d-body-border-color, $d-body-background-color, $d-body-foreground-color, 0 1px 0 $d-body-text-shadow-color);
+}
+
+.ui-body-d,.ui-body-d input,.ui-body-d select,.ui-body-d textarea,.ui-body-d button{
+	font-family: $d-font-family;
+}
+
+.ui-body-d .ui-link-inherit{
+	color: $d-body-foreground-color;
+}
+
+.ui-body-d .ui-link{
+	color: $d-body-link-color;
+	font-weight: 700;
+}
+
+// Button styling
+.ui-btn-up-d{
+	@include ui-button($d-btn-up-border-color, $d-btn-up-background-color, $d-btn-up-foreground-color, 0 1px 1px $d-btn-up-text-shadow-color, nil, nil, 700);
+}
+
+.ui-btn-up-d a.ui-link-inherit{
+	color: $d-btn-up-link-color;
+}
+
+.ui-btn-hover-d{
+	@include ui-button($d-btn-hover-border-color, $d-btn-hover-background-color, $d-btn-hover-foreground-color, 0 1px 1px $d-btn-hover-text-shadow-color, #fdfdfd, #eee, 700);
+}
+
+.ui-btn-hover-d a.ui-link-inherit{
+	color: $d-btn-hover-link-color;
+}
+
+.ui-btn-down-d{
+	@include ui-button($d-btn-down-border-color, $d-btn-down-background-color, $d-btn-down-foreground-color, 0 1px 1px $d-btn-down-text-shadow-color, #eee, #fff, 700);
+}
+
+.ui-btn-down-d a.ui-link-inherit{
+	@include ui-button(gray, #ced0d2, $d-btn-down-link-color, none, #ccc, #eee, 700);
+}
+
+.ui-btn-up-d,.ui-btn-hover-d,.ui-btn-down-d{
+	font-family: $d-font-family;
+}

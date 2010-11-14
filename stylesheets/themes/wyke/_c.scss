@@ -1,0 +1,95 @@
+/* The naming convention for all the theme elements are taken directly from the 
+	jQuery Mobile themes 
+	
+	- swatch "c" is the baseline level (gray in the default theme)
+*/
+
+// Colors
+$c-bar-background-color: #e9eaeb;
+$c-bar-border-color: #B3B3B3;
+$c-bar-foreground-color: #3E3E3E; 
+$c-bar-link-color: #7cc4e7;
+$c-bar-text-shadow-color: #fff;
+
+$c-body-background-color: #f0f0f0;
+$c-body-border-color: #B3B3B3;
+$c-body-foreground-color: #333;
+$c-body-link-color: #2489CE;
+$c-body-text-shadow-color: #fff;
+
+$c-btn-up-background-color: #eee;
+$c-btn-up-border-color: #ccc;
+$c-btn-up-foreground-color: #444;
+$c-btn-up-link-color: #2F3E46;
+$c-btn-up-text-shadow-color: #f6f6f6;
+
+$c-btn-hover-background-color: #f5f5f5;
+$c-btn-hover-border-color: #aaa;
+$c-btn-hover-foreground-color: #111;
+$c-btn-hover-link-color: #2F3E46;
+$c-btn-hover-text-shadow-color: #fff;
+
+$c-btn-down-background-color: #fdfdfd;
+$c-btn-down-border-color: gray;
+$c-btn-down-foreground-color: #111;
+$c-btn-down-link-color: #2F3E46;
+$c-btn-down-text-shadow-color: #fff;
+
+// fonts
+$c-font-family: $base-font-family;
+
+// Bar styling
+.ui-bar-c{
+	@include ui-bar-body($c-bar-border-color, $c-bar-background-color, $c-bar-foreground-color, 0 1px 1px $c-bar-text-shadow-color, #f0f0f0, #e9eaeb, bold);
+}
+
+.ui-bar-c,.ui-bar-c input,.ui-bar-c select,.ui-bar-c textarea,.ui-bar-c button{
+	font-family: $c-font-family;
+}
+
+// Body styling
+.ui-body-c{
+	@include ui-bar-body($c-body-border-color, $c-body-background-color, $c-body-foreground-color, 0 1px 0 $c-body-text-shadow-color, #fff, #f0f0f0);
+}
+
+.ui-body-c,.ui-body-c input,.ui-body-c select,.ui-body-c textarea,.ui-body-c button{
+	font-family: $c-font-family;
+}
+
+.ui-body-c .ui-link-inherit{
+	color: $c-body-foreground-color;
+}
+
+.ui-body-c .ui-link{
+	color: $c-body-link-color;
+	font-weight: 700;
+}
+
+// Button styling
+.ui-btn-up-c{
+	@include ui-button($c-btn-up-border-color, $c-btn-up-background-color, $c-btn-up-foreground-color, 0 1px 1px $c-btn-up-text-shadow-color, #59B4E3, #0088ce, 700);
+}
+
+.ui-btn-up-c a.ui-link-inherit{
+	color: $c-btn-up-link-color;
+}
+
+.ui-btn-hover-c{
+	@include ui-button($c-btn-hover-border-color, $c-btn-hover-background-color, $c-btn-hover-foreground-color, 0 1px 1px $c-btn-hover-text-shadow-color, #fff, #f5f5f5, 700);
+}
+
+.ui-btn-hover-c a.ui-link-inherit{
+	color: $c-btn-hover-link-color;
+}
+
+.ui-btn-down-c{
+	@include ui-button($c-btn-down-border-color, $c-btn-down-background-color, $c-btn-down-foreground-color, 0 1px 1px $c-btn-down-text-shadow-color, #eee, #fdfdfd, 700);
+}
+
+.ui-btn-down-c a.ui-link-inherit{
+	color: $c-btn-down-link-color;
+}
+
+.ui-btn-up-c,.ui-btn-hover-c,.ui-btn-down-c{
+	font-family: $c-font-family;
+}
