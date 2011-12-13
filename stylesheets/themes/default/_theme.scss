@@ -8,7 +8,8 @@
   background: #111111;
   color: white;
   font-weight: bold;
-  text-shadow: 0 -1px 1px black;
+  @include single-text-shadow(black, -1px, 1px, 0);
+
   @include background-image(linear-gradient(#3c3c3c, #111111));
 
   font-family: Helvetica, Arial, sans-serif;
@@ -26,10 +27,10 @@
   border: 1px solid #2a2a2a;
   background: #222222;
   color: white;
-  text-shadow: 0 1px 0 black;
+  @include single-text-shadow(black, 0, 1px, 0);
   font-weight: normal;
   @include background-image(linear-gradient(#666, #222));
-
+}
 
 .ui-body-a {
   font-family: Helvetica, Arial, sans-serif;
@@ -48,7 +49,8 @@
   background: #333333;
   font-weight: bold;
   color: white;
-  text-shadow: 0 -1px 1px black;
+  @include single-text-shadow(black, -1px, 1px, 0);
+
   @include background-image(linear-gradient(#555, #333));
 
   a.ui-link-inherit {
@@ -59,7 +61,8 @@
   background: #444444;
   font-weight: bold;
   color: white;
-  text-shadow: 0 -1px 1px black;
+  @include single-text-shadow(black, -1px, 1px, 0);
+
   @include background-image(linear-gradient(#666, #444));
 
   a.ui-link-inherit {
@@ -70,7 +73,8 @@
   background: #3d3d3d;
   font-weight: bold;
   color: white;
-  text-shadow: 0 -1px 1px black;
+  @include single-text-shadow(black, -1px, 1px, 0);
+
   @include background-image(linear-gradient(#333, #5a5a5a));
 
   a.ui-link-inherit {
@@ -88,7 +92,8 @@
   background: #5e87b0;
   color: white;
   font-weight: bold;
-  text-shadow: 0 -1px 1px #254f7a;
+  @include single-text-shadow(#254f7a,  0, -1px, 1px);
+
   @include background-image(linear-gradient(#81a8ce, #5e87b0));
 
   font-family: Helvetica, Arial, sans-serif;
@@ -106,10 +111,11 @@
   border: 1px solid #c6c6c6;
   background: #cccccc;
   color: #333333;
-  text-shadow: 0 1px 0 white;
+  @include single-text-shadow(white,  0, 1px, 0);
+
   font-weight: normal;
   @include background-image(linear-gradient(#e6e6e6, #ccc));
-
+}
 
 .ui-body-b {
   font-family: Helvetica, Arial, sans-serif;
@@ -128,7 +134,8 @@
   background: #2567ab;
   font-weight: bold;
   color: white;
-  text-shadow: 0 -1px 1px #145072;
+  @include single-text-shadow(#145072,  0, -1px, 1px);
+
   @include background-image(linear-gradient(#5f9cc5, #396b9e));
 
   a.ui-link-inherit {
@@ -139,7 +146,7 @@
   background: #4b88b6;
   font-weight: bold;
   color: white;
-  text-shadow: 0 -1px 1px #014d68;
+  @include single-text-shadow(#014d68,  0, -1px, 1px);
   @include background-image(linear-gradient(#72b0d4, #4b88b6));
 
   a.ui-link-inherit {
@@ -150,7 +157,7 @@
   background: #4e89c5;
   font-weight: bold;
   color: white;
-  text-shadow: 0 -1px 1px #225377;
+  @include single-text-shadow(#225377,  0, -1px, 1px);
   @include background-image(linear-gradient(#396b9e, #4e89c5));
 
   a.ui-link-inherit {
@@ -168,7 +175,8 @@
   background: #e9eaeb;
   color: #3e3e3e;
   font-weight: bold;
-  text-shadow: 0 1px 1px white;
+  @include single-text-shadow(white,  0, 1px, 1px);
+
   @include background-image(linear-gradient(#f0f0f0, #e9eaeb));
 
   .ui-link-inherit {
@@ -185,10 +193,11 @@
 .ui-body-c, .ui-dialog.ui-overlay-c {
   border: 1px solid #b3b3b3;
   color: #333333;
-  text-shadow: 0 1px 0 white;
+  @include single-text-shadow(white,  0, 1px, 0);
+
   background: #f0f0f0;
   @include background-image(linear-gradient(#eee, #ddd));
-
+}
 
 .ui-body-c {
   font-family: Helvetica, Arial, sans-serif;
@@ -207,7 +216,7 @@
   background: #eeeeee;
   font-weight: bold;
   color: #444444;
-  text-shadow: 0 1px 1px #f6f6f6;
+  @include single-text-shadow(#f6f6f6,  0, 1px, 1px);
   @include background-image(linear-gradient(#fdfdfd, #eee));
 
   a.ui-link-inherit {
@@ -218,7 +227,8 @@
   background: #dadada;
   font-weight: bold;
   color: #101010;
-  text-shadow: 0 1px 1px white;
+  @include single-text-shadow(white,  0, 1px, 1px);
+
   @include background-image(linear-gradient(#ededed, #dadada));
 
   a.ui-link-inherit {
@@ -229,7 +239,8 @@
   background: #fdfdfd;
   font-weight: bold;
   color: #111111;
-  text-shadow: 0 1px 1px white;
+  @include single-text-shadow(white,  0, 1px, 1px);
+
   @include background-image(linear-gradient(#eee, #fdfdfd));
 
   a.ui-link-inherit {
@@ -246,7 +257,7 @@
   border: 1px solid #cccccc;
   background: #bbbbbb;
   color: #333333;
-  text-shadow: 0 1px 0 #eeeeee;
+  @include single-text-shadow(#eee,  0, 1px, 0);
   @include background-image(linear-gradient(#ddd, #bbb));
 
   font-family: Helvetica, Arial, sans-serif;
@@ -263,7 +274,8 @@
 .ui-body-d, .ui-dialog.ui-overlay-d {
   border: 1px solid #cccccc;
   color: #333333;
-  text-shadow: 0 1px 0 white;
+  @include single-text-shadow(white,  0, 1px, 0);
+
   background: white;
   @include background-image(linear-gradient(white, white));
  }
@@ -285,7 +297,8 @@
   background: white;
   font-weight: bold;
   color: #444444;
-  text-shadow: 0 1px 1px white;
+  @include single-text-shadow(white,  0, 1px, 1px);
+
   @include background-image(linear-gradient(white, white));
 
   a.ui-link-inherit {
@@ -297,7 +310,8 @@
   font-weight: bold;
   color: #222222;
   cursor: pointer;
-  text-shadow: 0 1px 1px white;
+  @include single-text-shadow(white,  0, 1px, 1px);
+
   @include background-image(linear-gradient(#fdfdfd, #eee));
 
   a.ui-link-inherit {
@@ -308,7 +322,8 @@
   background: white;
   font-weight: bold;
   color: #111111;
-  text-shadow: 0 1px 1px white;
+  @include single-text-shadow(white,  0, 1px, 1px);
+
   @include background-image(linear-gradient(#eee, white));
 
   a.ui-link-inherit {
@@ -325,7 +340,8 @@
   border: 1px solid #f7c942;
   background: #fadb4e;
   color: #333333;
-  text-shadow: 0 1px 0 white;
+  @include single-text-shadow(white,  0, 1px, 0);
+
   @include background-image(linear-gradient(#fceda7, #fadb4e));
 
   font-family: Helvetica, Arial, sans-serif;
@@ -342,7 +358,8 @@
 .ui-body-e, .ui-dialog.ui-overlay-e {
   border: 1px solid #f7c942;
   color: #333333;
-  text-shadow: 0 1px 0 white;
+  @include single-text-shadow(white,  0, 1px, 0);
+
   background: #faeb9e;
   background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#faeb9e));
   /* Saf4+, Chrome */
@@ -373,7 +390,8 @@
   background: #fadb4e;
   font-weight: bold;
   color: #333333;
-  text-shadow: 0 1px 0 white;
+  @include single-text-shadow(white,  0, 1px, 0);
+
   @include background-image(linear-gradient(#fceda7, #fadb4e));
 
   a.ui-link-inherit {
@@ -384,7 +402,8 @@
   background: #fbe26f;
   font-weight: bold;
   color: #111111;
-  text-shadow: 0 1px 1px white;
+  @include single-text-shadow(white,  0, 1px, 1px);
+
   @include background-image(linear-gradient(#fcf0b5, #fbe26f));
 
   a.ui-link-inherit {
@@ -395,7 +414,8 @@
   background: #fceda7;
   font-weight: bold;
   color: #111111;
-  text-shadow: 0 1px 1px white;
+  @include single-text-shadow(white,  0, 1px, 1px);
+
   @include background-image(linear-gradient(#fadb4e, #fceda7));
 
   a.ui-link-inherit {
@@ -422,7 +442,8 @@ a.ui-link-inherit {
   font-weight: bold;
   color: white;
   cursor: pointer;
-  text-shadow: 0 -1px 1px #145072;
+  @include single-text-shadow(#145072,  0, -1px, 1px);
+
   text-decoration: none;
   @include background-image(linear-gradient(#85bae4, #5393c5));
 
