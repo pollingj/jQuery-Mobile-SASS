@@ -258,6 +258,7 @@
   background: #bbbbbb;
   color: #333333;
   @include single-text-shadow(#eee,  0, 1px, 0);
+
   @include background-image(linear-gradient(#ddd, #bbb));
 
   font-family: Helvetica, Arial, sans-serif;
@@ -361,17 +362,8 @@
   @include single-text-shadow(white,  0, 1px, 0);
 
   background: #faeb9e;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#faeb9e));
-  /* Saf4+, Chrome */
-  background-image: -webkit-linear-gradient(white, #faeb9e);
-  /* Chrome 10+, Saf5.1+ */
-  background-image: -moz-linear-gradient(white, #faeb9e);
-  /* FF3.6 */
-  background-image: -ms-linear-gradient(white, #faeb9e);
-  /* IE10 */
-  background-image: -o-linear-gradient(white, #faeb9e);
-  /* Opera 11.10+ */
-  background-image: linear-gradient(white, #faeb9e); }
+  @include background-image(linear-gradient(white, #faeb9e));
+
 
 .ui-body-e {
   font-family: Helvetica, Arial, sans-serif;
