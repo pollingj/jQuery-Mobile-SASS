@@ -10,12 +10,12 @@ $border-radius: .6em;
 @import "helpers/mixins";
 
 /* Theming */
-@import "theme";
-@import "themes/a";
-@import "themes/b";
-@import "themes/c";
-@import "themes/d";
-@import "themes/e";
+@import "themes/default/theme";
+@import "themes/default/a";
+@import "themes/default/b";
+@import "themes/default/c";
+@import "themes/default/d";
+@import "themes/default/e";
            
 /* Base UI */
 @import "core";
