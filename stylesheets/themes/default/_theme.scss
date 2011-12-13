@@ -279,7 +279,7 @@
 
   background: white;
   @include background-image(linear-gradient(white, white));
- }
+}
 
 .ui-body-d {
   font-family: Helvetica, Arial, sans-serif;
@@ -363,6 +363,7 @@
 
   background: #faeb9e;
   @include background-image(linear-gradient(white, #faeb9e));
+}
 
 
 .ui-body-e {
@@ -454,66 +455,44 @@ a.ui-link-inherit {
 -----------------------------------------------------------------------------------------------------------*/
 
 .ui-corner-tl {
-  -moz-border-radius-topleft: 0.6em;
-  -webkit-border-top-left-radius: 0.6em;
-  border-top-left-radius: 0.6em; }
+  @include border-top-left-radius;
+}
 
 .ui-corner-tr {
-  -moz-border-radius-topright: 0.6em;
-  -webkit-border-top-right-radius: 0.6em;
-  border-top-right-radius: 0.6em; }
+  @include border-top-right-radius;
+}
 
 .ui-corner-bl {
-  -moz-border-radius-bottomleft: 0.6em;
-  -webkit-border-bottom-left-radius: 0.6em;
-  border-bottom-left-radius: 0.6em; }
+  @include border-bottom-left-radius;
+}
 
 .ui-corner-br {
-  -moz-border-radius-bottomright: 0.6em;
-  -webkit-border-bottom-right-radius: 0.6em;
-  border-bottom-right-radius: 0.6em; }
+  @include border-bottom-right-radius;
+}
 
 .ui-corner-top {
-  -moz-border-radius-topleft: 0.6em;
-  -webkit-border-top-left-radius: 0.6em;
-  border-top-left-radius: 0.6em;
-  -moz-border-radius-topright: 0.6em;
-  -webkit-border-top-right-radius: 0.6em;
-  border-top-right-radius: 0.6em; }
+  @include border-top-radius;
+}
 
 .ui-corner-bottom {
-  -moz-border-radius-bottomleft: 0.6em;
-  -webkit-border-bottom-left-radius: 0.6em;
-  border-bottom-left-radius: 0.6em;
-  -moz-border-radius-bottomright: 0.6em;
-  -webkit-border-bottom-right-radius: 0.6em;
-  border-bottom-right-radius: 0.6em; }
+  @include border-bottom-radius;
+}
 
 .ui-corner-right {
-  -moz-border-radius-topright: 0.6em;
-  -webkit-border-top-right-radius: 0.6em;
-  border-top-right-radius: 0.6em;
-  -moz-border-radius-bottomright: 0.6em;
-  -webkit-border-bottom-right-radius: 0.6em;
-  border-bottom-right-radius: 0.6em; }
+  @include border-right-radius;
+}
 
 .ui-corner-left {
-  -moz-border-radius-topleft: 0.6em;
-  -webkit-border-top-left-radius: 0.6em;
-  border-top-left-radius: 0.6em;
-  -moz-border-radius-bottomleft: 0.6em;
-  -webkit-border-bottom-left-radius: 0.6em;
-  border-bottom-left-radius: 0.6em; }
+  @include border-left-radius;
+}
 
 .ui-corner-all {
-  -moz-border-radius: 0.6em;
-  -webkit-border-radius: 0.6em;
-  border-radius: 0.6em; }
+  @include border-radius;
+}
 
 .ui-corner-none {
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0;
-  border-radius: 0; }
+  @include border-radius(0);
+}
 
 /* Form field separator
 -----------------------------------------------------------------------------------------------------------*/
@@ -543,9 +522,8 @@ a.ui-link-inherit {
   background: rgba(0, 0, 0, 0.4);
   background-image: url(images/icons-18-white.png);
   background-repeat: no-repeat;
-  -moz-border-radius: 9px;
-  -webkit-border-radius: 9px;
-  border-radius: 9px; }
+  @include border-radius(9px);
+}
 
 /* Alt icon color
 -----------------------------------------------------------------------------------------------------------*/
@@ -648,9 +626,8 @@ a.ui-link-inherit {
 /* checks,radios */
 
 .ui-checkbox .ui-icon {
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px; }
+  @include border-radius(3px);
+}
 
 .ui-icon-checkbox-off, .ui-icon-radio-off {
   background-color: transparent; }
@@ -665,70 +642,47 @@ a.ui-link-inherit {
   background-image: url(images/ajax-loader.png);
   width: 40px;
   height: 40px;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
+  @include border-radius(20px);
   background-size: 35px 35px; }
 
 /* Button corner classes
 -----------------------------------------------------------------------------------------------------------*/
 
 .ui-btn-corner-tl {
-  -moz-border-radius-topleft: 1em;
-  -webkit-border-top-left-radius: 1em;
-  border-top-left-radius: 1em; }
+  @include border-top-left-radius(1em);
+}
 
 .ui-btn-corner-tr {
-  -moz-border-radius-topright: 1em;
-  -webkit-border-top-right-radius: 1em;
-  border-top-right-radius: 1em; }
+  @include border-top-right-radius(1em);
+}
 
 .ui-btn-corner-bl {
-  -moz-border-radius-bottomleft: 1em;
-  -webkit-border-bottom-left-radius: 1em;
-  border-bottom-left-radius: 1em; }
+  @include border-bottom-left-radius(1em);
+}
 
 .ui-btn-corner-br {
-  -moz-border-radius-bottomright: 1em;
-  -webkit-border-bottom-right-radius: 1em;
-  border-bottom-right-radius: 1em; }
+  @include border-bottom-right-radius(1em);
+}
 
 .ui-btn-corner-top {
-  -moz-border-radius-topleft: 1em;
-  -webkit-border-top-left-radius: 1em;
-  border-top-left-radius: 1em;
-  -moz-border-radius-topright: 1em;
-  -webkit-border-top-right-radius: 1em;
-  border-top-right-radius: 1em; }
+  @include border-top-radius(1em);
+}
 
 .ui-btn-corner-bottom {
-  -moz-border-radius-bottomleft: 1em;
-  -webkit-border-bottom-left-radius: 1em;
-  border-bottom-left-radius: 1em;
-  -moz-border-radius-bottomright: 1em;
-  -webkit-border-bottom-right-radius: 1em;
-  border-bottom-right-radius: 1em; }
+  @include border-bottom-radius(1em);
+}
 
 .ui-btn-corner-right {
-  -moz-border-radius-topright: 1em;
-  -webkit-border-top-right-radius: 1em;
-  border-top-right-radius: 1em;
-  -moz-border-radius-bottomright: 1em;
-  -webkit-border-bottom-right-radius: 1em;
-  border-bottom-right-radius: 1em; }
+  @include border-right-radius(1em);
+}
 
 .ui-btn-corner-left {
-  -moz-border-radius-topleft: 1em;
-  -webkit-border-top-left-radius: 1em;
-  border-top-left-radius: 1em;
-  -moz-border-radius-bottomleft: 1em;
-  -webkit-border-bottom-left-radius: 1em;
-  border-bottom-left-radius: 1em; }
+  @include border-left-radius(1em);
+}
 
 .ui-btn-corner-all {
-  -moz-border-radius: 1em;
-  -webkit-border-radius: 1em;
-  border-radius: 1em; }
+  @include border-radius(1em);
+}
 
 /* radius clip workaround for cleaning up corner trapping */
 
